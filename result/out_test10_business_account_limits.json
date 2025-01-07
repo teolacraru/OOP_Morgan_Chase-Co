@@ -1,0 +1,113 @@
+[ {
+  "command" : "addAccount",
+  "output" : {
+    "description" : "Invalid account type: business",
+    "timestamp" : 25
+  },
+  "timestamp" : 25
+}, {
+  "command" : "addNewBusinessAssociate",
+  "output" : {
+    "description" : "Unknown command: addNewBusinessAssociate",
+    "timestamp" : 26
+  },
+  "timestamp" : 26
+}, {
+  "command" : "addFunds",
+  "output" : {
+    "description" : "Account not found: RO65POOB8944016386845896",
+    "timestamp" : 28
+  },
+  "timestamp" : 28
+}, {
+  "command" : "addNewBusinessAssociate",
+  "output" : {
+    "description" : "Unknown command: addNewBusinessAssociate",
+    "timestamp" : 29
+  },
+  "timestamp" : 29
+}, {
+  "command" : "changeSpendingLimit",
+  "output" : {
+    "description" : "Unknown command: changeSpendingLimit",
+    "timestamp" : 30
+  },
+  "timestamp" : 30
+}, {
+  "command" : "businessReport",
+  "output" : {
+    "description" : "Unknown command: businessReport",
+    "timestamp" : 31
+  },
+  "timestamp" : 31
+}, {
+  "command" : "addFunds",
+  "output" : {
+    "description" : "Account not found: RO65POOB8944016386845896",
+    "timestamp" : 32
+  },
+  "timestamp" : 32
+}, {
+  "command" : "payOnline",
+  "output" : {
+    "description" : "Card not found",
+    "timestamp" : 33
+  },
+  "timestamp" : 33
+}, {
+  "command" : "changeSpendingLimit",
+  "output" : {
+    "description" : "Unknown command: changeSpendingLimit",
+    "timestamp" : 34
+  },
+  "timestamp" : 34
+}, {
+  "command" : "payOnline",
+  "output" : {
+    "description" : "Card not found",
+    "timestamp" : 35
+  },
+  "timestamp" : 35
+}, {
+  "command" : "addFunds",
+  "output" : {
+    "description" : "Account not found: RO65POOB8944016386845896",
+    "timestamp" : 36
+  },
+  "timestamp" : 36
+}, {
+  "command" : "changeSpendingLimit",
+  "output" : {
+    "description" : "Unknown command: changeSpendingLimit",
+    "timestamp" : 37
+  },
+  "timestamp" : 37
+}, {
+  "command" : "payOnline",
+  "output" : {
+    "description" : "Card not found",
+    "timestamp" : 38
+  },
+  "timestamp" : 38
+}, {
+  "command" : "changeDepositLimit",
+  "output" : {
+    "description" : "Unknown command: changeDepositLimit",
+    "timestamp" : 39
+  },
+  "timestamp" : 39
+}, {
+  "command" : "addFunds",
+  "output" : {
+    "description" : "Account not found: RO65POOB8944016386845896",
+    "timestamp" : 40
+  },
+  "timestamp" : 40
+}, {
+  "command" : "businessReport",
+  "output" : {
+    "description" : "Unknown command: businessReport",
+    "timestamp" : 42
+  },
+  "timestamp" : 42
+} ]

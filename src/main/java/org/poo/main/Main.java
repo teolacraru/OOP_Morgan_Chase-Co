@@ -3,18 +3,23 @@ package org.poo.main;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.ObjectWriter;
 import com.fasterxml.jackson.databind.node.ArrayNode;
+import com.fasterxml.jackson.databind.node.ObjectNode;
 import org.poo.checker.Checker;
 import org.poo.checker.CheckerConstants;
+import org.poo.fileio.CommandInput;
+import org.poo.fileio.ExchangeInput;
 import org.poo.fileio.ObjectInput;
+import org.poo.fileio.UserInput;
+import org.poo.main.commands.Command;
+import org.poo.main.commands.CommandFactory;
+import org.poo.utils.Utils;
 
 import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.util.Arrays;
-import java.util.Comparator;
-import java.util.Objects;
+import java.util.*;
 
 /**
  * The entry point to this homework. It runs the checker that tests your implementation.
@@ -29,6 +34,7 @@ public final class Main {
     /**
      * DO NOT MODIFY MAIN METHOD
      * Call the checker
+     *
      * @param args from command line
      * @throws IOException in case of exceptions to reading / writing
      */
@@ -72,29 +78,56 @@ public final class Main {
         File file = new File(CheckerConstants.TESTS_PATH + filePath1);
         ObjectInput inputData = objectMapper.readValue(file, ObjectInput.class);
 
+
+        UserInput[] userInputs = inputData.getUsers();
+        CommandInput[] commands = inputData.getCommands();
+
+        List<ExchangeRate> exchangeRates = new ArrayList<>();
+        for (ExchangeInput rate : inputData.getExchangeRates()) {
+            exchangeRates.add(new ExchangeRate(rate.getFrom(), rate.getTo(), rate.getRate()));
+        }
+        CurrencyConverter currencyConverter = new CurrencyConverter(exchangeRates);
+
+        List<User> users = new ArrayList<>();
+        for (UserInput userInput : userInputs) {
+            User user = new User(
+                    userInput.getFirstName(),
+                    userInput.getLastName(),
+                    userInput.getEmail()
+            );
+
+            users.add(user);
+        }
+
         ArrayNode output = objectMapper.createArrayNode();
 
-        /*
-         * TODO Implement your function here
-         *
-         * How to add output to the output array?
-         * There are multiple ways to do this, here is one example:
-         *
-         * ObjectMapper mapper = new ObjectMapper();
-         *
-         * ObjectNode objectNode = mapper.createObjectNode();
-         * objectNode.put("field_name", "field_value");
-         *
-         * ArrayNode arrayNode = mapper.createArrayNode();
-         * arrayNode.add(objectNode);
-         *
-         * output.add(arrayNode);
-         * output.add(objectNode);
-         *
-         */
+        for (CommandInput commandInput : commands) {
+            try {
+                Command command = CommandFactory.
+                        getCommand(commandInput, exchangeRates, users, currencyConverter, output);
+                command.execute();
+
+                ObjectNode successNode = objectMapper.createObjectNode();
+                successNode.put("status", "success");
+                successNode.put("message",
+                        commandInput.getCommand() + " executed successfully.");
+            } catch (Exception e) {
+
+                ObjectNode errorNode = objectMapper.createObjectNode();
+                errorNode.put("command", commandInput.getCommand());
+                ObjectNode errorOutput = objectMapper.createObjectNode();
+                errorOutput.put("description", e.getMessage());
+                errorOutput.put("timestamp", commandInput.getTimestamp());
+                errorNode.set("output", errorOutput);
+                errorNode.put("timestamp", commandInput.getTimestamp());
+                output.add(errorNode);
+
+            }
+        }
 
         ObjectWriter objectWriter = objectMapper.writerWithDefaultPrettyPrinter();
         objectWriter.writeValue(new File(filePath2), output);
+        Utils.resetRandom();
     }
 
     /**

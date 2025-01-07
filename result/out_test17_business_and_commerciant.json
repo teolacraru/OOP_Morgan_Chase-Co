@@ -1,0 +1,1135 @@
+[ {
+  "command" : "addAccount",
+  "output" : {
+    "description" : "Invalid account type: business",
+    "timestamp" : 196
+  },
+  "timestamp" : 196
+}, {
+  "command" : "addFunds",
+  "output" : {
+    "description" : "Account not found: RO98POOB8412955460158769",
+    "timestamp" : 207
+  },
+  "timestamp" : 207
+}, {
+  "command" : "changeSpendingLimit",
+  "output" : {
+    "description" : "Unknown command: changeSpendingLimit",
+    "timestamp" : 208
+  },
+  "timestamp" : 208
+}, {
+  "command" : "setMinimumBalance",
+  "output" : {
+    "description" : "Cannot invoke \"org.poo.main.accounts.Account.setMinBalance(double)\" because \"accountToSet\" is null",
+    "timestamp" : 209
+  },
+  "timestamp" : 209
+}, {
+  "command" : "addAccount",
+  "output" : {
+    "description" : "Invalid account type: business",
+    "timestamp" : 210
+  },
+  "timestamp" : 210
+}, {
+  "command" : "addFunds",
+  "output" : {
+    "description" : "Account not found: RO32POOB0130532963818359",
+    "timestamp" : 220
+  },
+  "timestamp" : 220
+}, {
+  "command" : "changeSpendingLimit",
+  "output" : {
+    "description" : "Unknown command: changeSpendingLimit",
+    "timestamp" : 221
+  },
+  "timestamp" : 221
+}, {
+  "command" : "setMinimumBalance",
+  "output" : {
+    "description" : "Cannot invoke \"org.poo.main.accounts.Account.setMinBalance(double)\" because \"accountToSet\" is null",
+    "timestamp" : 222
+  },
+  "timestamp" : 222
+}, {
+  "command" : "addAccount",
+  "output" : {
+    "description" : "Invalid account type: business",
+    "timestamp" : 223
+  },
+  "timestamp" : 223
+}, {
+  "command" : "addFunds",
+  "output" : {
+    "description" : "Account not found: RO68POOB1848616931405475",
+    "timestamp" : 235
+  },
+  "timestamp" : 235
+}, {
+  "command" : "changeSpendingLimit",
+  "output" : {
+    "description" : "Unknown command: changeSpendingLimit",
+    "timestamp" : 236
+  },
+  "timestamp" : 236
+}, {
+  "command" : "setMinimumBalance",
+  "output" : {
+    "description" : "Cannot invoke \"org.poo.main.accounts.Account.setMinBalance(double)\" because \"accountToSet\" is null",
+    "timestamp" : 237
+  },
+  "timestamp" : 237
+}, {
+  "command" : "addAccount",
+  "output" : {
+    "description" : "Invalid account type: business",
+    "timestamp" : 238
+  },
+  "timestamp" : 238
+}, {
+  "command" : "addFunds",
+  "output" : {
+    "description" : "Account not found: RO10POOB4354933866366881",
+    "timestamp" : 256
+  },
+  "timestamp" : 256
+}, {
+  "command" : "changeSpendingLimit",
+  "output" : {
+    "description" : "Unknown command: changeSpendingLimit",
+    "timestamp" : 257
+  },
+  "timestamp" : 257
+}, {
+  "command" : "setMinimumBalance",
+  "output" : {
+    "description" : "Cannot invoke \"org.poo.main.accounts.Account.setMinBalance(double)\" because \"accountToSet\" is null",
+    "timestamp" : 258
+  },
+  "timestamp" : 258
+}, {
+  "command" : "addNewBusinessAssociate",
+  "output" : {
+    "description" : "Unknown command: addNewBusinessAssociate",
+    "timestamp" : 259
+  },
+  "timestamp" : 259
+}, {
+  "command" : "addNewBusinessAssociate",
+  "output" : {
+    "description" : "Unknown command: addNewBusinessAssociate",
+    "timestamp" : 260
+  },
+  "timestamp" : 260
+}, {
+  "command" : "addNewBusinessAssociate",
+  "output" : {
+    "description" : "Unknown command: addNewBusinessAssociate",
+    "timestamp" : 261
+  },
+  "timestamp" : 261
+}, {
+  "command" : "businessReport",
+  "output" : {
+    "description" : "Unknown command: businessReport",
+    "timestamp" : 262
+  },
+  "timestamp" : 262
+}, {
+  "command" : "businessReport",
+  "output" : {
+    "description" : "Unknown command: businessReport",
+    "timestamp" : 263
+  },
+  "timestamp" : 263
+}, {
+  "command" : "businessReport",
+  "output" : {
+    "description" : "Unknown command: businessReport",
+    "timestamp" : 264
+  },
+  "timestamp" : 264
+}, {
+  "command" : "businessReport",
+  "output" : {
+    "description" : "Unknown command: businessReport",
+    "timestamp" : 265
+  },
+  "timestamp" : 265
+}, {
+  "command" : "addNewBusinessAssociate",
+  "output" : {
+    "description" : "Unknown command: addNewBusinessAssociate",
+    "timestamp" : 266
+  },
+  "timestamp" : 266
+}, {
+  "command" : "addNewBusinessAssociate",
+  "output" : {
+    "description" : "Unknown command: addNewBusinessAssociate",
+    "timestamp" : 267
+  },
+  "timestamp" : 267
+}, {
+  "command" : "addNewBusinessAssociate",
+  "output" : {
+    "description" : "Unknown command: addNewBusinessAssociate",
+    "timestamp" : 268
+  },
+  "timestamp" : 268
+}, {
+  "command" : "addNewBusinessAssociate",
+  "output" : {
+    "description" : "Unknown command: addNewBusinessAssociate",
+    "timestamp" : 269
+  },
+  "timestamp" : 269
+}, {
+  "command" : "addNewBusinessAssociate",
+  "output" : {
+    "description" : "Unknown command: addNewBusinessAssociate",
+    "timestamp" : 270
+  },
+  "timestamp" : 270
+}, {
+  "command" : "addNewBusinessAssociate",
+  "output" : {
+    "description" : "Unknown command: addNewBusinessAssociate",
+    "timestamp" : 271
+  },
+  "timestamp" : 271
+}, {
+  "command" : "addNewBusinessAssociate",
+  "output" : {
+    "description" : "Unknown command: addNewBusinessAssociate",
+    "timestamp" : 272
+  },
+  "timestamp" : 272
+}, {
+  "command" : "addNewBusinessAssociate",
+  "output" : {
+    "description" : "Unknown command: addNewBusinessAssociate",
+    "timestamp" : 273
+  },
+  "timestamp" : 273
+}, {
+  "command" : "addNewBusinessAssociate",
+  "output" : {
+    "description" : "Unknown command: addNewBusinessAssociate",
+    "timestamp" : 274
+  },
+  "timestamp" : 274
+}, {
+  "command" : "addNewBusinessAssociate",
+  "output" : {
+    "description" : "Unknown command: addNewBusinessAssociate",
+    "timestamp" : 275
+  },
+  "timestamp" : 275
+}, {
+  "command" : "addNewBusinessAssociate",
+  "output" : {
+    "description" : "Unknown command: addNewBusinessAssociate",
+    "timestamp" : 276
+  },
+  "timestamp" : 276
+}, {
+  "command" : "addNewBusinessAssociate",
+  "output" : {
+    "description" : "Unknown command: addNewBusinessAssociate",
+    "timestamp" : 277
+  },
+  "timestamp" : 277
+}, {
+  "command" : "addNewBusinessAssociate",
+  "output" : {
+    "description" : "Unknown command: addNewBusinessAssociate",
+    "timestamp" : 278
+  },
+  "timestamp" : 278
+}, {
+  "command" : "addNewBusinessAssociate",
+  "output" : {
+    "description" : "Unknown command: addNewBusinessAssociate",
+    "timestamp" : 279
+  },
+  "timestamp" : 279
+}, {
+  "command" : "addNewBusinessAssociate",
+  "output" : {
+    "description" : "Unknown command: addNewBusinessAssociate",
+    "timestamp" : 280
+  },
+  "timestamp" : 280
+}, {
+  "command" : "addNewBusinessAssociate",
+  "output" : {
+    "description" : "Unknown command: addNewBusinessAssociate",
+    "timestamp" : 281
+  },
+  "timestamp" : 281
+}, {
+  "command" : "addNewBusinessAssociate",
+  "output" : {
+    "description" : "Unknown command: addNewBusinessAssociate",
+    "timestamp" : 282
+  },
+  "timestamp" : 282
+}, {
+  "command" : "addNewBusinessAssociate",
+  "output" : {
+    "description" : "Unknown command: addNewBusinessAssociate",
+    "timestamp" : 283
+  },
+  "timestamp" : 283
+}, {
+  "command" : "addNewBusinessAssociate",
+  "output" : {
+    "description" : "Unknown command: addNewBusinessAssociate",
+    "timestamp" : 284
+  },
+  "timestamp" : 284
+}, {
+  "command" : "addNewBusinessAssociate",
+  "output" : {
+    "description" : "Unknown command: addNewBusinessAssociate",
+    "timestamp" : 285
+  },
+  "timestamp" : 285
+}, {
+  "command" : "addFunds",
+  "output" : {
+    "description" : "Account not found: RO98POOB8412955460158769",
+    "timestamp" : 286
+  },
+  "timestamp" : 286
+}, {
+  "command" : "addFunds",
+  "output" : {
+    "description" : "Account not found: RO32POOB0130532963818359",
+    "timestamp" : 287
+  },
+  "timestamp" : 287
+}, {
+  "command" : "addFunds",
+  "output" : {
+    "description" : "Account not found: RO32POOB0130532963818359",
+    "timestamp" : 288
+  },
+  "timestamp" : 288
+}, {
+  "command" : "addFunds",
+  "output" : {
+    "description" : "Account not found: RO32POOB0130532963818359",
+    "timestamp" : 289
+  },
+  "timestamp" : 289
+}, {
+  "command" : "addFunds",
+  "output" : {
+    "description" : "Account not found: RO68POOB1848616931405475",
+    "timestamp" : 290
+  },
+  "timestamp" : 290
+}, {
+  "command" : "addFunds",
+  "output" : {
+    "description" : "Account not found: RO68POOB1848616931405475",
+    "timestamp" : 291
+  },
+  "timestamp" : 291
+}, {
+  "command" : "addFunds",
+  "output" : {
+    "description" : "Account not found: RO68POOB1848616931405475",
+    "timestamp" : 292
+  },
+  "timestamp" : 292
+}, {
+  "command" : "addFunds",
+  "output" : {
+    "description" : "Account not found: RO10POOB4354933866366881",
+    "timestamp" : 293
+  },
+  "timestamp" : 293
+}, {
+  "command" : "addFunds",
+  "output" : {
+    "description" : "Account not found: RO10POOB4354933866366881",
+    "timestamp" : 294
+  },
+  "timestamp" : 294
+}, {
+  "command" : "addFunds",
+  "output" : {
+    "description" : "Account not found: RO10POOB4354933866366881",
+    "timestamp" : 295
+  },
+  "timestamp" : 295
+}, {
+  "command" : "addFunds",
+  "output" : {
+    "description" : "Account not found: RO10POOB4354933866366881",
+    "timestamp" : 296
+  },
+  "timestamp" : 296
+}, {
+  "command" : "payOnline",
+  "output" : {
+    "description" : "Card not found",
+    "timestamp" : 297
+  },
+  "timestamp" : 297
+}, {
+  "command" : "changeSpendingLimit",
+  "output" : {
+    "description" : "Unknown command: changeSpendingLimit",
+    "timestamp" : 300
+  },
+  "timestamp" : 300
+}, {
+  "command" : "addFunds",
+  "output" : {
+    "description" : "Account not found: RO98POOB8412955460158769",
+    "timestamp" : 301
+  },
+  "timestamp" : 301
+}, {
+  "command" : "payOnline",
+  "output" : {
+    "description" : "Card not found",
+    "timestamp" : 302
+  },
+  "timestamp" : 302
+}, {
+  "command" : "addFunds",
+  "output" : {
+    "description" : "Account not found: RO98POOB8412955460158769",
+    "timestamp" : 304
+  },
+  "timestamp" : 304
+}, {
+  "command" : "payOnline",
+  "output" : {
+    "description" : "Card not found",
+    "timestamp" : 305
+  },
+  "timestamp" : 305
+}, {
+  "command" : "changeSpendingLimit",
+  "output" : {
+    "description" : "Unknown command: changeSpendingLimit",
+    "timestamp" : 309
+  },
+  "timestamp" : 309
+}, {
+  "command" : "addFunds",
+  "output" : {
+    "description" : "Account not found: RO98POOB8412955460158769",
+    "timestamp" : 310
+  },
+  "timestamp" : 310
+}, {
+  "command" : "payOnline",
+  "output" : {
+    "description" : "Card not found",
+    "timestamp" : 311
+  },
+  "timestamp" : 311
+}, {
+  "command" : "addFunds",
+  "output" : {
+    "description" : "Account not found: RO98POOB8412955460158769",
+    "timestamp" : 315
+  },
+  "timestamp" : 315
+}, {
+  "command" : "addFunds",
+  "output" : {
+    "description" : "Account not found: RO98POOB8412955460158769",
+    "timestamp" : 316
+  },
+  "timestamp" : 316
+}, {
+  "command" : "payOnline",
+  "output" : {
+    "description" : "Card not found",
+    "timestamp" : 317
+  },
+  "timestamp" : 317
+}, {
+  "command" : "addFunds",
+  "output" : {
+    "description" : "Account not found: RO98POOB8412955460158769",
+    "timestamp" : 322
+  },
+  "timestamp" : 322
+}, {
+  "command" : "payOnline",
+  "output" : {
+    "description" : "Card not found",
+    "timestamp" : 323
+  },
+  "timestamp" : 323
+}, {
+  "command" : "changeSpendingLimit",
+  "output" : {
+    "description" : "Unknown command: changeSpendingLimit",
+    "timestamp" : 326
+  },
+  "timestamp" : 326
+}, {
+  "command" : "addFunds",
+  "output" : {
+    "description" : "Account not found: RO98POOB8412955460158769",
+    "timestamp" : 327
+  },
+  "timestamp" : 327
+}, {
+  "command" : "payOnline",
+  "output" : {
+    "description" : "Card not found",
+    "timestamp" : 328
+  },
+  "timestamp" : 328
+}, {
+  "command" : "changeSpendingLimit",
+  "output" : {
+    "description" : "Unknown command: changeSpendingLimit",
+    "timestamp" : 330
+  },
+  "timestamp" : 330
+}, {
+  "command" : "addFunds",
+  "output" : {
+    "description" : "Account not found: RO98POOB8412955460158769",
+    "timestamp" : 331
+  },
+  "timestamp" : 331
+}, {
+  "command" : "payOnline",
+  "output" : {
+    "description" : "Card not found",
+    "timestamp" : 332
+  },
+  "timestamp" : 332
+}, {
+  "command" : "changeSpendingLimit",
+  "output" : {
+    "description" : "Unknown command: changeSpendingLimit",
+    "timestamp" : 337
+  },
+  "timestamp" : 337
+}, {
+  "command" : "addFunds",
+  "output" : {
+    "description" : "Account not found: RO98POOB8412955460158769",
+    "timestamp" : 338
+  },
+  "timestamp" : 338
+}, {
+  "command" : "addFunds",
+  "output" : {
+    "description" : "Account not found: RO98POOB8412955460158769",
+    "timestamp" : 339
+  },
+  "timestamp" : 339
+}, {
+  "command" : "payOnline",
+  "output" : {
+    "description" : "Card not found",
+    "timestamp" : 340
+  },
+  "timestamp" : 340
+}, {
+  "command" : "addFunds",
+  "output" : {
+    "description" : "Account not found: RO98POOB8412955460158769",
+    "timestamp" : 346
+  },
+  "timestamp" : 346
+}, {
+  "command" : "payOnline",
+  "output" : {
+    "description" : "Card not found",
+    "timestamp" : 347
+  },
+  "timestamp" : 347
+}, {
+  "command" : "changeSpendingLimit",
+  "output" : {
+    "description" : "Unknown command: changeSpendingLimit",
+    "timestamp" : 351
+  },
+  "timestamp" : 351
+}, {
+  "command" : "addFunds",
+  "output" : {
+    "description" : "Account not found: RO98POOB8412955460158769",
+    "timestamp" : 352
+  },
+  "timestamp" : 352
+}, {
+  "command" : "payOnline",
+  "output" : {
+    "description" : "Card not found",
+    "timestamp" : 353
+  },
+  "timestamp" : 353
+}, {
+  "command" : "addFunds",
+  "output" : {
+    "description" : "Account not found: RO98POOB8412955460158769",
+    "timestamp" : 356
+  },
+  "timestamp" : 356
+}, {
+  "command" : "payOnline",
+  "output" : {
+    "description" : "Card not found",
+    "timestamp" : 357
+  },
+  "timestamp" : 357
+}, {
+  "command" : "changeSpendingLimit",
+  "output" : {
+    "description" : "Unknown command: changeSpendingLimit",
+    "timestamp" : 360
+  },
+  "timestamp" : 360
+}, {
+  "command" : "addFunds",
+  "output" : {
+    "description" : "Account not found: RO98POOB8412955460158769",
+    "timestamp" : 361
+  },
+  "timestamp" : 361
+}, {
+  "command" : "addFunds",
+  "output" : {
+    "description" : "Account not found: RO98POOB8412955460158769",
+    "timestamp" : 362
+  },
+  "timestamp" : 362
+}, {
+  "command" : "payOnline",
+  "output" : {
+    "description" : "Card not found",
+    "timestamp" : 363
+  },
+  "timestamp" : 363
+}, {
+  "command" : "changeSpendingLimit",
+  "output" : {
+    "description" : "Unknown command: changeSpendingLimit",
+    "timestamp" : 365
+  },
+  "timestamp" : 365
+}, {
+  "command" : "addFunds",
+  "output" : {
+    "description" : "Account not found: RO98POOB8412955460158769",
+    "timestamp" : 366
+  },
+  "timestamp" : 366
+}, {
+  "command" : "payOnline",
+  "output" : {
+    "description" : "Card not found",
+    "timestamp" : 367
+  },
+  "timestamp" : 367
+}, {
+  "command" : "addFunds",
+  "output" : {
+    "description" : "Account not found: RO98POOB8412955460158769",
+    "timestamp" : 369
+  },
+  "timestamp" : 369
+}, {
+  "command" : "payOnline",
+  "output" : {
+    "description" : "Card not found",
+    "timestamp" : 370
+  },
+  "timestamp" : 370
+}, {
+  "command" : "changeSpendingLimit",
+  "output" : {
+    "description" : "Unknown command: changeSpendingLimit",
+    "timestamp" : 376
+  },
+  "timestamp" : 376
+}, {
+  "command" : "addFunds",
+  "output" : {
+    "description" : "Account not found: RO98POOB8412955460158769",
+    "timestamp" : 377
+  },
+  "timestamp" : 377
+}, {
+  "command" : "payOnline",
+  "output" : {
+    "description" : "Card not found",
+    "timestamp" : 378
+  },
+  "timestamp" : 378
+}, {
+  "command" : "changeSpendingLimit",
+  "output" : {
+    "description" : "Unknown command: changeSpendingLimit",
+    "timestamp" : 384
+  },
+  "timestamp" : 384
+}, {
+  "command" : "addFunds",
+  "output" : {
+    "description" : "Account not found: RO98POOB8412955460158769",
+    "timestamp" : 385
+  },
+  "timestamp" : 385
+}, {
+  "command" : "addFunds",
+  "output" : {
+    "description" : "Account not found: RO98POOB8412955460158769",
+    "timestamp" : 386
+  },
+  "timestamp" : 386
+}, {
+  "command" : "payOnline",
+  "output" : {
+    "description" : "Card not found",
+    "timestamp" : 387
+  },
+  "timestamp" : 387
+}, {
+  "command" : "changeSpendingLimit",
+  "output" : {
+    "description" : "Unknown command: changeSpendingLimit",
+    "timestamp" : 390
+  },
+  "timestamp" : 390
+}, {
+  "command" : "addFunds",
+  "output" : {
+    "description" : "Account not found: RO98POOB8412955460158769",
+    "timestamp" : 391
+  },
+  "timestamp" : 391
+}, {
+  "command" : "payOnline",
+  "output" : {
+    "description" : "Card not found",
+    "timestamp" : 392
+  },
+  "timestamp" : 392
+}, {
+  "command" : "addFunds",
+  "output" : {
+    "description" : "Account not found: RO98POOB8412955460158769",
+    "timestamp" : 397
+  },
+  "timestamp" : 397
+}, {
+  "command" : "payOnline",
+  "output" : {
+    "description" : "Card not found",
+    "timestamp" : 398
+  },
+  "timestamp" : 398
+}, {
+  "command" : "changeSpendingLimit",
+  "output" : {
+    "description" : "Unknown command: changeSpendingLimit",
+    "timestamp" : 404
+  },
+  "timestamp" : 404
+}, {
+  "command" : "addFunds",
+  "output" : {
+    "description" : "Account not found: RO98POOB8412955460158769",
+    "timestamp" : 405
+  },
+  "timestamp" : 405
+}, {
+  "command" : "payOnline",
+  "output" : {
+    "description" : "Card not found",
+    "timestamp" : 406
+  },
+  "timestamp" : 406
+}, {
+  "command" : "changeSpendingLimit",
+  "output" : {
+    "description" : "Unknown command: changeSpendingLimit",
+    "timestamp" : 410
+  },
+  "timestamp" : 410
+}, {
+  "command" : "addFunds",
+  "output" : {
+    "description" : "Account not found: RO98POOB8412955460158769",
+    "timestamp" : 411
+  },
+  "timestamp" : 411
+}, {
+  "command" : "addFunds",
+  "output" : {
+    "description" : "Account not found: RO98POOB8412955460158769",
+    "timestamp" : 412
+  },
+  "timestamp" : 412
+}, {
+  "command" : "payOnline",
+  "output" : {
+    "description" : "Card not found",
+    "timestamp" : 413
+  },
+  "timestamp" : 413
+}, {
+  "command" : "addFunds",
+  "output" : {
+    "description" : "Account not found: RO98POOB8412955460158769",
+    "timestamp" : 415
+  },
+  "timestamp" : 415
+}, {
+  "command" : "payOnline",
+  "output" : {
+    "description" : "Card not found",
+    "timestamp" : 416
+  },
+  "timestamp" : 416
+}, {
+  "command" : "addFunds",
+  "output" : {
+    "description" : "Account not found: RO98POOB8412955460158769",
+    "timestamp" : 419
+  },
+  "timestamp" : 419
+}, {
+  "command" : "payOnline",
+  "output" : {
+    "description" : "Card not found",
+    "timestamp" : 420
+  },
+  "timestamp" : 420
+}, {
+  "command" : "addFunds",
+  "output" : {
+    "description" : "Account not found: RO98POOB8412955460158769",
+    "timestamp" : 422
+  },
+  "timestamp" : 422
+}, {
+  "command" : "payOnline",
+  "output" : {
+    "description" : "Card not found",
+    "timestamp" : 423
+  },
+  "timestamp" : 423
+}, {
+  "command" : "addFunds",
+  "output" : {
+    "description" : "Account not found: RO98POOB8412955460158769",
+    "timestamp" : 425
+  },
+  "timestamp" : 425
+}, {
+  "command" : "addFunds",
+  "output" : {
+    "description" : "Account not found: RO98POOB8412955460158769",
+    "timestamp" : 426
+  },
+  "timestamp" : 426
+}, {
+  "command" : "payOnline",
+  "output" : {
+    "description" : "Card not found",
+    "timestamp" : 427
+  },
+  "timestamp" : 427
+}, {
+  "command" : "addFunds",
+  "output" : {
+    "description" : "Account not found: RO98POOB8412955460158769",
+    "timestamp" : 430
+  },
+  "timestamp" : 430
+}, {
+  "command" : "payOnline",
+  "output" : {
+    "description" : "Card not found",
+    "timestamp" : 431
+  },
+  "timestamp" : 431
+}, {
+  "command" : "changeSpendingLimit",
+  "output" : {
+    "description" : "Unknown command: changeSpendingLimit",
+    "timestamp" : 434
+  },
+  "timestamp" : 434
+}, {
+  "command" : "addFunds",
+  "output" : {
+    "description" : "Account not found: RO98POOB8412955460158769",
+    "timestamp" : 435
+  },
+  "timestamp" : 435
+}, {
+  "command" : "payOnline",
+  "output" : {
+    "description" : "Card not found",
+    "timestamp" : 436
+  },
+  "timestamp" : 436
+}, {
+  "command" : "changeSpendingLimit",
+  "output" : {
+    "description" : "Unknown command: changeSpendingLimit",
+    "timestamp" : 440
+  },
+  "timestamp" : 440
+}, {
+  "command" : "addFunds",
+  "output" : {
+    "description" : "Account not found: RO98POOB8412955460158769",
+    "timestamp" : 441
+  },
+  "timestamp" : 441
+}, {
+  "command" : "payOnline",
+  "output" : {
+    "description" : "Card not found",
+    "timestamp" : 442
+  },
+  "timestamp" : 442
+}, {
+  "command" : "changeSpendingLimit",
+  "output" : {
+    "description" : "Unknown command: changeSpendingLimit",
+    "timestamp" : 445
+  },
+  "timestamp" : 445
+}, {
+  "command" : "addFunds",
+  "output" : {
+    "description" : "Account not found: RO98POOB8412955460158769",
+    "timestamp" : 446
+  },
+  "timestamp" : 446
+}, {
+  "command" : "addFunds",
+  "output" : {
+    "description" : "Account not found: RO98POOB8412955460158769",
+    "timestamp" : 447
+  },
+  "timestamp" : 447
+}, {
+  "command" : "payOnline",
+  "output" : {
+    "description" : "Card not found",
+    "timestamp" : 448
+  },
+  "timestamp" : 448
+}, {
+  "command" : "addFunds",
+  "output" : {
+    "description" : "Account not found: RO68POOB1848616931405475",
+    "timestamp" : 451
+  },
+  "timestamp" : 451
+}, {
+  "command" : "payOnline",
+  "output" : {
+    "description" : "Card not found",
+    "timestamp" : 452
+  },
+  "timestamp" : 452
+}, {
+  "command" : "addFunds",
+  "output" : {
+    "description" : "Account not found: RO68POOB1848616931405475",
+    "timestamp" : 456
+  },
+  "timestamp" : 456
+}, {
+  "command" : "payOnline",
+  "output" : {
+    "description" : "Card not found",
+    "timestamp" : 457
+  },
+  "timestamp" : 457
+}, {
+  "command" : "changeSpendingLimit",
+  "output" : {
+    "description" : "Unknown command: changeSpendingLimit",
+    "timestamp" : 463
+  },
+  "timestamp" : 463
+}, {
+  "command" : "addFunds",
+  "output" : {
+    "description" : "Account not found: RO68POOB1848616931405475",
+    "timestamp" : 464
+  },
+  "timestamp" : 464
+}, {
+  "command" : "payOnline",
+  "output" : {
+    "description" : "Card not found",
+    "timestamp" : 465
+  },
+  "timestamp" : 465
+}, {
+  "command" : "addFunds",
+  "output" : {
+    "description" : "Account not found: RO68POOB1848616931405475",
+    "timestamp" : 471
+  },
+  "timestamp" : 471
+}, {
+  "command" : "addFunds",
+  "output" : {
+    "description" : "Account not found: RO68POOB1848616931405475",
+    "timestamp" : 472
+  },
+  "timestamp" : 472
+}, {
+  "command" : "payOnline",
+  "output" : {
+    "description" : "Card not found",
+    "timestamp" : 473
+  },
+  "timestamp" : 473
+}, {
+  "command" : "addFunds",
+  "output" : {
+    "description" : "Account not found: RO68POOB1848616931405475",
+    "timestamp" : 477
+  },
+  "timestamp" : 477
+}, {
+  "command" : "payOnline",
+  "output" : {
+    "description" : "Card not found",
+    "timestamp" : 478
+  },
+  "timestamp" : 478
+}, {
+  "command" : "addFunds",
+  "output" : {
+    "description" : "Account not found: RO68POOB1848616931405475",
+    "timestamp" : 480
+  },
+  "timestamp" : 480
+}, {
+  "command" : "payOnline",
+  "output" : {
+    "description" : "Card not found",
+    "timestamp" : 481
+  },
+  "timestamp" : 481
+}, {
+  "command" : "changeSpendingLimit",
+  "output" : {
+    "description" : "Unknown command: changeSpendingLimit",
+    "timestamp" : 483
+  },
+  "timestamp" : 483
+}, {
+  "command" : "addFunds",
+  "output" : {
+    "description" : "Account not found: RO68POOB1848616931405475",
+    "timestamp" : 484
+  },
+  "timestamp" : 484
+}, {
+  "command" : "payOnline",
+  "output" : {
+    "description" : "Card not found",
+    "timestamp" : 485
+  },
+  "timestamp" : 485
+}, {
+  "command" : "addFunds",
+  "output" : {
+    "description" : "Account not found: RO68POOB1848616931405475",
+    "timestamp" : 491
+  },
+  "timestamp" : 491
+}, {
+  "command" : "addFunds",
+  "output" : {
+    "description" : "Account not found: RO68POOB1848616931405475",
+    "timestamp" : 492
+  },
+  "timestamp" : 492
+}, {
+  "command" : "businessReport",
+  "output" : {
+    "description" : "Unknown command: businessReport",
+    "timestamp" : 493
+  },
+  "timestamp" : 493
+}, {
+  "command" : "businessReport",
+  "output" : {
+    "description" : "Unknown command: businessReport",
+    "timestamp" : 494
+  },
+  "timestamp" : 494
+}, {
+  "command" : "businessReport",
+  "output" : {
+    "description" : "Unknown command: businessReport",
+    "timestamp" : 495
+  },
+  "timestamp" : 495
+}, {
+  "command" : "businessReport",
+  "output" : {
+    "description" : "Unknown command: businessReport",
+    "timestamp" : 496
+  },
+  "timestamp" : 496
+}, {
+  "command" : "addFunds",
+  "output" : {
+    "description" : "Account not found: RO98POOB8412955460158769",
+    "timestamp" : 497
+  },
+  "timestamp" : 497
+}, {
+  "command" : "businessReport",
+  "output" : {
+    "description" : "Unknown command: businessReport",
+    "timestamp" : 499
+  },
+  "timestamp" : 499
+}, {
+  "command" : "businessReport",
+  "output" : {
+    "description" : "Unknown command: businessReport",
+    "timestamp" : 500
+  },
+  "timestamp" : 500
+}, {
+  "command" : "businessReport",
+  "output" : {
+    "description" : "Unknown command: businessReport",
+    "timestamp" : 501
+  },
+  "timestamp" : 501
+}, {
+  "command" : "businessReport",
+  "output" : {
+    "description" : "Unknown command: businessReport",
+    "timestamp" : 502
+  },
+  "timestamp" : 502
+} ]

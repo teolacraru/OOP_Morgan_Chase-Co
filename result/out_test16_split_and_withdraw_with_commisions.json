@@ -288,7 +288,7 @@
     "description" : "New account created",
     "timestamp" : 65
   }, {
-    "amount" : 326.594,
+    "amount" : 326.59,
     "currency" : "USD",
     "description" : "Split payment of 3265.94 USD",
     "error" : "Account RO79POOB3616857825600958 has insufficient funds for a split payment.",
@@ -315,7 +315,7 @@
     "description" : "New card created",
     "timestamp" : 124
   }, {
-    "amount" : 326.594,
+    "amount" : 326.59,
     "currency" : "USD",
     "description" : "Split payment of 3265.94 USD",
     "error" : "Account RO79POOB3616857825600958 has insufficient funds for a split payment.",
@@ -342,7 +342,7 @@
     "description" : "New card created",
     "timestamp" : 84
   }, {
-    "amount" : 326.594,
+    "amount" : 326.59,
     "currency" : "USD",
     "description" : "Split payment of 3265.94 USD",
     "error" : "Account RO79POOB3616857825600958 has insufficient funds for a split payment.",
@@ -372,7 +372,7 @@
     "description" : "New account created",
     "timestamp" : 160
   }, {
-    "amount" : 326.594,
+    "amount" : 326.59,
     "currency" : "USD",
     "description" : "Split payment of 3265.94 USD",
     "error" : "Account RO79POOB3616857825600958 has insufficient funds for a split payment.",
@@ -402,7 +402,7 @@
     "description" : "New account created",
     "timestamp" : 110
   }, {
-    "amount" : 326.594,
+    "amount" : 326.59,
     "currency" : "USD",
     "description" : "Split payment of 3265.94 USD",
     "error" : "Account RO79POOB3616857825600958 has insufficient funds for a split payment.",
@@ -429,7 +429,7 @@
     "description" : "New card created",
     "timestamp" : 89
   }, {
-    "amount" : 326.594,
+    "amount" : 326.59,
     "currency" : "USD",
     "description" : "Split payment of 3265.94 USD",
     "error" : "Account RO79POOB3616857825600958 has insufficient funds for a split payment.",
@@ -456,7 +456,7 @@
     "description" : "New card created",
     "timestamp" : 21
   }, {
-    "amount" : 326.594,
+    "amount" : 326.59,
     "currency" : "USD",
     "description" : "Split payment of 3265.94 USD",
     "error" : "Account RO79POOB3616857825600958 has insufficient funds for a split payment.",
@@ -483,7 +483,7 @@
     "description" : "New card created",
     "timestamp" : 42
   }, {
-    "amount" : 326.594,
+    "amount" : 326.59,
     "currency" : "USD",
     "description" : "Split payment of 3265.94 USD",
     "error" : "Account RO79POOB3616857825600958 has insufficient funds for a split payment.",
@@ -510,7 +510,7 @@
     "description" : "New card created",
     "timestamp" : 175
   }, {
-    "amount" : 326.594,
+    "amount" : 326.59,
     "currency" : "USD",
     "description" : "Split payment of 3265.94 USD",
     "error" : "Account RO79POOB3616857825600958 has insufficient funds for a split payment.",
@@ -547,7 +547,7 @@
     "description" : "New account created",
     "timestamp" : 138
   }, {
-    "amount" : 326.594,
+    "amount" : 326.59,
     "currency" : "USD",
     "description" : "Split payment of 3265.94 USD",
     "error" : "Account RO79POOB3616857825600958 has insufficient funds for a split payment.",
@@ -929,7 +929,7 @@
     "description" : "New account created",
     "timestamp" : 65
   }, {
-    "amount" : 326.594,
+    "amount" : 326.59,
     "currency" : "USD",
     "description" : "Split payment of 3265.94 USD",
     "error" : "Account RO79POOB3616857825600958 has insufficient funds for a split payment.",
@@ -952,7 +952,7 @@
     "description" : "New account created",
     "timestamp" : 110
   }, {
-    "amount" : 326.594,
+    "amount" : 326.59,
     "currency" : "USD",
     "description" : "Split payment of 3265.94 USD",
     "error" : "Account RO79POOB3616857825600958 has insufficient funds for a split payment.",
@@ -970,7 +970,7 @@
 }, {
   "command" : "withdrawSavings",
   "output" : {
-    "description" : "Unknown command: withdrawSavings",
+    "description" : "Insufficient funds.",
     "timestamp" : 229
   },
   "timestamp" : 229
@@ -989,7 +989,7 @@
     "description" : "New account created",
     "timestamp" : 110
   }, {
-    "amount" : 326.594,
+    "amount" : 326.59,
     "currency" : "USD",
     "description" : "Split payment of 3265.94 USD",
     "error" : "Account RO79POOB3616857825600958 has insufficient funds for a split payment.",
@@ -1019,7 +1019,7 @@
     "description" : "New account created",
     "timestamp" : 138
   }, {
-    "amount" : 326.594,
+    "amount" : 326.59,
     "currency" : "USD",
     "description" : "Split payment of 3265.94 USD",
     "error" : "Account RO79POOB3616857825600958 has insufficient funds for a split payment.",
@@ -1037,7 +1037,7 @@
 }, {
   "command" : "withdrawSavings",
   "output" : {
-    "description" : "Unknown command: withdrawSavings",
+    "description" : "Insufficient funds.",
     "timestamp" : 233
   },
   "timestamp" : 233
@@ -1056,7 +1056,7 @@
     "description" : "New account created",
     "timestamp" : 138
   }, {
-    "amount" : 326.594,
+    "amount" : 326.59,
     "currency" : "USD",
     "description" : "Split payment of 3265.94 USD",
     "error" : "Account RO79POOB3616857825600958 has insufficient funds for a split payment.",
@@ -1086,7 +1086,7 @@
     "description" : "New account created",
     "timestamp" : 160
   }, {
-    "amount" : 326.594,
+    "amount" : 326.59,
     "currency" : "USD",
     "description" : "Split payment of 3265.94 USD",
     "error" : "Account RO79POOB3616857825600958 has insufficient funds for a split payment.",
@@ -1109,13 +1109,6 @@
   } ],
   "timestamp" : 236
 }, {
-  "command" : "upgradePlan",
-  "output" : {
-    "description" : "Unknown command: upgradePlan",
-    "timestamp" : 239
-  },
-  "timestamp" : 239
-}, {
   "command" : "acceptSplitPayment",
   "output" : {
     "description" : "Unknown command: acceptSplitPayment",
@@ -1137,7 +1130,7 @@
     "description" : "New account created",
     "timestamp" : 65
   }, {
-    "amount" : 326.594,
+    "amount" : 326.59,
     "currency" : "USD",
     "description" : "Split payment of 3265.94 USD",
     "error" : "Account RO79POOB3616857825600958 has insufficient funds for a split payment.",
@@ -1152,13 +1145,6 @@
     "timestamp" : 237
   } ],
   "timestamp" : 242
-}, {
-  "command" : "upgradePlan",
-  "output" : {
-    "description" : "Unknown command: upgradePlan",
-    "timestamp" : 244
-  },
-  "timestamp" : 244
 }, {
   "command" : "acceptSplitPayment",
   "output" : {
@@ -1178,7 +1164,7 @@
     "description" : "New card created",
     "timestamp" : 42
   }, {
-    "amount" : 326.594,
+    "amount" : 326.59,
     "currency" : "USD",
     "description" : "Split payment of 3265.94 USD",
     "error" : "Account RO79POOB3616857825600958 has insufficient funds for a split payment.",
@@ -1201,13 +1187,6 @@
   } ],
   "timestamp" : 247
 }, {
-  "command" : "upgradePlan",
-  "output" : {
-    "description" : "Unknown command: upgradePlan",
-    "timestamp" : 249
-  },
-  "timestamp" : 249
-}, {
   "command" : "acceptSplitPayment",
   "output" : {
     "description" : "Unknown command: acceptSplitPayment",
@@ -1226,7 +1205,7 @@
     "description" : "New card created",
     "timestamp" : 84
   }, {
-    "amount" : 326.594,
+    "amount" : 326.59,
     "currency" : "USD",
     "description" : "Split payment of 3265.94 USD",
     "error" : "Account RO79POOB3616857825600958 has insufficient funds for a split payment.",
@@ -1249,13 +1228,6 @@
   } ],
   "timestamp" : 252
 }, {
-  "command" : "upgradePlan",
-  "output" : {
-    "description" : "Unknown command: upgradePlan",
-    "timestamp" : 254
-  },
-  "timestamp" : 254
-}, {
   "command" : "acceptSplitPayment",
   "output" : {
     "description" : "Unknown command: acceptSplitPayment",
@@ -1274,7 +1246,7 @@
     "description" : "New card created",
     "timestamp" : 89
   }, {
-    "amount" : 326.594,
+    "amount" : 326.59,
     "currency" : "USD",
     "description" : "Split payment of 3265.94 USD",
     "error" : "Account RO79POOB3616857825600958 has insufficient funds for a split payment.",
@@ -1297,13 +1269,6 @@
   } ],
   "timestamp" : 257
 }, {
-  "command" : "upgradePlan",
-  "output" : {
-    "description" : "Unknown command: upgradePlan",
-    "timestamp" : 259
-  },
-  "timestamp" : 259
-}, {
   "command" : "acceptSplitPayment",
   "output" : {
     "description" : "Unknown command: acceptSplitPayment",
@@ -1322,7 +1287,7 @@
     "description" : "New card created",
     "timestamp" : 21
   }, {
-    "amount" : 326.594,
+    "amount" : 326.59,
     "currency" : "USD",
     "description" : "Split payment of 3265.94 USD",
     "error" : "Account RO79POOB3616857825600958 has insufficient funds for a split payment.",
@@ -1344,39 +1309,4 @@
     "timestamp" : 237
   } ],
   "timestamp" : 262
-}, {
-  "command" : "cashWithdrawal",
-  "output" : {
-    "description" : "Unknown command: cashWithdrawal",
-    "timestamp" : 263
-  },
-  "timestamp" : 263
-}, {
-  "command" : "cashWithdrawal",
-  "output" : {
-    "description" : "Unknown command: cashWithdrawal",
-    "timestamp" : 264
-  },
-  "timestamp" : 264
-}, {
-  "command" : "cashWithdrawal",
-  "output" : {
-    "description" : "Unknown command: cashWithdrawal",
-    "timestamp" : 265
-  },
-  "timestamp" : 265
-}, {
-  "command" : "cashWithdrawal",
-  "output" : {
-    "description" : "Unknown command: cashWithdrawal",
-    "timestamp" : 266
-  },
-  "timestamp" : 266
-}, {
-  "command" : "cashWithdrawal",
-  "output" : {
-    "description" : "Unknown command: cashWithdrawal",
-    "timestamp" : 267
-  },
-  "timestamp" : 267
 } ]

@@ -2,9 +2,11 @@ package org.poo.main.commands;
 
 import com.fasterxml.jackson.databind.node.ArrayNode;
 import org.poo.fileio.CommandInput;
+import org.poo.main.Commerciant;
 import org.poo.main.CurrencyConverter;
 import org.poo.main.ExchangeRate;
 import org.poo.main.User;
+import org.poo.main.commandsPhase2.*;
 
 import java.util.HashMap;
 import java.util.List;
@@ -36,6 +38,7 @@ public final class CommandFactory {
                                      final List<ExchangeRate> exchange,
                                      final List<User> users,
                                      final CurrencyConverter currencyConverter,
+                                     final List<Commerciant> commerciants,
                                      final ArrayNode output) {
         final Map<String, Double> commerciantTotals = new HashMap<>();
 
@@ -109,6 +112,16 @@ public final class CommandFactory {
                 );
 
             case "payOnline":
+                CashbackManager cashbackManager = new CashbackManager();
+                Commerciant commerciant = commerciants.stream()
+                        .filter(c -> c.getName().equals(input.getCommerciant()))
+                        .findFirst()
+                        .orElse(null);
+
+                CashbackStrategy strategy = (commerciant != null)
+                        ? cashbackManager.getStrategy(commerciant.getType())
+                        : new NoCashbackStrategy();
+
                 return new PayOnlineCommand(
                         input.getCardNumber(),
                         input.getAmount(),
@@ -121,8 +134,10 @@ public final class CommandFactory {
                         exchange,
                         currencyConverter,
                         output,
-                        commerciantTotals
+                        commerciants,
+                        strategy
                 );
+
 
             case "sendMoney":
                 return new SendMoneyCommand(
@@ -203,8 +218,13 @@ public final class CommandFactory {
                         input.getTimestamp(),
                         users
                 );
-
-            default:
+            case "cashWithdrawal":
+                return new CashWithdrawalCommand(input.getCardNumber(), input.getAmount(), input.getEmail(), input.getLocation(), input.getTimestamp(), users);
+            case "withdrawSavings":
+                return new WithdrawSavingsCommand(input.getAccount(), input.getAmount(), input.getCurrency(), input.getTimestamp(), users, currencyConverter);
+            case "upgradePlan":
+                return new UpgradePlanCommand(input.getNewPlanType(), input.getAccount(), input.getTimestamp(), users, currencyConverter);
+                default:
                 throw new IllegalArgumentException("Unknown command: " + input.getCommand());
         }
     }

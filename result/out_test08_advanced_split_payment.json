@@ -11,7 +11,7 @@
     "description" : "New account created",
     "timestamp" : 1
   }, {
-    "amount" : 795.266,
+    "amount" : 795.27,
     "currency" : "EUR",
     "description" : "Split payment of 3976.33 EUR",
     "error" : "Account RO90POOB5450777208072365 has insufficient funds for a split payment.",
@@ -39,7 +39,7 @@
     "description" : "New account created",
     "timestamp" : 3
   }, {
-    "amount" : 795.266,
+    "amount" : 795.27,
     "currency" : "EUR",
     "description" : "Split payment of 3976.33 EUR",
     "error" : "Account RO90POOB5450777208072365 has insufficient funds for a split payment.",
@@ -178,7 +178,7 @@
 }, {
   "command" : "cashWithdrawal",
   "output" : {
-    "description" : "Unknown command: cashWithdrawal",
+    "description" : "Card not found",
     "timestamp" : 42
   },
   "timestamp" : 42
@@ -195,14 +195,14 @@
     "description" : "New account created",
     "timestamp" : 3
   }, {
-    "amount" : 795.266,
+    "amount" : 795.27,
     "currency" : "EUR",
     "description" : "Split payment of 3976.33 EUR",
     "error" : "Account RO90POOB5450777208072365 has insufficient funds for a split payment.",
     "involvedAccounts" : [ "RO58POOB2721178218599590", "RO58POOB7344468893732422", "RO65POOB8944016386845896", "RO90POOB5450777208072365", "RO69POOB6209498372540635" ],
     "timestamp" : 21
   }, {
-    "amount" : 745.0,
+    "amount" : 745,
     "currency" : "EUR",
     "description" : "Split payment of 2235.00 EUR",
     "error" : "Account RO90POOB5450777208072365 has insufficient funds for a split payment.",
@@ -237,7 +237,7 @@
     "description" : "New account created",
     "timestamp" : 1
   }, {
-    "amount" : 795.266,
+    "amount" : 795.27,
     "currency" : "EUR",
     "description" : "Split payment of 3976.33 EUR",
     "error" : "Account RO90POOB5450777208072365 has insufficient funds for a split payment.",
@@ -251,7 +251,7 @@
     "timestamp" : 23,
     "transferType" : "sent"
   }, {
-    "amount" : 745.0,
+    "amount" : 745,
     "currency" : "EUR",
     "description" : "Split payment of 2235.00 EUR",
     "error" : "Account RO90POOB5450777208072365 has insufficient funds for a split payment.",
@@ -272,7 +272,7 @@
     "description" : "New account created",
     "timestamp" : 2
   }, {
-    "amount" : 795.266,
+    "amount" : 795.27,
     "currency" : "EUR",
     "description" : "Split payment of 3976.33 EUR",
     "error" : "Account RO90POOB5450777208072365 has insufficient funds for a split payment.",
@@ -293,14 +293,14 @@
     "description" : "New account created",
     "timestamp" : 3
   }, {
-    "amount" : 795.266,
+    "amount" : 795.27,
     "currency" : "EUR",
     "description" : "Split payment of 3976.33 EUR",
     "error" : "Account RO90POOB5450777208072365 has insufficient funds for a split payment.",
     "involvedAccounts" : [ "RO58POOB2721178218599590", "RO58POOB7344468893732422", "RO65POOB8944016386845896", "RO90POOB5450777208072365", "RO69POOB6209498372540635" ],
     "timestamp" : 21
   }, {
-    "amount" : 745.0,
+    "amount" : 745,
     "currency" : "EUR",
     "description" : "Split payment of 2235.00 EUR",
     "error" : "Account RO90POOB5450777208072365 has insufficient funds for a split payment.",
@@ -321,7 +321,7 @@
     "description" : "New account created",
     "timestamp" : 4
   }, {
-    "amount" : 795.266,
+    "amount" : 795.27,
     "currency" : "EUR",
     "description" : "Split payment of 3976.33 EUR",
     "error" : "Account RO90POOB5450777208072365 has insufficient funds for a split payment.",
@@ -335,7 +335,7 @@
     "description" : "New account created",
     "timestamp" : 5
   }, {
-    "amount" : 795.266,
+    "amount" : 795.27,
     "currency" : "EUR",
     "description" : "Split payment of 3976.33 EUR",
     "error" : "Account RO90POOB5450777208072365 has insufficient funds for a split payment.",
@@ -533,7 +533,7 @@
     "description" : "New account created",
     "timestamp" : 1
   }, {
-    "amount" : 795.266,
+    "amount" : 795.27,
     "currency" : "EUR",
     "description" : "Split payment of 3976.33 EUR",
     "error" : "Account RO90POOB5450777208072365 has insufficient funds for a split payment.",
@@ -547,7 +547,7 @@
     "timestamp" : 23,
     "transferType" : "sent"
   }, {
-    "amount" : 745.0,
+    "amount" : 745,
     "currency" : "EUR",
     "description" : "Split payment of 2235.00 EUR",
     "error" : "Account RO90POOB5450777208072365 has insufficient funds for a split payment.",
@@ -568,7 +568,7 @@
     "description" : "New account created",
     "timestamp" : 2
   }, {
-    "amount" : 795.266,
+    "amount" : 795.27,
     "currency" : "EUR",
     "description" : "Split payment of 3976.33 EUR",
     "error" : "Account RO90POOB5450777208072365 has insufficient funds for a split payment.",
@@ -589,14 +589,14 @@
     "description" : "New account created",
     "timestamp" : 3
   }, {
-    "amount" : 795.266,
+    "amount" : 795.27,
     "currency" : "EUR",
     "description" : "Split payment of 3976.33 EUR",
     "error" : "Account RO90POOB5450777208072365 has insufficient funds for a split payment.",
     "involvedAccounts" : [ "RO58POOB2721178218599590", "RO58POOB7344468893732422", "RO65POOB8944016386845896", "RO90POOB5450777208072365", "RO69POOB6209498372540635" ],
     "timestamp" : 21
   }, {
-    "amount" : 745.0,
+    "amount" : 745,
     "currency" : "EUR",
     "description" : "Split payment of 2235.00 EUR",
     "error" : "Account RO90POOB5450777208072365 has insufficient funds for a split payment.",
@@ -617,7 +617,7 @@
     "description" : "New account created",
     "timestamp" : 4
   }, {
-    "amount" : 795.266,
+    "amount" : 795.27,
     "currency" : "EUR",
     "description" : "Split payment of 3976.33 EUR",
     "error" : "Account RO90POOB5450777208072365 has insufficient funds for a split payment.",
@@ -631,7 +631,7 @@
     "description" : "New account created",
     "timestamp" : 5
   }, {
-    "amount" : 795.266,
+    "amount" : 795.27,
     "currency" : "EUR",
     "description" : "Split payment of 3976.33 EUR",
     "error" : "Account RO90POOB5450777208072365 has insufficient funds for a split payment.",
@@ -645,7 +645,7 @@
     "description" : "New account created",
     "timestamp" : 9
   }, {
-    "amount" : 745.0,
+    "amount" : 745,
     "currency" : "EUR",
     "description" : "Split payment of 2235.00 EUR",
     "error" : "Account RO90POOB5450777208072365 has insufficient funds for a split payment.",

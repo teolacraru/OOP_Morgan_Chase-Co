@@ -3,6 +3,8 @@ package org.poo.main.accounts;
 import org.poo.main.Transaction;
 import org.poo.main.User;
 import org.poo.main.cards.Card;
+import org.poo.main.commandsPhase2.CashbackStrategy;
+import org.poo.main.commandsPhase2.SpendingThresholdCashbackStrategy;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -16,8 +18,11 @@ public abstract class Account {
     private String iban;
     private User owner;
     private double balance;
+    private double totalSpent;
     private String currency;
     private double minBalance;
+    private String planType; // Added plan type
+    private CashbackStrategy cashbackStrategy;
 
     /**
      * Constructor for Account.
@@ -34,8 +39,41 @@ public abstract class Account {
         this.owner = owner;
         this.minBalance = 0.0;
         this.transactions = new ArrayList<>();
+        this.planType = owner.getOccupation().equalsIgnoreCase("student") ? "student" : "standard"; // Setăm plan implicit
+        this.totalSpent = 0.0;
+        this.cashbackStrategy = new SpendingThresholdCashbackStrategy();
+
+
     }
 
+    public void setCashbackStrategy(CashbackStrategy cashbackStrategy) {
+        this.cashbackStrategy = cashbackStrategy;
+    }
+
+    public double applyCashback(double amount, String merchantCategory) {
+        return cashbackStrategy.calculateCashback(amount, this, merchantCategory);
+    }
+
+    public void addToTotalSpent(double amount) {
+        this.totalSpent += amount;
+    }
+
+    public double getTotalSpent() {
+        return totalSpent;
+    }
+
+    public String getPlanType() {
+        return planType;
+    }
+
+    /**
+     * Sets the plan type for the account.
+     *
+     * @param planType the plan type to set.
+     */
+    public void setPlanType(String planType) {
+        this.planType = planType;
+    }
     /**
      * Gets the account owner.
      *

@@ -1,7 +1,7 @@
 [ {
   "command" : "cashWithdrawal",
   "output" : {
-    "description" : "Unknown command: cashWithdrawal",
+    "description" : "Insufficient funds",
     "timestamp" : 8
   },
   "timestamp" : 8
@@ -31,13 +31,6 @@
   } ],
   "timestamp" : 9
 }, {
-  "command" : "cashWithdrawal",
-  "output" : {
-    "description" : "Unknown command: cashWithdrawal",
-    "timestamp" : 10
-  },
-  "timestamp" : 10
-}, {
   "command" : "printUsers",
   "output" : [ {
     "firstName" : "Consuela",
@@ -50,7 +43,7 @@
     "email" : "Aurica_Dinu@outlook.ro",
     "accounts" : [ {
       "IBAN" : "RO58POOB7344468893732422",
-      "balance" : 732.0,
+      "balance" : 732.6,
       "currency" : "RON",
       "type" : "classic",
       "cards" : [ {
@@ -74,7 +67,7 @@
 }, {
   "command" : "cashWithdrawal",
   "output" : {
-    "description" : "Unknown command: cashWithdrawal",
+    "description" : "Card not found",
     "timestamp" : 15
   },
   "timestamp" : 15
@@ -116,13 +109,6 @@
   } ],
   "timestamp" : 16
 }, {
-  "command" : "cashWithdrawal",
-  "output" : {
-    "description" : "Unknown command: cashWithdrawal",
-    "timestamp" : 19
-  },
-  "timestamp" : 19
-}, {
   "command" : "printUsers",
   "output" : [ {
     "firstName" : "Consuela",
@@ -135,7 +121,7 @@
     "email" : "Aurica_Dinu@outlook.ro",
     "accounts" : [ {
       "IBAN" : "RO58POOB7344468893732422",
-      "balance" : 915.0,
+      "balance" : 915.6,
       "currency" : "RON",
       "type" : "classic",
       "cards" : [ {
@@ -149,7 +135,7 @@
     "email" : "Rada_Nita@gmail.ro",
     "accounts" : [ {
       "IBAN" : "RO69POOB6209498372540635",
-      "balance" : 896.0,
+      "balance" : 896.856,
       "currency" : "RON",
       "type" : "classic",
       "cards" : [ {

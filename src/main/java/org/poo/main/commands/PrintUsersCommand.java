@@ -7,6 +7,9 @@ import org.poo.main.User;
 import org.poo.main.accounts.Account;
 import org.poo.main.cards.Card;
 
+import java.math.BigDecimal;
+import java.math.RoundingMode;
+import java.text.DecimalFormat;
 import java.util.List;
 
 public class PrintUsersCommand implements Command {
@@ -25,6 +28,9 @@ public class PrintUsersCommand implements Command {
         ObjectMapper mapper = new ObjectMapper();
         ArrayNode userArray = mapper.createArrayNode();
 
+        DecimalFormat df = new DecimalFormat("#.00"); // Formatare cu 2 zecimale
+
+
         for (User user : users) {
 
             ObjectNode userNode = mapper.createObjectNode();
@@ -36,7 +42,15 @@ public class PrintUsersCommand implements Command {
             for (Account account : user.getAccounts()) {
                 ObjectNode accountNode = mapper.createObjectNode();
                 accountNode.put("IBAN", account.getIBAN());
+                //double balance = account.getBalance();
+                //BigDecimal roundedBalance = new BigDecimal(balance).setScale(2, RoundingMode.HALF_UP);
                 accountNode.put("balance", account.getBalance());
+
+//                if (roundedBalance.scale() > 0 && roundedBalance.stripTrailingZeros().scale() <= 0) {
+//                    accountNode.put("balance", roundedBalance.intValue());
+//                } else {
+//                    accountNode.put("balance", roundedBalance.doubleValue());
+//                }
                 accountNode.put("currency", account.getCurrency());
                 accountNode.put("type", account.getAccountType());
 

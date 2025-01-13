@@ -40,20 +40,6 @@
   },
   "timestamp" : 42
 }, {
-  "command" : "upgradePlan",
-  "output" : {
-    "description" : "Unknown command: upgradePlan",
-    "timestamp" : 44
-  },
-  "timestamp" : 44
-}, {
-  "command" : "cashWithdrawal",
-  "output" : {
-    "description" : "Unknown command: cashWithdrawal",
-    "timestamp" : 45
-  },
-  "timestamp" : 45
-}, {
   "command" : "printUsers",
   "output" : [ {
     "firstName" : "Tiffany",
@@ -61,7 +47,7 @@
     "email" : "Tiffany_Leonard@hotmail.us",
     "accounts" : [ {
       "IBAN" : "RO58POOB7344468893732422",
-      "balance" : 865.65,
+      "balance" : 532.3166666666666,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ {
@@ -94,7 +80,7 @@
 }, {
   "command" : "spendingsReport",
   "output" : {
-    "balance" : 865.65,
+    "balance" : 532.3166666666666,
     "currency" : "USD",
     "IBAN" : "RO58POOB7344468893732422",
     "transactions" : [ {
@@ -139,13 +125,6 @@
     "timestamp" : 48
   },
   "timestamp" : 48
-}, {
-  "command" : "upgradePlan",
-  "output" : {
-    "description" : "Unknown command: upgradePlan",
-    "timestamp" : 51
-  },
-  "timestamp" : 51
 }, {
   "command" : "payOnline",
   "output" : {
@@ -219,7 +198,7 @@
 }, {
   "command" : "spendingsReport",
   "output" : {
-    "balance" : 1099.0,
+    "balance" : 265.66666666666663,
     "currency" : "USD",
     "IBAN" : "RO69POOB6209498372540635",
     "transactions" : [ ],

@@ -70,7 +70,7 @@
     "description" : "New account created",
     "timestamp" : 1
   }, {
-    "amount" : 84.0,
+    "amount" : 84,
     "currency" : "RON",
     "description" : "Split payment of 168.00 RON",
     "involvedAccounts" : [ "RO69POOB6209498372540635", "RO58POOB7344468893732422" ],
@@ -107,7 +107,7 @@
     "description" : "New account created",
     "timestamp" : 2
   }, {
-    "amount" : 84.0,
+    "amount" : 84,
     "currency" : "RON",
     "description" : "Split payment of 168.00 RON",
     "involvedAccounts" : [ "RO69POOB6209498372540635", "RO58POOB7344468893732422" ],
@@ -222,7 +222,7 @@
     "description" : "New account created",
     "timestamp" : 1
   }, {
-    "amount" : 84.0,
+    "amount" : 84,
     "currency" : "RON",
     "description" : "Split payment of 168.00 RON",
     "involvedAccounts" : [ "RO69POOB6209498372540635", "RO58POOB7344468893732422" ],
@@ -241,7 +241,7 @@
     "description" : "New account created",
     "timestamp" : 2
   }, {
-    "amount" : 84.0,
+    "amount" : 84,
     "currency" : "RON",
     "description" : "Split payment of 168.00 RON",
     "involvedAccounts" : [ "RO69POOB6209498372540635", "RO58POOB7344468893732422" ],

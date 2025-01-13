@@ -6,12 +6,13 @@ import com.fasterxml.jackson.databind.node.ArrayNode;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 import org.poo.checker.Checker;
 import org.poo.checker.CheckerConstants;
-import org.poo.fileio.CommandInput;
-import org.poo.fileio.ExchangeInput;
-import org.poo.fileio.ObjectInput;
-import org.poo.fileio.UserInput;
+import org.poo.fileio.*;
 import org.poo.main.commands.Command;
 import org.poo.main.commands.CommandFactory;
+import org.poo.main.commandsPhase2.CashbackStrategy;
+import org.poo.main.commandsPhase2.NoCashbackStrategy;
+import org.poo.main.commandsPhase2.NrOfTransactionsCashbackStrategy;
+import org.poo.main.commandsPhase2.SpendingThresholdCashbackStrategy;
 import org.poo.utils.Utils;
 
 import java.io.File;
@@ -81,6 +82,34 @@ public final class Main {
 
         UserInput[] userInputs = inputData.getUsers();
         CommandInput[] commands = inputData.getCommands();
+        CommerciantInput[] commerciantInputs = inputData.getCommerciants();
+        List<Commerciant> commerciants = new ArrayList<>();
+        for (CommerciantInput commerciantInput : commerciantInputs) {
+            CashbackStrategy cashbackStrategy;
+
+            switch (commerciantInput.getCashbackStrategy()) {
+                case "nrOfTransactions":
+                    cashbackStrategy = new NrOfTransactionsCashbackStrategy();
+                    break;
+                case "spendingThreshold":
+                    cashbackStrategy = new SpendingThresholdCashbackStrategy();
+                    break;
+                default:
+                    cashbackStrategy = new NoCashbackStrategy();
+                    break;
+            }
+
+            Commerciant commerciant = new Commerciant(
+                    commerciantInput.getCommerciant(),
+                    commerciantInput.getId(),
+                    commerciantInput.getAccount(),
+                    commerciantInput.getType(),
+                    cashbackStrategy // Setează direct strategia
+            );
+
+            commerciants.add(commerciant);
+        }
+
 
         List<ExchangeRate> exchangeRates = new ArrayList<>();
         for (ExchangeInput rate : inputData.getExchangeRates()) {
@@ -93,7 +122,9 @@ public final class Main {
             User user = new User(
                     userInput.getFirstName(),
                     userInput.getLastName(),
-                    userInput.getEmail()
+                    userInput.getEmail(),
+                    userInput.getBirthDate(),
+                    userInput.getOccupation()
             );
 
             users.add(user);
@@ -104,7 +135,7 @@ public final class Main {
         for (CommandInput commandInput : commands) {
             try {
                 Command command = CommandFactory.
-                        getCommand(commandInput, exchangeRates, users, currencyConverter, output);
+                        getCommand(commandInput, exchangeRates, users, currencyConverter, commerciants, output);
                 command.execute();
 
                 ObjectNode successNode = objectMapper.createObjectNode();

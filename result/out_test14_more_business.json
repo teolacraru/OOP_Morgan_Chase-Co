@@ -99,14 +99,14 @@
 }, {
   "command" : "cashWithdrawal",
   "output" : {
-    "description" : "Unknown command: cashWithdrawal",
+    "description" : "User not found",
     "timestamp" : 79
   },
   "timestamp" : 79
 }, {
   "command" : "cashWithdrawal",
   "output" : {
-    "description" : "Unknown command: cashWithdrawal",
+    "description" : "User not found",
     "timestamp" : 80
   },
   "timestamp" : 80

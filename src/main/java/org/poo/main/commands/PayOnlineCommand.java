@@ -1,13 +1,11 @@
 package org.poo.main.commands;
 
 import com.fasterxml.jackson.databind.node.ArrayNode;
-import org.poo.main.CurrencyConverter;
-import org.poo.main.ExchangeRate;
-import org.poo.main.Transaction;
-import org.poo.main.User;
+import org.poo.main.*;
 import org.poo.main.accounts.Account;
 import org.poo.main.cards.Card;
 import org.poo.main.cards.CardFactory;
+import org.poo.main.commandsPhase2.CashbackStrategy;
 
 import java.util.List;
 import java.util.Map;
@@ -26,8 +24,9 @@ public class PayOnlineCommand implements Command {
     private final List<ExchangeRate> exchangeRates;
     private final CurrencyConverter currencyConverter;
     private final ArrayNode output;
-    private final Map<String, Double> commerciantTotals;
+    private final List<Commerciant> commerciants;
     private final List<User> users;
+    private final CashbackStrategy cashbackStrategy;
 
     /**
      * Constructor for PayOnlineCommand.
@@ -43,7 +42,7 @@ public class PayOnlineCommand implements Command {
      * @param exchangeRates     the exchange rates for currency conversion.
      * @param currencyConverter the currency converter.
      * @param output            the output JSON structure.
-     * @param commerciantTotals the map of merchant totals.
+     * @param commerciants the map of merchant totals.
      */
     public PayOnlineCommand(final String cardNumber,
                             final double amount,
@@ -56,7 +55,8 @@ public class PayOnlineCommand implements Command {
                             final List<ExchangeRate> exchangeRates,
                             final CurrencyConverter currencyConverter,
                             final ArrayNode output,
-                            final Map<String, Double> commerciantTotals) {
+                            final List<Commerciant> commerciants,
+                            final CashbackStrategy cashbackStrategy) {
         this.cardNumber = cardNumber;
         this.amount = amount;
         this.currency = currency;
@@ -68,7 +68,9 @@ public class PayOnlineCommand implements Command {
         this.exchangeRates = exchangeRates;
         this.currencyConverter = currencyConverter;
         this.output = output;
-        this.commerciantTotals = commerciantTotals;
+        this.commerciants = commerciants;
+        this.cashbackStrategy = cashbackStrategy;
+
     }
 
     /**
@@ -100,6 +102,11 @@ public class PayOnlineCommand implements Command {
             throw new IllegalArgumentException("User is not the owner of the card");
         }
 
+        Commerciant commerciant = commerciants.stream()
+                .filter(c -> c.getName().equals(this.commerciant))
+                .findFirst()
+                .orElseThrow(() -> new IllegalArgumentException("Commerciant not found"));
+
         if (card.getStatus().equals("frozen")) {
             Transaction transaction = Transaction.addAccountTransaction(
                     timestamp, "The card is frozen",
@@ -112,9 +119,19 @@ public class PayOnlineCommand implements Command {
                 amount, currency, account.getCurrency());
         Transaction transactionCreated = null;
         Transaction transactionRemoved = null;
-        if (account.getBalance() >= finalAmount) {
-            account.setBalance(account.getBalance() - finalAmount);
 
+        double amountInRON = currencyConverter.convert(amount, currency, "RON");
+        CashbackStrategy strategy = commerciant.getCashbackStrategy();
+        double cashback = strategy.calculateCashback(amountInRON, account, commerciant.getName());
+
+        if (account.getBalance() >= finalAmount) {
+
+            account.setBalance(account.getBalance() - finalAmount);
+            account.setBalance(account.getBalance() + cashback * finalAmount);
+            if(cashback != 0) {
+                System.out.println(cashback + " " + 0.1 / 100 * finalAmount);
+
+            }
             for (Card card1 : account.getCards()) {
                 if (card1.getCardNumber().equals(cardNumber)
                         && card1.getType().equals("one-time")) {
@@ -144,7 +161,7 @@ public class PayOnlineCommand implements Command {
             }
 
             Transaction transaction = Transaction.createPayOnlineTransaction(
-                    timestamp, "Card payment", finalAmount, commerciant
+                    timestamp, "Card payment", finalAmount, commerciant.getName()
             );
             account.getOwner().addTransaction(transaction);
             account.addTransaction(transaction);

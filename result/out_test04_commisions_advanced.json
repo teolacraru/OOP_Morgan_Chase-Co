@@ -142,13 +142,6 @@
   } ],
   "timestamp" : 39
 }, {
-  "command" : "cashWithdrawal",
-  "output" : {
-    "description" : "Unknown command: cashWithdrawal",
-    "timestamp" : 43
-  },
-  "timestamp" : 43
-}, {
   "command" : "printTransactions",
   "output" : [ {
     "description" : "New account created",
@@ -335,20 +328,6 @@
   } ],
   "timestamp" : 52
 }, {
-  "command" : "upgradePlan",
-  "output" : {
-    "description" : "Unknown command: upgradePlan",
-    "timestamp" : 54
-  },
-  "timestamp" : 54
-}, {
-  "command" : "cashWithdrawal",
-  "output" : {
-    "description" : "Unknown command: cashWithdrawal",
-    "timestamp" : 59
-  },
-  "timestamp" : 59
-}, {
   "command" : "printTransactions",
   "output" : [ {
     "description" : "New account created",
@@ -412,7 +391,7 @@
     "email" : "Brandi_Schultz@outlook.us",
     "accounts" : [ {
       "IBAN" : "RO37POOB7013767509830666",
-      "balance" : 2068.0,
+      "balance" : 2046.5714285714284,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ {
@@ -536,20 +515,6 @@
   } ],
   "timestamp" : 61
 }, {
-  "command" : "upgradePlan",
-  "output" : {
-    "description" : "Unknown command: upgradePlan",
-    "timestamp" : 64
-  },
-  "timestamp" : 64
-}, {
-  "command" : "cashWithdrawal",
-  "output" : {
-    "description" : "Unknown command: cashWithdrawal",
-    "timestamp" : 67
-  },
-  "timestamp" : 67
-}, {
   "command" : "printTransactions",
   "output" : [ {
     "description" : "New account created",
@@ -591,7 +556,7 @@
     "email" : "Brandi_Schultz@outlook.us",
     "accounts" : [ {
       "IBAN" : "RO37POOB7013767509830666",
-      "balance" : 2068.0,
+      "balance" : 2046.5714285714284,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ {
@@ -636,7 +601,7 @@
     "email" : "Jason_Carpenter@hotmail.us",
     "accounts" : [ {
       "IBAN" : "RO58POOB7344468893732422",
-      "balance" : 2977.0,
+      "balance" : 2902.0,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ {

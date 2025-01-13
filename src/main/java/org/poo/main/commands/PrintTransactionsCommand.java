@@ -93,7 +93,8 @@ public class PrintTransactionsCommand implements Command {
                 transactionNode.put("timestamp", transaction.getTimestamp());
                 break;
             case "payOnline":
-                transactionNode.put("amount", transaction.getAmount());
+                double balance = transaction.getAmount();
+                transactionNode.put("amount", balance); // Store as integer if no decimals
                 transactionNode.put("commerciant", transaction.getCommerciant());
                 transactionNode.put("description", transaction.getDescription());
                 transactionNode.put("timestamp", transaction.getTimestamp());
@@ -110,7 +111,12 @@ public class PrintTransactionsCommand implements Command {
                 transactionNode.put("timestamp", transaction.getTimestamp());
                 break;
             case "splitPayment":
-                transactionNode.put("amount", transaction.getAmount());
+                balance = transaction.getAmount();
+                if (balance % 1 == 0) {
+                    transactionNode.put("amount", (int) balance); // Store as integer if no decimals
+                } else {
+                    transactionNode.put("amount", Math.round(balance * 100.0) / 100.0); // Store as double with 2 decimals
+                }
                 transactionNode.put("currency", transaction.getCurrency());
                 transactionNode.put("description", transaction.getDescription());
                 if (transaction.getSenderIBAN() != null) {

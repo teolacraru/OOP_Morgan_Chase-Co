@@ -36,66 +36,52 @@
 }, {
   "command" : "upgradePlan",
   "output" : {
-    "description" : "Unknown command: upgradePlan",
+    "description" : "The user already has the student plan.",
     "timestamp" : 525
   },
   "timestamp" : 525
 }, {
-  "command" : "upgradePlan",
-  "output" : {
-    "description" : "Unknown command: upgradePlan",
-    "timestamp" : 526
-  },
-  "timestamp" : 526
-}, {
   "command" : "cashWithdrawal",
   "output" : {
-    "description" : "Unknown command: cashWithdrawal",
+    "description" : "Card not found",
     "timestamp" : 527
   },
   "timestamp" : 527
 }, {
   "command" : "cashWithdrawal",
   "output" : {
-    "description" : "Unknown command: cashWithdrawal",
+    "description" : "Card not found",
     "timestamp" : 532
   },
   "timestamp" : 532
 }, {
   "command" : "cashWithdrawal",
   "output" : {
-    "description" : "Unknown command: cashWithdrawal",
+    "description" : "Card not found",
     "timestamp" : 545
   },
   "timestamp" : 545
 }, {
   "command" : "cashWithdrawal",
   "output" : {
-    "description" : "Unknown command: cashWithdrawal",
+    "description" : "Card not found",
     "timestamp" : 555
   },
   "timestamp" : 555
 }, {
   "command" : "upgradePlan",
   "output" : {
-    "description" : "Unknown command: upgradePlan",
+    "description" : "Account not found",
     "timestamp" : 560
   },
   "timestamp" : 560
 }, {
   "command" : "upgradePlan",
   "output" : {
-    "description" : "Unknown command: upgradePlan",
+    "description" : "Insufficient funds",
     "timestamp" : 562
   },
   "timestamp" : 562
-}, {
-  "command" : "upgradePlan",
-  "output" : {
-    "description" : "Unknown command: upgradePlan",
-    "timestamp" : 564
-  },
-  "timestamp" : 564
 }, {
   "command" : "printTransactions",
   "output" : [ {
@@ -176,7 +162,7 @@
       "cards" : [ ]
     }, {
       "IBAN" : "RO53POOB7122855990652257",
-      "balance" : 100.0,
+      "balance" : 0.0,
       "currency" : "RON",
       "type" : "classic",
       "cards" : [ ]
@@ -314,7 +300,7 @@
 }, {
   "command" : "deleteAccount",
   "output" : {
-    "error" : "Account couldn't be deleted - see org.poo.transactions for details",
+    "success" : "Account deleted",
     "timestamp" : 567
   },
   "timestamp" : 567
@@ -383,12 +369,6 @@
     "accounts" : [ {
       "IBAN" : "RO37POOB7013767509830666",
       "balance" : 1057.0,
-      "currency" : "RON",
-      "type" : "classic",
-      "cards" : [ ]
-    }, {
-      "IBAN" : "RO53POOB7122855990652257",
-      "balance" : 100.0,
       "currency" : "RON",
       "type" : "classic",
       "cards" : [ ]
@@ -526,399 +506,301 @@
 }, {
   "command" : "upgradePlan",
   "output" : {
-    "description" : "Unknown command: upgradePlan",
-    "timestamp" : 580
-  },
-  "timestamp" : 580
-}, {
-  "command" : "upgradePlan",
-  "output" : {
-    "description" : "Unknown command: upgradePlan",
+    "description" : "You cannot downgrade your plan.",
     "timestamp" : 581
   },
   "timestamp" : 581
 }, {
   "command" : "upgradePlan",
   "output" : {
-    "description" : "Unknown command: upgradePlan",
+    "description" : "You cannot downgrade your plan.",
     "timestamp" : 582
   },
   "timestamp" : 582
 }, {
   "command" : "upgradePlan",
   "output" : {
-    "description" : "Unknown command: upgradePlan",
+    "description" : "The user already has the silver plan.",
     "timestamp" : 584
   },
   "timestamp" : 584
 }, {
   "command" : "upgradePlan",
   "output" : {
-    "description" : "Unknown command: upgradePlan",
+    "description" : "You cannot downgrade your plan.",
     "timestamp" : 585
   },
   "timestamp" : 585
 }, {
   "command" : "upgradePlan",
   "output" : {
-    "description" : "Unknown command: upgradePlan",
+    "description" : "You cannot downgrade your plan.",
     "timestamp" : 586
   },
   "timestamp" : 586
 }, {
   "command" : "upgradePlan",
   "output" : {
-    "description" : "Unknown command: upgradePlan",
-    "timestamp" : 588
-  },
-  "timestamp" : 588
-}, {
-  "command" : "upgradePlan",
-  "output" : {
-    "description" : "Unknown command: upgradePlan",
+    "description" : "You cannot downgrade your plan.",
     "timestamp" : 589
   },
   "timestamp" : 589
 }, {
   "command" : "upgradePlan",
   "output" : {
-    "description" : "Unknown command: upgradePlan",
+    "description" : "You cannot downgrade your plan.",
     "timestamp" : 590
   },
   "timestamp" : 590
 }, {
   "command" : "upgradePlan",
   "output" : {
-    "description" : "Unknown command: upgradePlan",
-    "timestamp" : 592
-  },
-  "timestamp" : 592
-}, {
-  "command" : "upgradePlan",
-  "output" : {
-    "description" : "Unknown command: upgradePlan",
+    "description" : "The user already has the silver plan.",
     "timestamp" : 594
   },
   "timestamp" : 594
 }, {
   "command" : "upgradePlan",
   "output" : {
-    "description" : "Unknown command: upgradePlan",
+    "description" : "You cannot downgrade your plan.",
     "timestamp" : 595
   },
   "timestamp" : 595
 }, {
   "command" : "upgradePlan",
   "output" : {
-    "description" : "Unknown command: upgradePlan",
+    "description" : "You cannot downgrade your plan.",
     "timestamp" : 596
   },
   "timestamp" : 596
 }, {
   "command" : "upgradePlan",
   "output" : {
-    "description" : "Unknown command: upgradePlan",
-    "timestamp" : 598
-  },
-  "timestamp" : 598
-}, {
-  "command" : "upgradePlan",
-  "output" : {
-    "description" : "Unknown command: upgradePlan",
+    "description" : "You cannot downgrade your plan.",
     "timestamp" : 599
   },
   "timestamp" : 599
 }, {
   "command" : "upgradePlan",
   "output" : {
-    "description" : "Unknown command: upgradePlan",
+    "description" : "You cannot downgrade your plan.",
     "timestamp" : 600
   },
   "timestamp" : 600
 }, {
   "command" : "upgradePlan",
   "output" : {
-    "description" : "Unknown command: upgradePlan",
+    "description" : "The user already has the silver plan.",
     "timestamp" : 602
   },
   "timestamp" : 602
 }, {
   "command" : "upgradePlan",
   "output" : {
-    "description" : "Unknown command: upgradePlan",
-    "timestamp" : 604
-  },
-  "timestamp" : 604
-}, {
-  "command" : "upgradePlan",
-  "output" : {
-    "description" : "Unknown command: upgradePlan",
+    "description" : "You cannot downgrade your plan.",
     "timestamp" : 605
   },
   "timestamp" : 605
 }, {
   "command" : "upgradePlan",
   "output" : {
-    "description" : "Unknown command: upgradePlan",
+    "description" : "You cannot downgrade your plan.",
     "timestamp" : 606
   },
   "timestamp" : 606
 }, {
   "command" : "upgradePlan",
   "output" : {
-    "description" : "Unknown command: upgradePlan",
-    "timestamp" : 608
-  },
-  "timestamp" : 608
-}, {
-  "command" : "upgradePlan",
-  "output" : {
-    "description" : "Unknown command: upgradePlan",
+    "description" : "The user already has the silver plan.",
     "timestamp" : 610
   },
   "timestamp" : 610
 }, {
   "command" : "upgradePlan",
   "output" : {
-    "description" : "Unknown command: upgradePlan",
+    "description" : "You cannot downgrade your plan.",
     "timestamp" : 611
   },
   "timestamp" : 611
 }, {
   "command" : "upgradePlan",
   "output" : {
-    "description" : "Unknown command: upgradePlan",
+    "description" : "You cannot downgrade your plan.",
     "timestamp" : 612
   },
   "timestamp" : 612
 }, {
   "command" : "upgradePlan",
   "output" : {
-    "description" : "Unknown command: upgradePlan",
-    "timestamp" : 614
-  },
-  "timestamp" : 614
-}, {
-  "command" : "upgradePlan",
-  "output" : {
-    "description" : "Unknown command: upgradePlan",
+    "description" : "You cannot downgrade your plan.",
     "timestamp" : 615
   },
   "timestamp" : 615
 }, {
   "command" : "upgradePlan",
   "output" : {
-    "description" : "Unknown command: upgradePlan",
+    "description" : "You cannot downgrade your plan.",
     "timestamp" : 616
   },
   "timestamp" : 616
 }, {
   "command" : "upgradePlan",
   "output" : {
-    "description" : "Unknown command: upgradePlan",
+    "description" : "The user already has the silver plan.",
     "timestamp" : 618
   },
   "timestamp" : 618
 }, {
   "command" : "upgradePlan",
   "output" : {
-    "description" : "Unknown command: upgradePlan",
-    "timestamp" : 620
-  },
-  "timestamp" : 620
-}, {
-  "command" : "upgradePlan",
-  "output" : {
-    "description" : "Unknown command: upgradePlan",
+    "description" : "You cannot downgrade your plan.",
     "timestamp" : 621
   },
   "timestamp" : 621
 }, {
   "command" : "upgradePlan",
   "output" : {
-    "description" : "Unknown command: upgradePlan",
+    "description" : "You cannot downgrade your plan.",
     "timestamp" : 622
   },
   "timestamp" : 622
 }, {
   "command" : "upgradePlan",
   "output" : {
-    "description" : "Unknown command: upgradePlan",
-    "timestamp" : 624
-  },
-  "timestamp" : 624
-}, {
-  "command" : "upgradePlan",
-  "output" : {
-    "description" : "Unknown command: upgradePlan",
-    "timestamp" : 626
-  },
-  "timestamp" : 626
-}, {
-  "command" : "upgradePlan",
-  "output" : {
-    "description" : "Unknown command: upgradePlan",
+    "description" : "The user already has the silver plan.",
     "timestamp" : 628
   },
   "timestamp" : 628
 }, {
   "command" : "upgradePlan",
   "output" : {
-    "description" : "Unknown command: upgradePlan",
+    "description" : "You cannot downgrade your plan.",
     "timestamp" : 629
   },
   "timestamp" : 629
 }, {
   "command" : "upgradePlan",
   "output" : {
-    "description" : "Unknown command: upgradePlan",
+    "description" : "You cannot downgrade your plan.",
     "timestamp" : 630
   },
   "timestamp" : 630
 }, {
   "command" : "upgradePlan",
   "output" : {
-    "description" : "Unknown command: upgradePlan",
-    "timestamp" : 632
-  },
-  "timestamp" : 632
-}, {
-  "command" : "upgradePlan",
-  "output" : {
-    "description" : "Unknown command: upgradePlan",
+    "description" : "You cannot downgrade your plan.",
     "timestamp" : 633
   },
   "timestamp" : 633
 }, {
   "command" : "upgradePlan",
   "output" : {
-    "description" : "Unknown command: upgradePlan",
+    "description" : "You cannot downgrade your plan.",
     "timestamp" : 634
   },
   "timestamp" : 634
 }, {
   "command" : "upgradePlan",
   "output" : {
-    "description" : "Unknown command: upgradePlan",
-    "timestamp" : 636
-  },
-  "timestamp" : 636
-}, {
-  "command" : "upgradePlan",
-  "output" : {
-    "description" : "Unknown command: upgradePlan",
+    "description" : "You cannot downgrade your plan.",
     "timestamp" : 637
   },
   "timestamp" : 637
 }, {
   "command" : "upgradePlan",
   "output" : {
-    "description" : "Unknown command: upgradePlan",
+    "description" : "You cannot downgrade your plan.",
     "timestamp" : 638
   },
   "timestamp" : 638
 }, {
   "command" : "upgradePlan",
   "output" : {
-    "description" : "Unknown command: upgradePlan",
-    "timestamp" : 640
-  },
-  "timestamp" : 640
-}, {
-  "command" : "upgradePlan",
-  "output" : {
-    "description" : "Unknown command: upgradePlan",
+    "description" : "You cannot downgrade your plan.",
     "timestamp" : 641
   },
   "timestamp" : 641
 }, {
   "command" : "upgradePlan",
   "output" : {
-    "description" : "Unknown command: upgradePlan",
+    "description" : "You cannot downgrade your plan.",
     "timestamp" : 642
   },
   "timestamp" : 642
 }, {
   "command" : "upgradePlan",
   "output" : {
-    "description" : "Unknown command: upgradePlan",
-    "timestamp" : 644
-  },
-  "timestamp" : 644
-}, {
-  "command" : "upgradePlan",
-  "output" : {
-    "description" : "Unknown command: upgradePlan",
+    "description" : "You cannot downgrade your plan.",
     "timestamp" : 645
   },
   "timestamp" : 645
 }, {
   "command" : "upgradePlan",
   "output" : {
-    "description" : "Unknown command: upgradePlan",
+    "description" : "You cannot downgrade your plan.",
     "timestamp" : 646
   },
   "timestamp" : 646
 }, {
   "command" : "upgradePlan",
   "output" : {
-    "description" : "Unknown command: upgradePlan",
+    "description" : "The user already has the silver plan.",
     "timestamp" : 648
   },
   "timestamp" : 648
 }, {
   "command" : "upgradePlan",
   "output" : {
-    "description" : "Unknown command: upgradePlan",
+    "description" : "You cannot downgrade your plan.",
     "timestamp" : 649
   },
   "timestamp" : 649
 }, {
   "command" : "upgradePlan",
   "output" : {
-    "description" : "Unknown command: upgradePlan",
+    "description" : "You cannot downgrade your plan.",
     "timestamp" : 650
   },
   "timestamp" : 650
 }, {
   "command" : "upgradePlan",
   "output" : {
-    "description" : "Unknown command: upgradePlan",
+    "description" : "The user already has the silver plan.",
     "timestamp" : 652
   },
   "timestamp" : 652
 }, {
   "command" : "upgradePlan",
   "output" : {
-    "description" : "Unknown command: upgradePlan",
+    "description" : "The user already has the silver plan.",
     "timestamp" : 654
   },
   "timestamp" : 654
 }, {
   "command" : "upgradePlan",
   "output" : {
-    "description" : "Unknown command: upgradePlan",
+    "description" : "The user already has the silver plan.",
     "timestamp" : 656
   },
   "timestamp" : 656
 }, {
   "command" : "upgradePlan",
   "output" : {
-    "description" : "Unknown command: upgradePlan",
+    "description" : "You cannot downgrade your plan.",
     "timestamp" : 657
   },
   "timestamp" : 657
 }, {
   "command" : "upgradePlan",
   "output" : {
-    "description" : "Unknown command: upgradePlan",
+    "description" : "You cannot downgrade your plan.",
     "timestamp" : 658
   },
   "timestamp" : 658
 }, {
   "command" : "upgradePlan",
   "output" : {
-    "description" : "Unknown command: upgradePlan",
+    "description" : "The user already has the silver plan.",
     "timestamp" : 660
   },
   "timestamp" : 660
@@ -930,7 +812,7 @@
     "email" : "Eusebiu_Ionescu@outlook.ro",
     "accounts" : [ {
       "IBAN" : "RO58POOB7344468893732422",
-      "balance" : 1592.0,
+      "balance" : 1492.0,
       "currency" : "RON",
       "type" : "classic",
       "cards" : [ ]
@@ -953,7 +835,7 @@
     "email" : "Elodia_Ababe@yahoo.ro",
     "accounts" : [ {
       "IBAN" : "RO90POOB5450777208072365",
-      "balance" : 1889.0,
+      "balance" : 1789.0,
       "currency" : "RON",
       "type" : "classic",
       "cards" : [ ]
@@ -964,7 +846,7 @@
     "email" : "Bernadette_de_Delmas@gmail.fr",
     "accounts" : [ {
       "IBAN" : "RO65POOB8944016386845896",
-      "balance" : 1451.81,
+      "balance" : 1428.000476190476,
       "currency" : "EUR",
       "type" : "classic",
       "cards" : [ ]
@@ -981,7 +863,7 @@
     "email" : "Zamfira_Stancu@hotmail.ro",
     "accounts" : [ {
       "IBAN" : "RO76POOB4035116042454483",
-      "balance" : 1341.0,
+      "balance" : 1241.0,
       "currency" : "RON",
       "type" : "classic",
       "cards" : [ ]
@@ -993,12 +875,6 @@
     "accounts" : [ {
       "IBAN" : "RO37POOB7013767509830666",
       "balance" : 1157.0,
-      "currency" : "RON",
-      "type" : "classic",
-      "cards" : [ ]
-    }, {
-      "IBAN" : "RO53POOB7122855990652257",
-      "balance" : 100.0,
       "currency" : "RON",
       "type" : "classic",
       "cards" : [ ]
@@ -1015,7 +891,7 @@
     "email" : "Dida_Manole@hotmail.ro",
     "accounts" : [ {
       "IBAN" : "RO19POOB4981055641668812",
-      "balance" : 1344.0,
+      "balance" : 1244.0,
       "currency" : "RON",
       "type" : "classic",
       "cards" : [ ]
@@ -1026,7 +902,7 @@
     "email" : "Chantal_Michel@outlook.fr",
     "accounts" : [ {
       "IBAN" : "RO30POOB9523423715747796",
-      "balance" : 1731.81,
+      "balance" : 1708.000476190476,
       "currency" : "EUR",
       "type" : "classic",
       "cards" : [ ]
@@ -1043,7 +919,7 @@
     "email" : "Rebecca_Johnson@yahoo.us",
     "accounts" : [ {
       "IBAN" : "RO00POOB5687892910835215",
-      "balance" : 2128.33,
+      "balance" : 2106.9014285714284,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ ]
@@ -1060,7 +936,7 @@
     "email" : "Robert_Bates@yahoo.us",
     "accounts" : [ {
       "IBAN" : "RO33POOB4049920806186500",
-      "balance" : 1783.33,
+      "balance" : 1761.9014285714286,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ ]
@@ -1071,7 +947,7 @@
     "email" : "Marcel_Hubert@outlook.fr",
     "accounts" : [ {
       "IBAN" : "RO69POOB9846198978826791",
-      "balance" : 1128.81,
+      "balance" : 1105.000476190476,
       "currency" : "EUR",
       "type" : "classic",
       "cards" : [ ]
@@ -1082,7 +958,7 @@
     "email" : "Ioana_Ababe@yahoo.ro",
     "accounts" : [ {
       "IBAN" : "RO98POOB8412955460158769",
-      "balance" : 2046.0,
+      "balance" : 1946.0,
       "currency" : "RON",
       "type" : "classic",
       "cards" : [ ]
@@ -1105,7 +981,7 @@
     "email" : "Suzanne_Moreau@gmail.fr",
     "accounts" : [ {
       "IBAN" : "RO68POOB1848616931405475",
-      "balance" : 1305.81,
+      "balance" : 1282.000476190476,
       "currency" : "EUR",
       "type" : "classic",
       "cards" : [ ]
@@ -1116,7 +992,7 @@
     "email" : "David_Price@gmail.us",
     "accounts" : [ {
       "IBAN" : "RO10POOB4354933866366881",
-      "balance" : 2292.33,
+      "balance" : 2270.9014285714284,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ ]
@@ -1127,7 +1003,7 @@
     "email" : "Deborah_Marshall@hotmail.us",
     "accounts" : [ {
       "IBAN" : "RO33POOB9999273999620457",
-      "balance" : 2305.33,
+      "balance" : 2283.9014285714284,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ ]
@@ -1144,7 +1020,7 @@
     "email" : "Joshua_Neal@outlook.us",
     "accounts" : [ {
       "IBAN" : "RO38POOB0964823730995794",
-      "balance" : 1719.33,
+      "balance" : 1697.9014285714286,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ ]
@@ -1165,7 +1041,7 @@
     "email" : "Eusebiu_Ionescu@outlook.ro",
     "accounts" : [ {
       "IBAN" : "RO58POOB7344468893732422",
-      "balance" : 1592.0,
+      "balance" : 1492.0,
       "currency" : "RON",
       "type" : "classic",
       "cards" : [ ]
@@ -1188,7 +1064,7 @@
     "email" : "Elodia_Ababe@yahoo.ro",
     "accounts" : [ {
       "IBAN" : "RO90POOB5450777208072365",
-      "balance" : 1889.0,
+      "balance" : 1789.0,
       "currency" : "RON",
       "type" : "classic",
       "cards" : [ ]
@@ -1226,7 +1102,7 @@
     "email" : "Bernadette_de_Delmas@gmail.fr",
     "accounts" : [ {
       "IBAN" : "RO65POOB8944016386845896",
-      "balance" : 1451.81,
+      "balance" : 1428.000476190476,
       "currency" : "EUR",
       "type" : "classic",
       "cards" : [ ]
@@ -1243,7 +1119,7 @@
     "email" : "Zamfira_Stancu@hotmail.ro",
     "accounts" : [ {
       "IBAN" : "RO76POOB4035116042454483",
-      "balance" : 1341.0,
+      "balance" : 1241.0,
       "currency" : "RON",
       "type" : "classic",
       "cards" : [ ]
@@ -1255,12 +1131,6 @@
     "accounts" : [ {
       "IBAN" : "RO37POOB7013767509830666",
       "balance" : 1157.0,
-      "currency" : "RON",
-      "type" : "classic",
-      "cards" : [ ]
-    }, {
-      "IBAN" : "RO53POOB7122855990652257",
-      "balance" : 100.0,
       "currency" : "RON",
       "type" : "classic",
       "cards" : [ ]
@@ -1277,7 +1147,7 @@
     "email" : "Dida_Manole@hotmail.ro",
     "accounts" : [ {
       "IBAN" : "RO19POOB4981055641668812",
-      "balance" : 1344.0,
+      "balance" : 1244.0,
       "currency" : "RON",
       "type" : "classic",
       "cards" : [ ]
@@ -1288,7 +1158,7 @@
     "email" : "Chantal_Michel@outlook.fr",
     "accounts" : [ {
       "IBAN" : "RO30POOB9523423715747796",
-      "balance" : 1731.81,
+      "balance" : 1708.000476190476,
       "currency" : "EUR",
       "type" : "classic",
       "cards" : [ ]
@@ -1305,7 +1175,7 @@
     "email" : "Rebecca_Johnson@yahoo.us",
     "accounts" : [ {
       "IBAN" : "RO00POOB5687892910835215",
-      "balance" : 2128.33,
+      "balance" : 2106.9014285714284,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ ]
@@ -1322,7 +1192,7 @@
     "email" : "Robert_Bates@yahoo.us",
     "accounts" : [ {
       "IBAN" : "RO33POOB4049920806186500",
-      "balance" : 1783.33,
+      "balance" : 1761.9014285714286,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ ]
@@ -1333,7 +1203,7 @@
     "email" : "Marcel_Hubert@outlook.fr",
     "accounts" : [ {
       "IBAN" : "RO69POOB9846198978826791",
-      "balance" : 1128.81,
+      "balance" : 1105.000476190476,
       "currency" : "EUR",
       "type" : "classic",
       "cards" : [ ]
@@ -1344,7 +1214,7 @@
     "email" : "Ioana_Ababe@yahoo.ro",
     "accounts" : [ {
       "IBAN" : "RO98POOB8412955460158769",
-      "balance" : 2046.0,
+      "balance" : 1946.0,
       "currency" : "RON",
       "type" : "classic",
       "cards" : [ ]
@@ -1367,7 +1237,7 @@
     "email" : "Suzanne_Moreau@gmail.fr",
     "accounts" : [ {
       "IBAN" : "RO68POOB1848616931405475",
-      "balance" : 1305.81,
+      "balance" : 1282.000476190476,
       "currency" : "EUR",
       "type" : "classic",
       "cards" : [ ]
@@ -1378,7 +1248,7 @@
     "email" : "David_Price@gmail.us",
     "accounts" : [ {
       "IBAN" : "RO10POOB4354933866366881",
-      "balance" : 2292.33,
+      "balance" : 2270.9014285714284,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ ]
@@ -1389,7 +1259,7 @@
     "email" : "Deborah_Marshall@hotmail.us",
     "accounts" : [ {
       "IBAN" : "RO33POOB9999273999620457",
-      "balance" : 2305.33,
+      "balance" : 2283.9014285714284,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ ]
@@ -1406,7 +1276,7 @@
     "email" : "Joshua_Neal@outlook.us",
     "accounts" : [ {
       "IBAN" : "RO38POOB0964823730995794",
-      "balance" : 1719.33,
+      "balance" : 1697.9014285714286,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ ]
@@ -1441,7 +1311,7 @@
     "email" : "Eusebiu_Ionescu@outlook.ro",
     "accounts" : [ {
       "IBAN" : "RO58POOB7344468893732422",
-      "balance" : 1592.0,
+      "balance" : 1492.0,
       "currency" : "RON",
       "type" : "classic",
       "cards" : [ ]
@@ -1464,7 +1334,7 @@
     "email" : "Elodia_Ababe@yahoo.ro",
     "accounts" : [ {
       "IBAN" : "RO90POOB5450777208072365",
-      "balance" : 1889.0,
+      "balance" : 1789.0,
       "currency" : "RON",
       "type" : "classic",
       "cards" : [ ]
@@ -1502,7 +1372,7 @@
     "email" : "Bernadette_de_Delmas@gmail.fr",
     "accounts" : [ {
       "IBAN" : "RO65POOB8944016386845896",
-      "balance" : 1451.81,
+      "balance" : 1428.000476190476,
       "currency" : "EUR",
       "type" : "classic",
       "cards" : [ ]
@@ -1519,7 +1389,7 @@
     "email" : "Zamfira_Stancu@hotmail.ro",
     "accounts" : [ {
       "IBAN" : "RO76POOB4035116042454483",
-      "balance" : 1341.0,
+      "balance" : 1241.0,
       "currency" : "RON",
       "type" : "classic",
       "cards" : [ ]
@@ -1531,12 +1401,6 @@
     "accounts" : [ {
       "IBAN" : "RO37POOB7013767509830666",
       "balance" : 1157.0,
-      "currency" : "RON",
-      "type" : "classic",
-      "cards" : [ ]
-    }, {
-      "IBAN" : "RO53POOB7122855990652257",
-      "balance" : 100.0,
       "currency" : "RON",
       "type" : "classic",
       "cards" : [ ]
@@ -1553,7 +1417,7 @@
     "email" : "Dida_Manole@hotmail.ro",
     "accounts" : [ {
       "IBAN" : "RO19POOB4981055641668812",
-      "balance" : 1344.0,
+      "balance" : 1244.0,
       "currency" : "RON",
       "type" : "classic",
       "cards" : [ ]
@@ -1564,7 +1428,7 @@
     "email" : "Chantal_Michel@outlook.fr",
     "accounts" : [ {
       "IBAN" : "RO30POOB9523423715747796",
-      "balance" : 1731.81,
+      "balance" : 1708.000476190476,
       "currency" : "EUR",
       "type" : "classic",
       "cards" : [ ]
@@ -1581,7 +1445,7 @@
     "email" : "Rebecca_Johnson@yahoo.us",
     "accounts" : [ {
       "IBAN" : "RO00POOB5687892910835215",
-      "balance" : 2128.33,
+      "balance" : 2106.9014285714284,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ ]
@@ -1598,7 +1462,7 @@
     "email" : "Robert_Bates@yahoo.us",
     "accounts" : [ {
       "IBAN" : "RO33POOB4049920806186500",
-      "balance" : 1783.33,
+      "balance" : 1761.9014285714286,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ ]
@@ -1609,7 +1473,7 @@
     "email" : "Marcel_Hubert@outlook.fr",
     "accounts" : [ {
       "IBAN" : "RO69POOB9846198978826791",
-      "balance" : 1128.81,
+      "balance" : 1105.000476190476,
       "currency" : "EUR",
       "type" : "classic",
       "cards" : [ ]
@@ -1620,7 +1484,7 @@
     "email" : "Ioana_Ababe@yahoo.ro",
     "accounts" : [ {
       "IBAN" : "RO98POOB8412955460158769",
-      "balance" : 2046.0,
+      "balance" : 1946.0,
       "currency" : "RON",
       "type" : "classic",
       "cards" : [ ]
@@ -1643,7 +1507,7 @@
     "email" : "Suzanne_Moreau@gmail.fr",
     "accounts" : [ {
       "IBAN" : "RO68POOB1848616931405475",
-      "balance" : 1305.81,
+      "balance" : 1282.000476190476,
       "currency" : "EUR",
       "type" : "classic",
       "cards" : [ ]
@@ -1654,7 +1518,7 @@
     "email" : "David_Price@gmail.us",
     "accounts" : [ {
       "IBAN" : "RO10POOB4354933866366881",
-      "balance" : 2292.33,
+      "balance" : 2270.9014285714284,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ ]
@@ -1665,7 +1529,7 @@
     "email" : "Deborah_Marshall@hotmail.us",
     "accounts" : [ {
       "IBAN" : "RO33POOB9999273999620457",
-      "balance" : 2305.33,
+      "balance" : 2283.9014285714284,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ ]
@@ -1682,7 +1546,7 @@
     "email" : "Joshua_Neal@outlook.us",
     "accounts" : [ {
       "IBAN" : "RO38POOB0964823730995794",
-      "balance" : 1719.33,
+      "balance" : 1697.9014285714286,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ ]
@@ -1698,7 +1562,7 @@
 }, {
   "command" : "cashWithdrawal",
   "output" : {
-    "description" : "Unknown command: cashWithdrawal",
+    "description" : "Card not found",
     "timestamp" : 703
   },
   "timestamp" : 703
@@ -1710,7 +1574,7 @@
     "email" : "Eusebiu_Ionescu@outlook.ro",
     "accounts" : [ {
       "IBAN" : "RO58POOB7344468893732422",
-      "balance" : 1592.0,
+      "balance" : 1492.0,
       "currency" : "RON",
       "type" : "classic",
       "cards" : [ ]
@@ -1733,7 +1597,7 @@
     "email" : "Elodia_Ababe@yahoo.ro",
     "accounts" : [ {
       "IBAN" : "RO90POOB5450777208072365",
-      "balance" : 1889.0,
+      "balance" : 1789.0,
       "currency" : "RON",
       "type" : "classic",
       "cards" : [ ]
@@ -1771,7 +1635,7 @@
     "email" : "Bernadette_de_Delmas@gmail.fr",
     "accounts" : [ {
       "IBAN" : "RO65POOB8944016386845896",
-      "balance" : 1451.81,
+      "balance" : 1428.000476190476,
       "currency" : "EUR",
       "type" : "classic",
       "cards" : [ ]
@@ -1788,7 +1652,7 @@
     "email" : "Zamfira_Stancu@hotmail.ro",
     "accounts" : [ {
       "IBAN" : "RO76POOB4035116042454483",
-      "balance" : 1341.0,
+      "balance" : 1241.0,
       "currency" : "RON",
       "type" : "classic",
       "cards" : [ ]
@@ -1800,12 +1664,6 @@
     "accounts" : [ {
       "IBAN" : "RO37POOB7013767509830666",
       "balance" : 1157.0,
-      "currency" : "RON",
-      "type" : "classic",
-      "cards" : [ ]
-    }, {
-      "IBAN" : "RO53POOB7122855990652257",
-      "balance" : 100.0,
       "currency" : "RON",
       "type" : "classic",
       "cards" : [ ]
@@ -1822,7 +1680,7 @@
     "email" : "Dida_Manole@hotmail.ro",
     "accounts" : [ {
       "IBAN" : "RO19POOB4981055641668812",
-      "balance" : 1344.0,
+      "balance" : 1244.0,
       "currency" : "RON",
       "type" : "classic",
       "cards" : [ ]
@@ -1833,7 +1691,7 @@
     "email" : "Chantal_Michel@outlook.fr",
     "accounts" : [ {
       "IBAN" : "RO30POOB9523423715747796",
-      "balance" : 1731.81,
+      "balance" : 1708.000476190476,
       "currency" : "EUR",
       "type" : "classic",
       "cards" : [ ]
@@ -1850,7 +1708,7 @@
     "email" : "Rebecca_Johnson@yahoo.us",
     "accounts" : [ {
       "IBAN" : "RO00POOB5687892910835215",
-      "balance" : 2128.33,
+      "balance" : 2106.9014285714284,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ ]
@@ -1867,7 +1725,7 @@
     "email" : "Robert_Bates@yahoo.us",
     "accounts" : [ {
       "IBAN" : "RO33POOB4049920806186500",
-      "balance" : 1783.33,
+      "balance" : 1761.9014285714286,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ ]
@@ -1878,7 +1736,7 @@
     "email" : "Marcel_Hubert@outlook.fr",
     "accounts" : [ {
       "IBAN" : "RO69POOB9846198978826791",
-      "balance" : 1128.81,
+      "balance" : 1105.000476190476,
       "currency" : "EUR",
       "type" : "classic",
       "cards" : [ ]
@@ -1889,7 +1747,7 @@
     "email" : "Ioana_Ababe@yahoo.ro",
     "accounts" : [ {
       "IBAN" : "RO98POOB8412955460158769",
-      "balance" : 2046.0,
+      "balance" : 1946.0,
       "currency" : "RON",
       "type" : "classic",
       "cards" : [ ]
@@ -1912,7 +1770,7 @@
     "email" : "Suzanne_Moreau@gmail.fr",
     "accounts" : [ {
       "IBAN" : "RO68POOB1848616931405475",
-      "balance" : 1305.81,
+      "balance" : 1282.000476190476,
       "currency" : "EUR",
       "type" : "classic",
       "cards" : [ ]
@@ -1923,7 +1781,7 @@
     "email" : "David_Price@gmail.us",
     "accounts" : [ {
       "IBAN" : "RO10POOB4354933866366881",
-      "balance" : 2292.33,
+      "balance" : 2270.9014285714284,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ ]
@@ -1934,7 +1792,7 @@
     "email" : "Deborah_Marshall@hotmail.us",
     "accounts" : [ {
       "IBAN" : "RO33POOB9999273999620457",
-      "balance" : 2305.33,
+      "balance" : 2283.9014285714284,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ ]
@@ -1951,7 +1809,7 @@
     "email" : "Joshua_Neal@outlook.us",
     "accounts" : [ {
       "IBAN" : "RO38POOB0964823730995794",
-      "balance" : 1719.33,
+      "balance" : 1697.9014285714286,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ ]
@@ -1972,7 +1830,7 @@
     "email" : "Eusebiu_Ionescu@outlook.ro",
     "accounts" : [ {
       "IBAN" : "RO58POOB7344468893732422",
-      "balance" : 1592.0,
+      "balance" : 1492.0,
       "currency" : "RON",
       "type" : "classic",
       "cards" : [ ]
@@ -1995,7 +1853,7 @@
     "email" : "Elodia_Ababe@yahoo.ro",
     "accounts" : [ {
       "IBAN" : "RO90POOB5450777208072365",
-      "balance" : 1889.0,
+      "balance" : 1789.0,
       "currency" : "RON",
       "type" : "classic",
       "cards" : [ ]
@@ -2019,7 +1877,7 @@
       } ]
     }, {
       "IBAN" : "RO52POOB6271107854467609",
-      "balance" : 841.0,
+      "balance" : 841.75,
       "currency" : "RON",
       "type" : "classic",
       "cards" : [ {
@@ -2042,7 +1900,7 @@
     "email" : "Bernadette_de_Delmas@gmail.fr",
     "accounts" : [ {
       "IBAN" : "RO65POOB8944016386845896",
-      "balance" : 1451.81,
+      "balance" : 1428.000476190476,
       "currency" : "EUR",
       "type" : "classic",
       "cards" : [ ]
@@ -2059,7 +1917,7 @@
     "email" : "Zamfira_Stancu@hotmail.ro",
     "accounts" : [ {
       "IBAN" : "RO76POOB4035116042454483",
-      "balance" : 1341.0,
+      "balance" : 1241.0,
       "currency" : "RON",
       "type" : "classic",
       "cards" : [ ]
@@ -2071,12 +1929,6 @@
     "accounts" : [ {
       "IBAN" : "RO37POOB7013767509830666",
       "balance" : 1157.0,
-      "currency" : "RON",
-      "type" : "classic",
-      "cards" : [ ]
-    }, {
-      "IBAN" : "RO53POOB7122855990652257",
-      "balance" : 100.0,
       "currency" : "RON",
       "type" : "classic",
       "cards" : [ ]
@@ -2093,7 +1945,7 @@
     "email" : "Dida_Manole@hotmail.ro",
     "accounts" : [ {
       "IBAN" : "RO19POOB4981055641668812",
-      "balance" : 1344.0,
+      "balance" : 1244.0,
       "currency" : "RON",
       "type" : "classic",
       "cards" : [ ]
@@ -2104,7 +1956,7 @@
     "email" : "Chantal_Michel@outlook.fr",
     "accounts" : [ {
       "IBAN" : "RO30POOB9523423715747796",
-      "balance" : 1731.81,
+      "balance" : 1708.000476190476,
       "currency" : "EUR",
       "type" : "classic",
       "cards" : [ ]
@@ -2121,7 +1973,7 @@
     "email" : "Rebecca_Johnson@yahoo.us",
     "accounts" : [ {
       "IBAN" : "RO00POOB5687892910835215",
-      "balance" : 2128.33,
+      "balance" : 2106.9014285714284,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ ]
@@ -2138,7 +1990,7 @@
     "email" : "Robert_Bates@yahoo.us",
     "accounts" : [ {
       "IBAN" : "RO33POOB4049920806186500",
-      "balance" : 1783.33,
+      "balance" : 1761.9014285714286,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ ]
@@ -2149,7 +2001,7 @@
     "email" : "Marcel_Hubert@outlook.fr",
     "accounts" : [ {
       "IBAN" : "RO69POOB9846198978826791",
-      "balance" : 1128.81,
+      "balance" : 1105.000476190476,
       "currency" : "EUR",
       "type" : "classic",
       "cards" : [ ]
@@ -2160,7 +2012,7 @@
     "email" : "Ioana_Ababe@yahoo.ro",
     "accounts" : [ {
       "IBAN" : "RO98POOB8412955460158769",
-      "balance" : 2046.0,
+      "balance" : 1946.0,
       "currency" : "RON",
       "type" : "classic",
       "cards" : [ ]
@@ -2183,7 +2035,7 @@
     "email" : "Suzanne_Moreau@gmail.fr",
     "accounts" : [ {
       "IBAN" : "RO68POOB1848616931405475",
-      "balance" : 1305.81,
+      "balance" : 1282.000476190476,
       "currency" : "EUR",
       "type" : "classic",
       "cards" : [ ]
@@ -2194,7 +2046,7 @@
     "email" : "David_Price@gmail.us",
     "accounts" : [ {
       "IBAN" : "RO10POOB4354933866366881",
-      "balance" : 2292.33,
+      "balance" : 2270.9014285714284,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ ]
@@ -2205,7 +2057,7 @@
     "email" : "Deborah_Marshall@hotmail.us",
     "accounts" : [ {
       "IBAN" : "RO33POOB9999273999620457",
-      "balance" : 2305.33,
+      "balance" : 2283.9014285714284,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ ]
@@ -2222,7 +2074,7 @@
     "email" : "Joshua_Neal@outlook.us",
     "accounts" : [ {
       "IBAN" : "RO38POOB0964823730995794",
-      "balance" : 1719.33,
+      "balance" : 1697.9014285714286,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ ]
@@ -2245,57 +2097,15 @@
 }, {
   "command" : "upgradePlan",
   "output" : {
-    "description" : "Unknown command: upgradePlan",
+    "description" : "The user already has the silver plan.",
     "timestamp" : 711
   },
   "timestamp" : 711
 }, {
   "command" : "upgradePlan",
   "output" : {
-    "description" : "Unknown command: upgradePlan",
+    "description" : "You cannot downgrade your plan.",
     "timestamp" : 712
   },
   "timestamp" : 712
-}, {
-  "command" : "upgradePlan",
-  "output" : {
-    "description" : "Unknown command: upgradePlan",
-    "timestamp" : 714
-  },
-  "timestamp" : 714
-}, {
-  "command" : "upgradePlan",
-  "output" : {
-    "description" : "Unknown command: upgradePlan",
-    "timestamp" : 716
-  },
-  "timestamp" : 716
-}, {
-  "command" : "upgradePlan",
-  "output" : {
-    "description" : "Unknown command: upgradePlan",
-    "timestamp" : 718
-  },
-  "timestamp" : 718
-}, {
-  "command" : "withdrawSavings",
-  "output" : {
-    "description" : "Unknown command: withdrawSavings",
-    "timestamp" : 719
-  },
-  "timestamp" : 719
-}, {
-  "command" : "upgradePlan",
-  "output" : {
-    "description" : "Unknown command: upgradePlan",
-    "timestamp" : 721
-  },
-  "timestamp" : 721
-}, {
-  "command" : "upgradePlan",
-  "output" : {
-    "description" : "Unknown command: upgradePlan",
-    "timestamp" : 723
-  },
-  "timestamp" : 723
 } ]

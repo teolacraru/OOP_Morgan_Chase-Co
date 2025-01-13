@@ -2,6 +2,8 @@ package org.poo.main;
 
 import org.poo.main.accounts.Account;
 
+import java.time.LocalDate;
+import java.time.Period;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -14,19 +16,47 @@ public class User {
     private final List<Account> accounts;
     private Map<String, String> aliases;
     private List<Transaction> transactions;
+    private String birthDate;
+    private String occupation;
+    private String planType;
 
 
     public User() {
         this.accounts = new ArrayList<>();
+        this.planType = "standard";
     }
 
-    public User(String firstName, String lastName, String email) {
+    public User(String firstName, String lastName, String email, String birthDate, String occupation) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.email = email;
         this.accounts = new ArrayList<>();
         this.aliases = new HashMap<>();
         this.transactions = new ArrayList<>();
+        this.birthDate = birthDate;
+        this.occupation = occupation;
+        this.planType = occupation.equalsIgnoreCase("student") ? "student" : "standard"; // Default based on occupation
+
+    }
+
+    public int calculateAge(){
+        LocalDate birthDateParsed = LocalDate.parse(this.birthDate);
+        return Period.between(birthDateParsed, LocalDate.now()).getYears();
+    }
+
+    public String getPlanType() {
+        return planType;
+    }
+
+    public void setPlanType(String newPlan) {
+        this.planType = newPlan;
+    }
+
+    public void upgradePlanType(String newPlanType) {
+        this.planType = newPlanType;
+        for (Account account : accounts) {
+            account.setPlanType(newPlanType);
+        }
     }
 
     /**
@@ -137,5 +167,8 @@ public class User {
      */
     public void setEmail(final String email) {
         this.email = email;
+    }
+    public String getOccupation() {
+        return occupation;
     }
 }

@@ -64,7 +64,7 @@
 }, {
   "command" : "cashWithdrawal",
   "output" : {
-    "description" : "Unknown command: cashWithdrawal",
+    "description" : "Insufficient funds",
     "timestamp" : 614
   },
   "timestamp" : 614
@@ -84,7 +84,7 @@
 }, {
   "command" : "withdrawSavings",
   "output" : {
-    "description" : "Unknown command: withdrawSavings",
+    "description" : "You do not have a classic account.",
     "timestamp" : 616
   },
   "timestamp" : 616
@@ -104,7 +104,7 @@
 }, {
   "command" : "withdrawSavings",
   "output" : {
-    "description" : "Unknown command: withdrawSavings",
+    "description" : "You do not have a classic account.",
     "timestamp" : 619
   },
   "timestamp" : 619

@@ -6,6 +6,8 @@ import org.poo.main.accounts.Account;
 import org.poo.main.cards.Card;
 import org.poo.main.cards.CardFactory;
 import org.poo.main.commandsPhase2.CashbackStrategy;
+import org.poo.main.commissions.CommissionHandler;
+import org.poo.main.commissions.CommissionHandlerChain;
 
 import java.util.List;
 import java.util.Map;
@@ -123,15 +125,12 @@ public class PayOnlineCommand implements Command {
         double amountInRON = currencyConverter.convert(amount, currency, "RON");
         CashbackStrategy strategy = commerciant.getCashbackStrategy();
         double cashback = strategy.calculateCashback(amountInRON, account, commerciant.getName());
-
-        if (account.getBalance() >= finalAmount) {
+        double commission = calculateCommission(account, amount);
+        if (account.getBalance() >= finalAmount && finalAmount != 0) {
 
             account.setBalance(account.getBalance() - finalAmount);
             account.setBalance(account.getBalance() + cashback * finalAmount);
-            if(cashback != 0) {
-                System.out.println(cashback + " " + 0.1 / 100 * finalAmount);
-
-            }
+            account.setBalance(account.getBalance() - commission);
             for (Card card1 : account.getCards()) {
                 if (card1.getCardNumber().equals(cardNumber)
                         && card1.getType().equals("one-time")) {
@@ -148,9 +147,9 @@ public class PayOnlineCommand implements Command {
                 }
             }
 
-            if (account.getBalance() - account.getMinBalance() <= 30) {
-                card.warning();
-            }
+//            if (account.getBalance() - account.getMinBalance() <= 30) {
+//                card.warning();
+//            }
             if (account.getBalance() <= account.getMinBalance()) {
                 card.frozen();
                 Transaction transaction = Transaction.addAccountTransaction(
@@ -173,10 +172,24 @@ public class PayOnlineCommand implements Command {
                 account.getOwner().addTransaction(transactionCreated);
             }
         } else {
-            Transaction transaction = Transaction.addAccountTransaction(
-                    timestamp, "Insufficient funds", null, null
-            );
-            account.getOwner().addTransaction(transaction);
+            if(amount!=0){
+                Transaction transaction = Transaction.addAccountTransaction(
+                        timestamp, "Insufficient funds", null, null
+                );
+                account.getOwner().addTransaction(transaction);
+            }
         }
+    }
+
+    /**
+     * Calculates the commission based on the account's plan type.
+     *
+     * @param senderAccount the sender's account.
+     * @param amount        the amount being sent.
+     * @return the calculated commission.
+     */
+    private double calculateCommission(Account senderAccount, double amount) {
+        CommissionHandler chain = CommissionHandlerChain.createChain();
+        return chain.handleCommission(senderAccount.getPlanType(), amount, senderAccount.getCurrency(), currencyConverter);
     }
 }

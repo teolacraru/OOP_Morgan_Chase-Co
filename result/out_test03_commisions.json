@@ -1,11 +1,4 @@
 [ {
-  "command" : "cashWithdrawal",
-  "output" : {
-    "description" : "Insufficient funds",
-    "timestamp" : 8
-  },
-  "timestamp" : 8
-}, {
   "command" : "printTransactions",
   "output" : [ {
     "description" : "New account created",
@@ -28,6 +21,9 @@
     "senderIBAN" : "RO58POOB7344468893732422",
     "timestamp" : 6,
     "transferType" : "sent"
+  }, {
+    "description" : "Insufficient funds",
+    "timestamp" : 8
   } ],
   "timestamp" : 9
 }, {
@@ -43,7 +39,7 @@
     "email" : "Aurica_Dinu@outlook.ro",
     "accounts" : [ {
       "IBAN" : "RO58POOB7344468893732422",
-      "balance" : 732.6,
+      "balance" : 676.688,
       "currency" : "RON",
       "type" : "classic",
       "cards" : [ {
@@ -121,7 +117,7 @@
     "email" : "Aurica_Dinu@outlook.ro",
     "accounts" : [ {
       "IBAN" : "RO58POOB7344468893732422",
-      "balance" : 915.6,
+      "balance" : 687.3439999999999,
       "currency" : "RON",
       "type" : "classic",
       "cards" : [ {

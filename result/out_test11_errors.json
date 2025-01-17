@@ -90,6 +90,11 @@
   }, {
     "description" : "New account created",
     "timestamp" : 561
+  }, {
+    "accountIBAN" : "RO53POOB7122855990652257",
+    "description" : "Upgrade plan",
+    "newPlanType" : "silver",
+    "timestamp" : 564
   } ],
   "timestamp" : 565
 }, {

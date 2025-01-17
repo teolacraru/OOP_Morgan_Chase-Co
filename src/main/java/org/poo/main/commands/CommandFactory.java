@@ -219,7 +219,7 @@ public final class CommandFactory {
                         users
                 );
             case "cashWithdrawal":
-                return new CashWithdrawalCommand(input.getCardNumber(), input.getAmount(), input.getEmail(), input.getLocation(), input.getTimestamp(), users);
+                return new CashWithdrawalCommand(input.getCardNumber(), input.getAmount(), input.getEmail(), input.getLocation(), input.getTimestamp(), users, currencyConverter);
             case "withdrawSavings":
                 return new WithdrawSavingsCommand(input.getAccount(), input.getAmount(), input.getCurrency(), input.getTimestamp(), users, currencyConverter);
             case "upgradePlan":

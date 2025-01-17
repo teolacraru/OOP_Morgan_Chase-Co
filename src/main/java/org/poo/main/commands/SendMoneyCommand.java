@@ -4,6 +4,8 @@ import org.poo.main.CurrencyConverter;
 import org.poo.main.Transaction;
 import org.poo.main.User;
 import org.poo.main.accounts.Account;
+import org.poo.main.commissions.CommissionHandler;
+import org.poo.main.commissions.CommissionHandlerChain;
 
 import java.util.List;
 /**
@@ -87,16 +89,13 @@ public class SendMoneyCommand implements Command {
             }
         }
         if (senderAccount == null || recieverAccount == null) {
-            return;
+            throw new IllegalArgumentException("User not found");
         }
 
         double commission = calculateCommission(senderAccount, amount);
 
 
         double finalAmount = amount;
-        if(timestamp == 8) {
-            System.out.println(commission);
-        }
         if (!senderAccount.getCurrency().equals(recieverAccount.getCurrency())) {
             finalAmount = currencyConverter.convert(
                     amount, senderAccount.getCurrency(), recieverAccount.getCurrency());
@@ -107,7 +106,7 @@ public class SendMoneyCommand implements Command {
             senderAccount.setBalance(senderInitialAmount - amount - commission);
             recieverAccount.setBalance(recieverInitialAmount + finalAmount);
             if(timestamp == 8) {
-                System.out.println(senderAccount.getBalance() + " " + commission);
+                //System.out.println(senderAccount.getBalance() + " " + commission);
             }
         } else {
             Transaction transaction =
@@ -144,37 +143,8 @@ public class SendMoneyCommand implements Command {
      * @return the calculated commission.
      */
     private double calculateCommission(Account senderAccount, double amount) {
-        String planType = senderAccount.getPlanType();
-        double commission = 0.0;
-        double amountInRON = senderAccount.getCurrency().equals("RON")
-                ? amount
-                : currencyConverter.convert(amount, senderAccount.getCurrency(), "RON");
-
-        switch (planType.toLowerCase()) {
-            case "standard":
-                commission = amount * 0.002; // 0.2% comision
-                break;
-
-            case "student":
-                commission = 0.0; // Fără comision
-                break;
-
-            case "silver":
-                if (amountInRON >= 500) {
-                    commission = amount * 0.001; // 0.1% comision pentru sume >= 500 RON
-                } else {
-                    commission = 0.0; // Fără comision pentru sume < 500 RON
-                }
-                break;
-
-            case "gold":
-                commission = 0.0; // Fără comision
-                break;
-
-            default:
-                throw new IllegalArgumentException("Unknown plan type: " + planType);
-        }
-
-        return commission;
+        CommissionHandler chain = CommissionHandlerChain.createChain();
+        return chain.handleCommission(senderAccount.getPlanType(), amount, senderAccount.getCurrency(), currencyConverter);
     }
+
 }

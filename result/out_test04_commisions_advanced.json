@@ -142,6 +142,13 @@
   } ],
   "timestamp" : 39
 }, {
+  "command" : "sendMoney",
+  "output" : {
+    "description" : "User not found",
+    "timestamp" : 41
+  },
+  "timestamp" : 41
+}, {
   "command" : "printTransactions",
   "output" : [ {
     "description" : "New account created",
@@ -152,6 +159,10 @@
     "cardHolder" : "Dennis_Norris@yahoo.us",
     "description" : "New card created",
     "timestamp" : 38
+  }, {
+    "timestamp" : 43,
+    "amount" : 100000.0,
+    "description" : "Cash withdrawal of 100000.0"
   } ],
   "timestamp" : 44
 }, {
@@ -256,7 +267,7 @@
     "email" : "Dennis_Norris@yahoo.us",
     "accounts" : [ {
       "IBAN" : "RO76POOB4035116042454483",
-      "balance" : 100846.0,
+      "balance" : 79374.57142857143,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ {
@@ -314,11 +325,6 @@
     "description" : "Card payment",
     "timestamp" : 49
   }, {
-    "amount" : 0.0,
-    "commerciant" : "H&M",
-    "description" : "Card payment",
-    "timestamp" : 50
-  }, {
     "amount" : "3.0 USD",
     "description" : "Visit to a local healthcare clinic",
     "receiverIBAN" : "RO76POOB4035116042454483",
@@ -327,6 +333,13 @@
     "transferType" : "sent"
   } ],
   "timestamp" : 52
+}, {
+  "command" : "sendMoney",
+  "output" : {
+    "description" : "User not found",
+    "timestamp" : 57
+  },
+  "timestamp" : 57
 }, {
   "command" : "printTransactions",
   "output" : [ {
@@ -344,11 +357,6 @@
     "description" : "Card payment",
     "timestamp" : 49
   }, {
-    "amount" : 0.0,
-    "commerciant" : "H&M",
-    "description" : "Card payment",
-    "timestamp" : 50
-  }, {
     "amount" : "3.0 USD",
     "description" : "Visit to a local healthcare clinic",
     "receiverIBAN" : "RO76POOB4035116042454483",
@@ -356,10 +364,19 @@
     "timestamp" : 51,
     "transferType" : "sent"
   }, {
+    "accountIBAN" : "RO37POOB7013767509830666",
+    "description" : "Upgrade plan",
+    "newPlanType" : "silver",
+    "timestamp" : 54
+  }, {
     "amount" : 244.0,
     "commerciant" : "Samsung",
     "description" : "Card payment",
     "timestamp" : 56
+  }, {
+    "timestamp" : 59,
+    "amount" : 600.0,
+    "description" : "Cash withdrawal of 600.0"
   } ],
   "timestamp" : 60
 }, {
@@ -391,12 +408,12 @@
     "email" : "Brandi_Schultz@outlook.us",
     "accounts" : [ {
       "IBAN" : "RO37POOB7013767509830666",
-      "balance" : 2046.5714285714284,
+      "balance" : 1917.6274285714285,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ {
         "cardNumber" : "7901879264253296",
-        "status" : "warning"
+        "status" : "active"
       } ]
     } ]
   }, {
@@ -473,7 +490,7 @@
     "email" : "Dennis_Norris@yahoo.us",
     "accounts" : [ {
       "IBAN" : "RO76POOB4035116042454483",
-      "balance" : 100849.0,
+      "balance" : 79377.57142857143,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ {
@@ -515,6 +532,13 @@
   } ],
   "timestamp" : 61
 }, {
+  "command" : "sendMoney",
+  "output" : {
+    "description" : "User not found",
+    "timestamp" : 65
+  },
+  "timestamp" : 65
+}, {
   "command" : "printTransactions",
   "output" : [ {
     "description" : "New account created",
@@ -525,6 +549,15 @@
     "cardHolder" : "Jason_Carpenter@hotmail.us",
     "description" : "New card created",
     "timestamp" : 63
+  }, {
+    "accountIBAN" : "RO58POOB7344468893732422",
+    "description" : "Upgrade plan",
+    "newPlanType" : "gold",
+    "timestamp" : 64
+  }, {
+    "timestamp" : 67,
+    "amount" : 600.0,
+    "description" : "Cash withdrawal of 600.0"
   } ],
   "timestamp" : 68
 }, {
@@ -556,12 +589,12 @@
     "email" : "Brandi_Schultz@outlook.us",
     "accounts" : [ {
       "IBAN" : "RO37POOB7013767509830666",
-      "balance" : 2046.5714285714284,
+      "balance" : 1917.6274285714285,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ {
         "cardNumber" : "7901879264253296",
-        "status" : "warning"
+        "status" : "active"
       } ]
     } ]
   }, {
@@ -601,7 +634,7 @@
     "email" : "Jason_Carpenter@hotmail.us",
     "accounts" : [ {
       "IBAN" : "RO58POOB7344468893732422",
-      "balance" : 2902.0,
+      "balance" : 2773.4285714285716,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ {
@@ -641,7 +674,7 @@
     "email" : "Dennis_Norris@yahoo.us",
     "accounts" : [ {
       "IBAN" : "RO76POOB4035116042454483",
-      "balance" : 100849.0,
+      "balance" : 79377.57142857143,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ {

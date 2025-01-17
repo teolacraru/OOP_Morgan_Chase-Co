@@ -881,6 +881,13 @@
   },
   "timestamp" : 433
 }, {
+  "command" : "sendMoney",
+  "output" : {
+    "description" : "User not found",
+    "timestamp" : 434
+  },
+  "timestamp" : 434
+}, {
   "command" : "businessReport",
   "output" : {
     "description" : "Unknown command: businessReport",

@@ -124,6 +124,11 @@
     "description" : "New account created",
     "timestamp" : 2
   }, {
+    "accountIBAN" : "RO58POOB7344468893732422",
+    "description" : "Upgrade plan",
+    "newPlanType" : "silver",
+    "timestamp" : 4
+  }, {
     "amount" : "122.0 USD",
     "description" : "Miscellaneous online expenses",
     "receiverIBAN" : "RO69POOB6209498372540635",
@@ -204,12 +209,22 @@
     "description" : "New account created",
     "timestamp" : 2
   }, {
+    "accountIBAN" : "RO58POOB7344468893732422",
+    "description" : "Upgrade plan",
+    "newPlanType" : "silver",
+    "timestamp" : 4
+  }, {
     "amount" : "122.0 USD",
     "description" : "Miscellaneous online expenses",
     "receiverIBAN" : "RO69POOB6209498372540635",
     "senderIBAN" : "RO58POOB7344468893732422",
     "timestamp" : 8,
     "transferType" : "sent"
+  }, {
+    "accountIBAN" : "RO58POOB7344468893732422",
+    "description" : "Upgrade plan",
+    "newPlanType" : "gold",
+    "timestamp" : 11
   } ],
   "timestamp" : 13
 }, {
@@ -290,6 +305,11 @@
   "output" : [ {
     "description" : "New account created",
     "timestamp" : 17
+  }, {
+    "accountIBAN" : "RO90POOB5450777208072365",
+    "description" : "Upgrade plan",
+    "newPlanType" : "silver",
+    "timestamp" : 19
   } ],
   "timestamp" : 20
 }, {

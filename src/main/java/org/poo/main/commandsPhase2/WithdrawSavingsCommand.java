@@ -80,7 +80,10 @@ public class WithdrawSavingsCommand implements Command {
         }
 
         if (targetAccount == null) {
-            throw new IllegalArgumentException("You do not have a classic account.");
+            Transaction transaction = Transaction.addAccountTransaction(timestamp, "You do not have a classic account.", null, null);
+            user.addTransaction(transaction);
+            //savingsAccount.getOwner().addTransaction(transaction);
+            return;
         }
 
         double convertedAmount = currencyConverter.convert(amount, currency, savingsAccount.getCurrency());

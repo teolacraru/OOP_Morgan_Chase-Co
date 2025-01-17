@@ -32,7 +32,7 @@ public class SpendingThresholdCashbackStrategy implements CashbackStrategy {
         }
 
 
-        System.out.println(amount * cashbackRate);
+        //System.out.println(amount * cashbackRate);
         return cashbackRate;
     }
 }

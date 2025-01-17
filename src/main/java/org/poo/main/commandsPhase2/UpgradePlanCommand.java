@@ -69,10 +69,10 @@ public class UpgradePlanCommand implements Command  {
 
 
         account.setBalance(account.getBalance() - convertedFee);
-        System.out.println(newPlanType + " " + account.getOwner().getFirstName() + " " + account.getBalance() + " " + convertedFee);
         user.upgradePlanType(newPlanType);
-
-        Transaction transaction = new
+        Transaction transaction3 = Transaction.upgradePlanTransaction(accountIBAN, "Upgrade plan", newPlanType, timestamp);
+        account.addTransaction(transaction3);
+        account.getOwner().addTransaction(transaction3);
     }
 
 }

@@ -1877,7 +1877,7 @@
     "email" : "Heather_Sheppard@hotmail.ch",
     "accounts" : [ {
       "IBAN" : "RO65POOB8944016386845896",
-      "balance" : 1497.068,
+      "balance" : 1497.0500000000002,
       "currency" : "CHF",
       "type" : "classic",
       "cards" : [ {
@@ -1905,7 +1905,7 @@
     "email" : "Alfredo_Esquivel@aol.mx",
     "accounts" : [ {
       "IBAN" : "RO76POOB4035116042454483",
-      "balance" : 1329.388,
+      "balance" : 1329.3519999999999,
       "currency" : "MXN",
       "type" : "classic",
       "cards" : [ {
@@ -1933,7 +1933,7 @@
     "email" : "Phillip_Graves@yandex.au",
     "accounts" : [ {
       "IBAN" : "RO19POOB4981055641668812",
-      "balance" : 1221.966,
+      "balance" : 1221.926,
       "currency" : "AUD",
       "type" : "classic",
       "cards" : [ {
@@ -2553,6 +2553,13 @@
   },
   "timestamp" : 801
 }, {
+  "command" : "sendMoney",
+  "output" : {
+    "description" : "User not found",
+    "timestamp" : 802
+  },
+  "timestamp" : 802
+}, {
   "command" : "payOnline",
   "output" : {
     "description" : "Card not found",
@@ -2573,6 +2580,13 @@
     "timestamp" : 805
   },
   "timestamp" : 805
+}, {
+  "command" : "sendMoney",
+  "output" : {
+    "description" : "User not found",
+    "timestamp" : 806
+  },
+  "timestamp" : 806
 }, {
   "command" : "payOnline",
   "output" : {
@@ -2595,6 +2609,13 @@
   },
   "timestamp" : 809
 }, {
+  "command" : "sendMoney",
+  "output" : {
+    "description" : "User not found",
+    "timestamp" : 810
+  },
+  "timestamp" : 810
+}, {
   "command" : "payOnline",
   "output" : {
     "description" : "Card not found",
@@ -2615,6 +2636,13 @@
     "timestamp" : 813
   },
   "timestamp" : 813
+}, {
+  "command" : "sendMoney",
+  "output" : {
+    "description" : "User not found",
+    "timestamp" : 814
+  },
+  "timestamp" : 814
 }, {
   "command" : "payOnline",
   "output" : {
@@ -2637,6 +2665,13 @@
   },
   "timestamp" : 817
 }, {
+  "command" : "sendMoney",
+  "output" : {
+    "description" : "User not found",
+    "timestamp" : 818
+  },
+  "timestamp" : 818
+}, {
   "command" : "payOnline",
   "output" : {
     "description" : "Card not found",
@@ -2657,6 +2692,13 @@
     "timestamp" : 821
   },
   "timestamp" : 821
+}, {
+  "command" : "sendMoney",
+  "output" : {
+    "description" : "User not found",
+    "timestamp" : 822
+  },
+  "timestamp" : 822
 }, {
   "command" : "payOnline",
   "output" : {
@@ -2679,6 +2721,13 @@
   },
   "timestamp" : 825
 }, {
+  "command" : "sendMoney",
+  "output" : {
+    "description" : "User not found",
+    "timestamp" : 826
+  },
+  "timestamp" : 826
+}, {
   "command" : "payOnline",
   "output" : {
     "description" : "Card not found",
@@ -2699,6 +2748,13 @@
     "timestamp" : 829
   },
   "timestamp" : 829
+}, {
+  "command" : "sendMoney",
+  "output" : {
+    "description" : "User not found",
+    "timestamp" : 830
+  },
+  "timestamp" : 830
 }, {
   "command" : "payOnline",
   "output" : {
@@ -2721,6 +2777,13 @@
   },
   "timestamp" : 833
 }, {
+  "command" : "sendMoney",
+  "output" : {
+    "description" : "User not found",
+    "timestamp" : 834
+  },
+  "timestamp" : 834
+}, {
   "command" : "payOnline",
   "output" : {
     "description" : "Card not found",
@@ -2741,6 +2804,13 @@
     "timestamp" : 837
   },
   "timestamp" : 837
+}, {
+  "command" : "sendMoney",
+  "output" : {
+    "description" : "User not found",
+    "timestamp" : 838
+  },
+  "timestamp" : 838
 }, {
   "command" : "businessReport",
   "output" : {
@@ -2806,7 +2876,19 @@
     "balance" : 813.7777777777778,
     "currency" : "GBP",
     "IBAN" : "RO90POOB5450777208072365",
-    "transactions" : [ ],
+    "transactions" : [ {
+      "timestamp" : 528,
+      "description" : "Upgrade plan",
+      "senderIBAN" : "RO90POOB5450777208072365",
+      "receiverIBAN" : "silver",
+      "amount" : 0.0
+    }, {
+      "timestamp" : 614,
+      "description" : "Upgrade plan",
+      "senderIBAN" : "RO90POOB5450777208072365",
+      "receiverIBAN" : "gold",
+      "amount" : 0.0
+    } ],
     "commerciants" : [ ]
   },
   "timestamp" : 848
@@ -2829,7 +2911,7 @@
 }, {
   "command" : "spendingsReport",
   "output" : {
-    "balance" : 1497.068,
+    "balance" : 1497.0500000000002,
     "currency" : "CHF",
     "IBAN" : "RO65POOB8944016386845896",
     "transactions" : [ {
@@ -2852,6 +2934,27 @@
   },
   "timestamp" : 854
 }, {
+  "command" : "sendMoney",
+  "output" : {
+    "description" : "User not found",
+    "timestamp" : 856
+  },
+  "timestamp" : 856
+}, {
+  "command" : "sendMoney",
+  "output" : {
+    "description" : "User not found",
+    "timestamp" : 857
+  },
+  "timestamp" : 857
+}, {
+  "command" : "sendMoney",
+  "output" : {
+    "description" : "User not found",
+    "timestamp" : 859
+  },
+  "timestamp" : 859
+}, {
   "command" : "cashWithdrawal",
   "output" : {
     "description" : "Card not found",
@@ -2865,6 +2968,13 @@
     "timestamp" : 861
   },
   "timestamp" : 861
+}, {
+  "command" : "sendMoney",
+  "output" : {
+    "description" : "User not found",
+    "timestamp" : 862
+  },
+  "timestamp" : 862
 }, {
   "command" : "cashWithdrawal",
   "output" : {
@@ -2901,6 +3011,13 @@
   },
   "timestamp" : 871
 }, {
+  "command" : "sendMoney",
+  "output" : {
+    "description" : "User not found",
+    "timestamp" : 873
+  },
+  "timestamp" : 873
+}, {
   "command" : "cashWithdrawal",
   "output" : {
     "description" : "Card not found",
@@ -2914,6 +3031,13 @@
     "timestamp" : 876
   },
   "timestamp" : 876
+}, {
+  "command" : "sendMoney",
+  "output" : {
+    "description" : "User not found",
+    "timestamp" : 877
+  },
+  "timestamp" : 877
 }, {
   "command" : "cashWithdrawal",
   "output" : {
@@ -2971,7 +3095,7 @@
     "email" : "Heather_Sheppard@hotmail.ch",
     "accounts" : [ {
       "IBAN" : "RO65POOB8944016386845896",
-      "balance" : 1497.068,
+      "balance" : 1497.0500000000002,
       "currency" : "CHF",
       "type" : "classic",
       "cards" : [ {
@@ -2999,7 +3123,7 @@
     "email" : "Alfredo_Esquivel@aol.mx",
     "accounts" : [ {
       "IBAN" : "RO76POOB4035116042454483",
-      "balance" : 1329.388,
+      "balance" : 1329.3519999999999,
       "currency" : "MXN",
       "type" : "classic",
       "cards" : [ {
@@ -3027,7 +3151,7 @@
     "email" : "Phillip_Graves@yandex.au",
     "accounts" : [ {
       "IBAN" : "RO19POOB4981055641668812",
-      "balance" : 1221.966,
+      "balance" : 1221.926,
       "currency" : "AUD",
       "type" : "classic",
       "cards" : [ {

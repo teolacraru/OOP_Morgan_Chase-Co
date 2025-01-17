@@ -284,6 +284,27 @@ public final class Transaction {
         );
     }
 
+    // recieveriban = newplantype
+    public static Transaction upgradePlanTransaction(final String senderIBAN,
+                                                     final String description,
+                                                     final String receiverIBAN,
+                                                     final int timestamp) {
+        return new Transaction(timestamp,description, senderIBAN, receiverIBAN, 0.0, null, null, null, null, null, "upgradePlan", null);
+    }
+
+    public static Transaction cashWithdrawalTransaction(final String description,
+                                                     final double amount,
+                                                     final int timestamp) {
+        return new Transaction(timestamp,description, null, null, amount, null, null, null, null, null, "cashWithdrawal", null);
+    }
+    public static Transaction addInterestTransaction(final String description,
+                                                        final double amount,
+                                                        final String currency,
+                                                        final int timestamp) {
+        return new Transaction(timestamp,description, null, null, amount, currency, null, null, null, null, "addInterest", null);
+    }
+
+
     /**
      * Converts the transaction to a JSON representation.
      *

@@ -6,6 +6,7 @@ import org.poo.main.Transaction;
 import org.poo.main.User;
 
 import java.util.List;
+import java.util.Locale;
 
 /**
  * Command to print transactions for a specific user.
@@ -113,7 +114,7 @@ public class PrintTransactionsCommand implements Command {
             case "splitPayment":
                 balance = transaction.getAmount();
                 if (balance % 1 == 0) {
-                    transactionNode.put("amount", (int) balance); // Store as integer if no decimals
+                    transactionNode.put("amount", balance); // Store as integer if no decimals
                 } else {
                     transactionNode.put("amount", Math.round(balance * 100.0) / 100.0); // Store as double with 2 decimals
                 }
@@ -133,6 +134,23 @@ public class PrintTransactionsCommand implements Command {
             case "deleteAccount":
                 transactionNode.put("description", transaction.getDescription());
                 transactionNode.put("timestamp", transaction.getTimestamp());
+            case "upgradePlan":
+                transactionNode.put("accountIBAN", transaction.getSenderIBAN());
+                transactionNode.put("description", transaction.getDescription());
+                transactionNode.put("newPlanType", transaction.getReceiverIBAN());
+                transactionNode.put("timestamp", transaction.getTimestamp());
+                break;
+            case "cashWithdrawal":
+                transactionNode.put("timestamp", transaction.getTimestamp());
+                transactionNode.put("amount", transaction.getAmount());
+                transactionNode.put("description", transaction.getDescription());
+                break;
+            case "addInterest":
+                transactionNode.put("description", transaction.getDescription());
+                transactionNode.put("currency", transaction.getCurrency());
+                transactionNode.put("amount", transaction.getAmount());
+                transactionNode.put("timestamp", transaction.getTimestamp());
+                break;
             default:
                 transactionNode.put("description", transaction.getDescription());
                 transactionNode.put("timestamp", transaction.getTimestamp());

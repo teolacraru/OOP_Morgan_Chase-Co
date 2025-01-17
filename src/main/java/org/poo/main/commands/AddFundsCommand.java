@@ -56,5 +56,8 @@ public class AddFundsCommand implements Command {
         }
 
         account.setBalance(account.getBalance() + amount);
+//        if(timestamp == 7 ){
+//            System.out.println(account.getOwner().getFirstName() + " " + account.getBalance());
+//        }
     }
 }

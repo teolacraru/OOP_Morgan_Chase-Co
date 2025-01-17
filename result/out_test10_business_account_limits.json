@@ -104,6 +104,13 @@
   },
   "timestamp" : 40
 }, {
+  "command" : "sendMoney",
+  "output" : {
+    "description" : "User not found",
+    "timestamp" : 41
+  },
+  "timestamp" : 41
+}, {
   "command" : "businessReport",
   "output" : {
     "description" : "Unknown command: businessReport",

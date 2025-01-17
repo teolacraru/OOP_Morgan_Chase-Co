@@ -759,7 +759,7 @@
     "email" : "Lisandro_del_Andres@hushmail.es",
     "accounts" : [ {
       "IBAN" : "RO33POOB4049920806186500",
-      "balance" : 1416.188,
+      "balance" : 1416.0,
       "currency" : "EUR",
       "type" : "classic",
       "cards" : [ {
@@ -815,7 +815,7 @@
     "email" : "Donna_Zavala@hotmail.us",
     "accounts" : [ {
       "IBAN" : "RO68POOB1848616931405475",
-      "balance" : 3336.967142857143,
+      "balance" : 3336.9625428571426,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ {
@@ -843,7 +843,7 @@
     "email" : "Marcus_Reed@hushmail.us",
     "accounts" : [ {
       "IBAN" : "RO33POOB9999273999620457",
-      "balance" : 2700.5625,
+      "balance" : 2700.3625,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ {
@@ -1162,7 +1162,7 @@
     "email" : "Lisandro_del_Andres@hushmail.es",
     "accounts" : [ {
       "IBAN" : "RO33POOB4049920806186500",
-      "balance" : 1416.188,
+      "balance" : 1416.0,
       "currency" : "EUR",
       "type" : "classic",
       "cards" : [ {
@@ -1218,7 +1218,7 @@
     "email" : "Donna_Zavala@hotmail.us",
     "accounts" : [ {
       "IBAN" : "RO68POOB1848616931405475",
-      "balance" : 3336.967142857143,
+      "balance" : 3336.9625428571426,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ {
@@ -1246,7 +1246,7 @@
     "email" : "Marcus_Reed@hushmail.us",
     "accounts" : [ {
       "IBAN" : "RO33POOB9999273999620457",
-      "balance" : 2700.5625,
+      "balance" : 2700.3625,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ {
@@ -1460,7 +1460,7 @@
     "email" : "Lisandro_del_Andres@hushmail.es",
     "accounts" : [ {
       "IBAN" : "RO33POOB4049920806186500",
-      "balance" : 1416.188,
+      "balance" : 1416.0,
       "currency" : "EUR",
       "type" : "classic",
       "cards" : [ {
@@ -1516,7 +1516,7 @@
     "email" : "Donna_Zavala@hotmail.us",
     "accounts" : [ {
       "IBAN" : "RO68POOB1848616931405475",
-      "balance" : 3336.967142857143,
+      "balance" : 3336.9625428571426,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ {
@@ -1544,7 +1544,7 @@
     "email" : "Marcus_Reed@hushmail.us",
     "accounts" : [ {
       "IBAN" : "RO33POOB9999273999620457",
-      "balance" : 2700.5625,
+      "balance" : 2700.3625,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ {
@@ -1767,7 +1767,7 @@
     "email" : "Lisandro_del_Andres@hushmail.es",
     "accounts" : [ {
       "IBAN" : "RO33POOB4049920806186500",
-      "balance" : 1416.188,
+      "balance" : 1416.0,
       "currency" : "EUR",
       "type" : "classic",
       "cards" : [ {
@@ -1823,7 +1823,7 @@
     "email" : "Donna_Zavala@hotmail.us",
     "accounts" : [ {
       "IBAN" : "RO68POOB1848616931405475",
-      "balance" : 3336.967142857143,
+      "balance" : 3336.9625428571426,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ {
@@ -1851,7 +1851,7 @@
     "email" : "Marcus_Reed@hushmail.us",
     "accounts" : [ {
       "IBAN" : "RO33POOB9999273999620457",
-      "balance" : 2700.5625,
+      "balance" : 2700.3625,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ {
@@ -2083,7 +2083,7 @@
     "email" : "Lisandro_del_Andres@hushmail.es",
     "accounts" : [ {
       "IBAN" : "RO33POOB4049920806186500",
-      "balance" : 1416.188,
+      "balance" : 1416.0,
       "currency" : "EUR",
       "type" : "classic",
       "cards" : [ {
@@ -2139,7 +2139,7 @@
     "email" : "Donna_Zavala@hotmail.us",
     "accounts" : [ {
       "IBAN" : "RO68POOB1848616931405475",
-      "balance" : 3336.967142857143,
+      "balance" : 3336.9625428571426,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ {
@@ -2167,7 +2167,7 @@
     "email" : "Marcus_Reed@hushmail.us",
     "accounts" : [ {
       "IBAN" : "RO33POOB9999273999620457",
-      "balance" : 2700.5625,
+      "balance" : 2700.3625,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ {
@@ -2401,7 +2401,7 @@
     "email" : "Lisandro_del_Andres@hushmail.es",
     "accounts" : [ {
       "IBAN" : "RO33POOB4049920806186500",
-      "balance" : 1416.188,
+      "balance" : 1416.0,
       "currency" : "EUR",
       "type" : "classic",
       "cards" : [ {
@@ -2457,7 +2457,7 @@
     "email" : "Donna_Zavala@hotmail.us",
     "accounts" : [ {
       "IBAN" : "RO68POOB1848616931405475",
-      "balance" : 3336.967142857143,
+      "balance" : 3336.9625428571426,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ {
@@ -2485,7 +2485,7 @@
     "email" : "Marcus_Reed@hushmail.us",
     "accounts" : [ {
       "IBAN" : "RO33POOB9999273999620457",
-      "balance" : 2700.5625,
+      "balance" : 2700.3625,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ {
@@ -2735,7 +2735,7 @@
     "email" : "Lisandro_del_Andres@hushmail.es",
     "accounts" : [ {
       "IBAN" : "RO33POOB4049920806186500",
-      "balance" : 1416.188,
+      "balance" : 1416.0,
       "currency" : "EUR",
       "type" : "classic",
       "cards" : [ {
@@ -2791,7 +2791,7 @@
     "email" : "Donna_Zavala@hotmail.us",
     "accounts" : [ {
       "IBAN" : "RO68POOB1848616931405475",
-      "balance" : 3336.967142857143,
+      "balance" : 3336.9625428571426,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ {
@@ -2819,7 +2819,7 @@
     "email" : "Marcus_Reed@hushmail.us",
     "accounts" : [ {
       "IBAN" : "RO33POOB9999273999620457",
-      "balance" : 2700.5625,
+      "balance" : 2700.3625,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ {
@@ -2905,10 +2905,17 @@
     "description" : "Split payment of 6079.00 EUR",
     "error" : "Account RO10POOB4354933866366881 has insufficient funds for a split payment.",
     "involvedAccounts" : [ "RO65POOB8944016386845896", "RO68POOB1848616931405475", "RO69POOB9846198978826791", "RO38POOB0964823730995794", "RO30POOB9523423715747796", "RO69POOB6209498372540635", "RO33POOB4049920806186500", "RO79POOB3616857825600958", "RO58POOB7344468893732422", "RO00POOB5687892910835215", "RO90POOB5450777208072365", "RO98POOB8412955460158769", "RO58POOB2721178218599590", "RO76POOB4035116042454483", "RO96POOB6738272785416988", "RO10POOB4354933866366881", "RO19POOB4981055641668812", "RO33POOB9999273999620457", "RO37POOB7013767509830666", "RO32POOB0130532963818359" ],
-    "timestamp" : 399
+    "timestamp" : 399,
+    "accountIBAN" : "Account RO10POOB4354933866366881 has insufficient funds for a split payment.",
+    "newPlanType" : null
   }, {
     "description" : "New account created",
     "timestamp" : 479
+  }, {
+    "description" : "Interest rate income",
+    "currency" : "NZD",
+    "amount" : 290.16,
+    "timestamp" : 481
   }, {
     "description" : "You don't have the minimum age required.",
     "timestamp" : 482
@@ -2962,7 +2969,7 @@
       } ]
     }, {
       "IBAN" : "RO45POOB0388148432759748",
-      "balance" : 249.0011,
+      "balance" : 348.11,
       "currency" : "AUD",
       "type" : "savings",
       "cards" : [ ]
@@ -3010,7 +3017,7 @@
       } ]
     }, {
       "IBAN" : "RO98POOB7190609943699593",
-      "balance" : 867.0485,
+      "balance" : 970.85,
       "currency" : "RON",
       "type" : "savings",
       "cards" : [ ]
@@ -3030,7 +3037,7 @@
       } ]
     }, {
       "IBAN" : "RO52POOB6271107854467609",
-      "balance" : 821.312,
+      "balance" : 951.2,
       "currency" : "EUR",
       "type" : "savings",
       "cards" : [ ]
@@ -3064,7 +3071,7 @@
       } ]
     }, {
       "IBAN" : "RO50POOB3359236199018963",
-      "balance" : 376.7896,
+      "balance" : 454.96,
       "currency" : "EUR",
       "type" : "savings",
       "cards" : [ ]
@@ -3117,7 +3124,7 @@
     "email" : "Lisandro_del_Andres@hushmail.es",
     "accounts" : [ {
       "IBAN" : "RO33POOB4049920806186500",
-      "balance" : 1416.188,
+      "balance" : 1416.0,
       "currency" : "EUR",
       "type" : "classic",
       "cards" : [ {
@@ -3173,7 +3180,7 @@
     "email" : "Donna_Zavala@hotmail.us",
     "accounts" : [ {
       "IBAN" : "RO68POOB1848616931405475",
-      "balance" : 3548.078253968254,
+      "balance" : 3548.073653968254,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ {
@@ -3196,7 +3203,7 @@
       } ]
     }, {
       "IBAN" : "RO46POOB9051076190383154",
-      "balance" : 747.9238222222223,
+      "balance" : 1035.1822222222222,
       "currency" : "NZD",
       "type" : "savings",
       "cards" : [ ]
@@ -3207,7 +3214,7 @@
     "email" : "Marcus_Reed@hushmail.us",
     "accounts" : [ {
       "IBAN" : "RO33POOB9999273999620457",
-      "balance" : 2700.5625,
+      "balance" : 2700.3625,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ {
@@ -3349,7 +3356,7 @@
       } ]
     }, {
       "IBAN" : "RO45POOB0388148432759748",
-      "balance" : 249.0011,
+      "balance" : 348.11,
       "currency" : "AUD",
       "type" : "savings",
       "cards" : [ ]
@@ -3397,7 +3404,7 @@
       } ]
     }, {
       "IBAN" : "RO98POOB7190609943699593",
-      "balance" : 867.0485,
+      "balance" : 970.85,
       "currency" : "RON",
       "type" : "savings",
       "cards" : [ ]
@@ -3417,7 +3424,7 @@
       } ]
     }, {
       "IBAN" : "RO52POOB6271107854467609",
-      "balance" : 821.312,
+      "balance" : 951.2,
       "currency" : "EUR",
       "type" : "savings",
       "cards" : [ ]
@@ -3451,7 +3458,7 @@
       } ]
     }, {
       "IBAN" : "RO50POOB3359236199018963",
-      "balance" : 376.7896,
+      "balance" : 454.96,
       "currency" : "EUR",
       "type" : "savings",
       "cards" : [ ]
@@ -3504,7 +3511,7 @@
     "email" : "Lisandro_del_Andres@hushmail.es",
     "accounts" : [ {
       "IBAN" : "RO33POOB4049920806186500",
-      "balance" : 1416.188,
+      "balance" : 1416.0,
       "currency" : "EUR",
       "type" : "classic",
       "cards" : [ {
@@ -3560,7 +3567,7 @@
     "email" : "Donna_Zavala@hotmail.us",
     "accounts" : [ {
       "IBAN" : "RO68POOB1848616931405475",
-      "balance" : 3548.078253968254,
+      "balance" : 3548.073653968254,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ {
@@ -3583,7 +3590,7 @@
       } ]
     }, {
       "IBAN" : "RO46POOB9051076190383154",
-      "balance" : 747.9238222222223,
+      "balance" : 1035.1822222222222,
       "currency" : "NZD",
       "type" : "savings",
       "cards" : [ ]
@@ -3594,7 +3601,7 @@
     "email" : "Marcus_Reed@hushmail.us",
     "accounts" : [ {
       "IBAN" : "RO33POOB9999273999620457",
-      "balance" : 2700.5625,
+      "balance" : 2700.3625,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ {
@@ -4170,7 +4177,7 @@
       } ]
     }, {
       "IBAN" : "RO45POOB0388148432759748",
-      "balance" : 249.0011,
+      "balance" : 348.11,
       "currency" : "AUD",
       "type" : "savings",
       "cards" : [ ]
@@ -4218,7 +4225,7 @@
       } ]
     }, {
       "IBAN" : "RO98POOB7190609943699593",
-      "balance" : 867.0485,
+      "balance" : 970.85,
       "currency" : "RON",
       "type" : "savings",
       "cards" : [ ]
@@ -4238,7 +4245,7 @@
       } ]
     }, {
       "IBAN" : "RO52POOB6271107854467609",
-      "balance" : 821.312,
+      "balance" : 951.2,
       "currency" : "EUR",
       "type" : "savings",
       "cards" : [ ]
@@ -4272,7 +4279,7 @@
       } ]
     }, {
       "IBAN" : "RO50POOB3359236199018963",
-      "balance" : 376.7896,
+      "balance" : 454.96,
       "currency" : "EUR",
       "type" : "savings",
       "cards" : [ ]
@@ -4325,7 +4332,7 @@
     "email" : "Lisandro_del_Andres@hushmail.es",
     "accounts" : [ {
       "IBAN" : "RO33POOB4049920806186500",
-      "balance" : 1416.188,
+      "balance" : 1416.0,
       "currency" : "EUR",
       "type" : "classic",
       "cards" : [ {
@@ -4381,7 +4388,7 @@
     "email" : "Donna_Zavala@hotmail.us",
     "accounts" : [ {
       "IBAN" : "RO68POOB1848616931405475",
-      "balance" : 3548.078253968254,
+      "balance" : 3548.073653968254,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ {
@@ -4404,7 +4411,7 @@
       } ]
     }, {
       "IBAN" : "RO46POOB9051076190383154",
-      "balance" : 747.9238222222223,
+      "balance" : 1035.1822222222222,
       "currency" : "NZD",
       "type" : "savings",
       "cards" : [ ]
@@ -4415,7 +4422,7 @@
     "email" : "Marcus_Reed@hushmail.us",
     "accounts" : [ {
       "IBAN" : "RO33POOB9999273999620457",
-      "balance" : 2700.5625,
+      "balance" : 2700.3625,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ {
@@ -4578,7 +4585,7 @@
       } ]
     }, {
       "IBAN" : "RO45POOB0388148432759748",
-      "balance" : 249.0011,
+      "balance" : 348.11,
       "currency" : "AUD",
       "type" : "savings",
       "cards" : [ ]
@@ -4635,7 +4642,7 @@
       } ]
     }, {
       "IBAN" : "RO98POOB7190609943699593",
-      "balance" : 867.0485,
+      "balance" : 970.85,
       "currency" : "RON",
       "type" : "savings",
       "cards" : [ ]
@@ -4655,7 +4662,7 @@
       } ]
     }, {
       "IBAN" : "RO52POOB6271107854467609",
-      "balance" : 821.312,
+      "balance" : 951.2,
       "currency" : "EUR",
       "type" : "savings",
       "cards" : [ ]
@@ -4689,7 +4696,7 @@
       } ]
     }, {
       "IBAN" : "RO50POOB3359236199018963",
-      "balance" : 376.7896,
+      "balance" : 454.96,
       "currency" : "EUR",
       "type" : "savings",
       "cards" : [ ]
@@ -4751,7 +4758,7 @@
     "email" : "Lisandro_del_Andres@hushmail.es",
     "accounts" : [ {
       "IBAN" : "RO33POOB4049920806186500",
-      "balance" : 1416.188,
+      "balance" : 1416.0,
       "currency" : "EUR",
       "type" : "classic",
       "cards" : [ {
@@ -4807,7 +4814,7 @@
     "email" : "Donna_Zavala@hotmail.us",
     "accounts" : [ {
       "IBAN" : "RO68POOB1848616931405475",
-      "balance" : 3548.078253968254,
+      "balance" : 3548.073653968254,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ {
@@ -4848,7 +4855,7 @@
       } ]
     }, {
       "IBAN" : "RO46POOB9051076190383154",
-      "balance" : 747.9238222222223,
+      "balance" : 1035.1822222222222,
       "currency" : "NZD",
       "type" : "savings",
       "cards" : [ ]
@@ -4859,7 +4866,7 @@
     "email" : "Marcus_Reed@hushmail.us",
     "accounts" : [ {
       "IBAN" : "RO33POOB9999273999620457",
-      "balance" : 2700.5625,
+      "balance" : 2700.3625,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ {

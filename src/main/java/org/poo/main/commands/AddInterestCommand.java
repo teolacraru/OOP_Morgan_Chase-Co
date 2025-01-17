@@ -1,5 +1,6 @@
 package org.poo.main.commands;
 
+import org.poo.main.Transaction;
 import org.poo.main.User;
 import org.poo.main.accounts.Account;
 import org.poo.main.accounts.SavingsAccount;
@@ -58,9 +59,12 @@ public class AddInterestCommand implements Command {
         }
 
         double interestRate = savingsAccount.getInterestRate();
-        double interestAmount = targetAccount.getBalance() * (interestRate / PERCENTAGE_FACTOR);
+        double interestAmount = targetAccount.getBalance() * interestRate;
 
         targetAccount.setBalance(targetAccount.getBalance() + interestAmount);
+        Transaction transaction = Transaction.addInterestTransaction("Interest rate income", interestAmount, targetAccount.getCurrency(), timestamp);
+        targetAccount.addTransaction(transaction);
+        targetAccount.getOwner().addTransaction(transaction);
 
     }
 }

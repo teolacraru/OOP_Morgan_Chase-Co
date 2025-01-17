@@ -55,7 +55,7 @@
     "email" : "Alwin_Dowerg@yandex.de",
     "accounts" : [ {
       "IBAN" : "RO65POOB8944016386845896",
-      "balance" : 821.0,
+      "balance" : 806.1704,
       "currency" : "EUR",
       "type" : "classic",
       "cards" : [ {
@@ -83,7 +83,7 @@
     "email" : "Karen_McIsaac@zoho.nz",
     "accounts" : [ {
       "IBAN" : "RO76POOB4035116042454483",
-      "balance" : 240.54153846153844,
+      "balance" : 240.08953846153844,
       "currency" : "NZD",
       "type" : "classic",
       "cards" : [ {
@@ -153,7 +153,7 @@
     "email" : "Dott._Arsenio_Bellucc@mail.com.it",
     "accounts" : [ {
       "IBAN" : "RO00POOB5687892910835215",
-      "balance" : 1301.0,
+      "balance" : 1159.9184,
       "currency" : "EUR",
       "type" : "classic",
       "cards" : [ {
@@ -209,7 +209,7 @@
     "email" : "Rene_Plourde@protonmail.ca",
     "accounts" : [ {
       "IBAN" : "RO98POOB8412955460158769",
-      "balance" : 749.0,
+      "balance" : 747.2632,
       "currency" : "CAD",
       "type" : "classic",
       "cards" : [ {
@@ -223,7 +223,7 @@
     "email" : "Harrison_Iyengar@outlook.in",
     "accounts" : [ {
       "IBAN" : "RO32POOB0130532963818359",
-      "balance" : 1180.0,
+      "balance" : -98.10666666666657,
       "currency" : "INR",
       "type" : "classic",
       "cards" : [ {
@@ -265,7 +265,7 @@
     "email" : "Iris_Sanders-Kramer@outlook.nl",
     "accounts" : [ {
       "IBAN" : "RO33POOB9999273999620457",
-      "balance" : 1408.0,
+      "balance" : 1271.2,
       "currency" : "EUR",
       "type" : "classic",
       "cards" : [ {
@@ -388,7 +388,9 @@
     "description" : "Split payment of 11252.10 EUR",
     "error" : "Account RO32POOB0130532963818359 has insufficient funds for a split payment.",
     "involvedAccounts" : [ "RO58POOB7344468893732422", "RO69POOB6209498372540635", "RO90POOB5450777208072365", "RO65POOB8944016386845896", "RO58POOB2721178218599590", "RO76POOB4035116042454483", "RO37POOB7013767509830666", "RO19POOB4981055641668812", "RO30POOB9523423715747796", "RO79POOB3616857825600958", "RO00POOB5687892910835215", "RO96POOB6738272785416988", "RO33POOB4049920806186500", "RO69POOB9846198978826791", "RO98POOB8412955460158769", "RO32POOB0130532963818359", "RO68POOB1848616931405475", "RO10POOB4354933866366881", "RO33POOB9999273999620457", "RO38POOB0964823730995794" ],
-    "timestamp" : 320
+    "timestamp" : 320,
+    "accountIBAN" : "Account RO32POOB0130532963818359 has insufficient funds for a split payment.",
+    "newPlanType" : null
   } ],
   "timestamp" : 322
 }, {
@@ -415,7 +417,9 @@
     "description" : "Split payment of 11252.10 EUR",
     "error" : "Account RO32POOB0130532963818359 has insufficient funds for a split payment.",
     "involvedAccounts" : [ "RO58POOB7344468893732422", "RO69POOB6209498372540635", "RO90POOB5450777208072365", "RO65POOB8944016386845896", "RO58POOB2721178218599590", "RO76POOB4035116042454483", "RO37POOB7013767509830666", "RO19POOB4981055641668812", "RO30POOB9523423715747796", "RO79POOB3616857825600958", "RO00POOB5687892910835215", "RO96POOB6738272785416988", "RO33POOB4049920806186500", "RO69POOB9846198978826791", "RO98POOB8412955460158769", "RO32POOB0130532963818359", "RO68POOB1848616931405475", "RO10POOB4354933866366881", "RO33POOB9999273999620457", "RO38POOB0964823730995794" ],
-    "timestamp" : 320
+    "timestamp" : 320,
+    "accountIBAN" : "Account RO32POOB0130532963818359 has insufficient funds for a split payment.",
+    "newPlanType" : null
   } ],
   "timestamp" : 324
 }, {
@@ -473,7 +477,9 @@
     "description" : "Split payment of 11252.10 EUR",
     "error" : "Account RO32POOB0130532963818359 has insufficient funds for a split payment.",
     "involvedAccounts" : [ "RO58POOB7344468893732422", "RO69POOB6209498372540635", "RO90POOB5450777208072365", "RO65POOB8944016386845896", "RO58POOB2721178218599590", "RO76POOB4035116042454483", "RO37POOB7013767509830666", "RO19POOB4981055641668812", "RO30POOB9523423715747796", "RO79POOB3616857825600958", "RO00POOB5687892910835215", "RO96POOB6738272785416988", "RO33POOB4049920806186500", "RO69POOB9846198978826791", "RO98POOB8412955460158769", "RO32POOB0130532963818359", "RO68POOB1848616931405475", "RO10POOB4354933866366881", "RO33POOB9999273999620457", "RO38POOB0964823730995794" ],
-    "timestamp" : 320
+    "timestamp" : 320,
+    "accountIBAN" : "Account RO32POOB0130532963818359 has insufficient funds for a split payment.",
+    "newPlanType" : null
   } ],
   "timestamp" : 326
 }, {
@@ -495,12 +501,18 @@
     "description" : "New card created",
     "timestamp" : 56
   }, {
+    "timestamp" : 286,
+    "amount" : 74.0,
+    "description" : "Cash withdrawal of 74.0"
+  }, {
     "amount" : 562.61,
     "currency" : "EUR",
     "description" : "Split payment of 11252.10 EUR",
     "error" : "Account RO32POOB0130532963818359 has insufficient funds for a split payment.",
     "involvedAccounts" : [ "RO58POOB7344468893732422", "RO69POOB6209498372540635", "RO90POOB5450777208072365", "RO65POOB8944016386845896", "RO58POOB2721178218599590", "RO76POOB4035116042454483", "RO37POOB7013767509830666", "RO19POOB4981055641668812", "RO30POOB9523423715747796", "RO79POOB3616857825600958", "RO00POOB5687892910835215", "RO96POOB6738272785416988", "RO33POOB4049920806186500", "RO69POOB9846198978826791", "RO98POOB8412955460158769", "RO32POOB0130532963818359", "RO68POOB1848616931405475", "RO10POOB4354933866366881", "RO33POOB9999273999620457", "RO38POOB0964823730995794" ],
-    "timestamp" : 320
+    "timestamp" : 320,
+    "accountIBAN" : "Account RO32POOB0130532963818359 has insufficient funds for a split payment.",
+    "newPlanType" : null
   } ],
   "timestamp" : 328
 }, {
@@ -534,7 +546,9 @@
     "description" : "Split payment of 11252.10 EUR",
     "error" : "Account RO32POOB0130532963818359 has insufficient funds for a split payment.",
     "involvedAccounts" : [ "RO58POOB7344468893732422", "RO69POOB6209498372540635", "RO90POOB5450777208072365", "RO65POOB8944016386845896", "RO58POOB2721178218599590", "RO76POOB4035116042454483", "RO37POOB7013767509830666", "RO19POOB4981055641668812", "RO30POOB9523423715747796", "RO79POOB3616857825600958", "RO00POOB5687892910835215", "RO96POOB6738272785416988", "RO33POOB4049920806186500", "RO69POOB9846198978826791", "RO98POOB8412955460158769", "RO32POOB0130532963818359", "RO68POOB1848616931405475", "RO10POOB4354933866366881", "RO33POOB9999273999620457", "RO38POOB0964823730995794" ],
-    "timestamp" : 320
+    "timestamp" : 320,
+    "accountIBAN" : "Account RO32POOB0130532963818359 has insufficient funds for a split payment.",
+    "newPlanType" : null
   } ],
   "timestamp" : 330
 }, {
@@ -566,7 +580,9 @@
     "description" : "Split payment of 11252.10 EUR",
     "error" : "Account RO32POOB0130532963818359 has insufficient funds for a split payment.",
     "involvedAccounts" : [ "RO58POOB7344468893732422", "RO69POOB6209498372540635", "RO90POOB5450777208072365", "RO65POOB8944016386845896", "RO58POOB2721178218599590", "RO76POOB4035116042454483", "RO37POOB7013767509830666", "RO19POOB4981055641668812", "RO30POOB9523423715747796", "RO79POOB3616857825600958", "RO00POOB5687892910835215", "RO96POOB6738272785416988", "RO33POOB4049920806186500", "RO69POOB9846198978826791", "RO98POOB8412955460158769", "RO32POOB0130532963818359", "RO68POOB1848616931405475", "RO10POOB4354933866366881", "RO33POOB9999273999620457", "RO38POOB0964823730995794" ],
-    "timestamp" : 320
+    "timestamp" : 320,
+    "accountIBAN" : "Account RO32POOB0130532963818359 has insufficient funds for a split payment.",
+    "newPlanType" : null
   } ],
   "timestamp" : 332
 }, {
@@ -600,7 +616,9 @@
     "description" : "Split payment of 11252.10 EUR",
     "error" : "Account RO32POOB0130532963818359 has insufficient funds for a split payment.",
     "involvedAccounts" : [ "RO58POOB7344468893732422", "RO69POOB6209498372540635", "RO90POOB5450777208072365", "RO65POOB8944016386845896", "RO58POOB2721178218599590", "RO76POOB4035116042454483", "RO37POOB7013767509830666", "RO19POOB4981055641668812", "RO30POOB9523423715747796", "RO79POOB3616857825600958", "RO00POOB5687892910835215", "RO96POOB6738272785416988", "RO33POOB4049920806186500", "RO69POOB9846198978826791", "RO98POOB8412955460158769", "RO32POOB0130532963818359", "RO68POOB1848616931405475", "RO10POOB4354933866366881", "RO33POOB9999273999620457", "RO38POOB0964823730995794" ],
-    "timestamp" : 320
+    "timestamp" : 320,
+    "accountIBAN" : "Account RO32POOB0130532963818359 has insufficient funds for a split payment.",
+    "newPlanType" : null
   } ],
   "timestamp" : 334
 }, {
@@ -627,7 +645,9 @@
     "description" : "Split payment of 11252.10 EUR",
     "error" : "Account RO32POOB0130532963818359 has insufficient funds for a split payment.",
     "involvedAccounts" : [ "RO58POOB7344468893732422", "RO69POOB6209498372540635", "RO90POOB5450777208072365", "RO65POOB8944016386845896", "RO58POOB2721178218599590", "RO76POOB4035116042454483", "RO37POOB7013767509830666", "RO19POOB4981055641668812", "RO30POOB9523423715747796", "RO79POOB3616857825600958", "RO00POOB5687892910835215", "RO96POOB6738272785416988", "RO33POOB4049920806186500", "RO69POOB9846198978826791", "RO98POOB8412955460158769", "RO32POOB0130532963818359", "RO68POOB1848616931405475", "RO10POOB4354933866366881", "RO33POOB9999273999620457", "RO38POOB0964823730995794" ],
-    "timestamp" : 320
+    "timestamp" : 320,
+    "accountIBAN" : "Account RO32POOB0130532963818359 has insufficient funds for a split payment.",
+    "newPlanType" : null
   } ],
   "timestamp" : 336
 }, {
@@ -654,7 +674,9 @@
     "description" : "Split payment of 11252.10 EUR",
     "error" : "Account RO32POOB0130532963818359 has insufficient funds for a split payment.",
     "involvedAccounts" : [ "RO58POOB7344468893732422", "RO69POOB6209498372540635", "RO90POOB5450777208072365", "RO65POOB8944016386845896", "RO58POOB2721178218599590", "RO76POOB4035116042454483", "RO37POOB7013767509830666", "RO19POOB4981055641668812", "RO30POOB9523423715747796", "RO79POOB3616857825600958", "RO00POOB5687892910835215", "RO96POOB6738272785416988", "RO33POOB4049920806186500", "RO69POOB9846198978826791", "RO98POOB8412955460158769", "RO32POOB0130532963818359", "RO68POOB1848616931405475", "RO10POOB4354933866366881", "RO33POOB9999273999620457", "RO38POOB0964823730995794" ],
-    "timestamp" : 320
+    "timestamp" : 320,
+    "accountIBAN" : "Account RO32POOB0130532963818359 has insufficient funds for a split payment.",
+    "newPlanType" : null
   } ],
   "timestamp" : 338
 }, {
@@ -681,7 +703,9 @@
     "description" : "Split payment of 11252.10 EUR",
     "error" : "Account RO32POOB0130532963818359 has insufficient funds for a split payment.",
     "involvedAccounts" : [ "RO58POOB7344468893732422", "RO69POOB6209498372540635", "RO90POOB5450777208072365", "RO65POOB8944016386845896", "RO58POOB2721178218599590", "RO76POOB4035116042454483", "RO37POOB7013767509830666", "RO19POOB4981055641668812", "RO30POOB9523423715747796", "RO79POOB3616857825600958", "RO00POOB5687892910835215", "RO96POOB6738272785416988", "RO33POOB4049920806186500", "RO69POOB9846198978826791", "RO98POOB8412955460158769", "RO32POOB0130532963818359", "RO68POOB1848616931405475", "RO10POOB4354933866366881", "RO33POOB9999273999620457", "RO38POOB0964823730995794" ],
-    "timestamp" : 320
+    "timestamp" : 320,
+    "accountIBAN" : "Account RO32POOB0130532963818359 has insufficient funds for a split payment.",
+    "newPlanType" : null
   } ],
   "timestamp" : 340
 }, {
@@ -703,12 +727,18 @@
     "description" : "New card created",
     "timestamp" : 143
   }, {
+    "timestamp" : 284,
+    "amount" : 704.0,
+    "description" : "Cash withdrawal of 704.0"
+  }, {
     "amount" : 562.61,
     "currency" : "EUR",
     "description" : "Split payment of 11252.10 EUR",
     "error" : "Account RO32POOB0130532963818359 has insufficient funds for a split payment.",
     "involvedAccounts" : [ "RO58POOB7344468893732422", "RO69POOB6209498372540635", "RO90POOB5450777208072365", "RO65POOB8944016386845896", "RO58POOB2721178218599590", "RO76POOB4035116042454483", "RO37POOB7013767509830666", "RO19POOB4981055641668812", "RO30POOB9523423715747796", "RO79POOB3616857825600958", "RO00POOB5687892910835215", "RO96POOB6738272785416988", "RO33POOB4049920806186500", "RO69POOB9846198978826791", "RO98POOB8412955460158769", "RO32POOB0130532963818359", "RO68POOB1848616931405475", "RO10POOB4354933866366881", "RO33POOB9999273999620457", "RO38POOB0964823730995794" ],
-    "timestamp" : 320
+    "timestamp" : 320,
+    "accountIBAN" : "Account RO32POOB0130532963818359 has insufficient funds for a split payment.",
+    "newPlanType" : null
   } ],
   "timestamp" : 342
 }, {
@@ -742,7 +772,9 @@
     "description" : "Split payment of 11252.10 EUR",
     "error" : "Account RO32POOB0130532963818359 has insufficient funds for a split payment.",
     "involvedAccounts" : [ "RO58POOB7344468893732422", "RO69POOB6209498372540635", "RO90POOB5450777208072365", "RO65POOB8944016386845896", "RO58POOB2721178218599590", "RO76POOB4035116042454483", "RO37POOB7013767509830666", "RO19POOB4981055641668812", "RO30POOB9523423715747796", "RO79POOB3616857825600958", "RO00POOB5687892910835215", "RO96POOB6738272785416988", "RO33POOB4049920806186500", "RO69POOB9846198978826791", "RO98POOB8412955460158769", "RO32POOB0130532963818359", "RO68POOB1848616931405475", "RO10POOB4354933866366881", "RO33POOB9999273999620457", "RO38POOB0964823730995794" ],
-    "timestamp" : 320
+    "timestamp" : 320,
+    "accountIBAN" : "Account RO32POOB0130532963818359 has insufficient funds for a split payment.",
+    "newPlanType" : null
   } ],
   "timestamp" : 344
 }, {
@@ -769,7 +801,9 @@
     "description" : "Split payment of 11252.10 EUR",
     "error" : "Account RO32POOB0130532963818359 has insufficient funds for a split payment.",
     "involvedAccounts" : [ "RO58POOB7344468893732422", "RO69POOB6209498372540635", "RO90POOB5450777208072365", "RO65POOB8944016386845896", "RO58POOB2721178218599590", "RO76POOB4035116042454483", "RO37POOB7013767509830666", "RO19POOB4981055641668812", "RO30POOB9523423715747796", "RO79POOB3616857825600958", "RO00POOB5687892910835215", "RO96POOB6738272785416988", "RO33POOB4049920806186500", "RO69POOB9846198978826791", "RO98POOB8412955460158769", "RO32POOB0130532963818359", "RO68POOB1848616931405475", "RO10POOB4354933866366881", "RO33POOB9999273999620457", "RO38POOB0964823730995794" ],
-    "timestamp" : 320
+    "timestamp" : 320,
+    "accountIBAN" : "Account RO32POOB0130532963818359 has insufficient funds for a split payment.",
+    "newPlanType" : null
   } ],
   "timestamp" : 346
 }, {
@@ -796,7 +830,9 @@
     "description" : "Split payment of 11252.10 EUR",
     "error" : "Account RO32POOB0130532963818359 has insufficient funds for a split payment.",
     "involvedAccounts" : [ "RO58POOB7344468893732422", "RO69POOB6209498372540635", "RO90POOB5450777208072365", "RO65POOB8944016386845896", "RO58POOB2721178218599590", "RO76POOB4035116042454483", "RO37POOB7013767509830666", "RO19POOB4981055641668812", "RO30POOB9523423715747796", "RO79POOB3616857825600958", "RO00POOB5687892910835215", "RO96POOB6738272785416988", "RO33POOB4049920806186500", "RO69POOB9846198978826791", "RO98POOB8412955460158769", "RO32POOB0130532963818359", "RO68POOB1848616931405475", "RO10POOB4354933866366881", "RO33POOB9999273999620457", "RO38POOB0964823730995794" ],
-    "timestamp" : 320
+    "timestamp" : 320,
+    "accountIBAN" : "Account RO32POOB0130532963818359 has insufficient funds for a split payment.",
+    "newPlanType" : null
   } ],
   "timestamp" : 348
 }, {
@@ -818,12 +854,18 @@
     "description" : "New card created",
     "timestamp" : 211
   }, {
+    "timestamp" : 290,
+    "amount" : 6.0,
+    "description" : "Cash withdrawal of 6.0"
+  }, {
     "amount" : 562.61,
     "currency" : "EUR",
     "description" : "Split payment of 11252.10 EUR",
     "error" : "Account RO32POOB0130532963818359 has insufficient funds for a split payment.",
     "involvedAccounts" : [ "RO58POOB7344468893732422", "RO69POOB6209498372540635", "RO90POOB5450777208072365", "RO65POOB8944016386845896", "RO58POOB2721178218599590", "RO76POOB4035116042454483", "RO37POOB7013767509830666", "RO19POOB4981055641668812", "RO30POOB9523423715747796", "RO79POOB3616857825600958", "RO00POOB5687892910835215", "RO96POOB6738272785416988", "RO33POOB4049920806186500", "RO69POOB9846198978826791", "RO98POOB8412955460158769", "RO32POOB0130532963818359", "RO68POOB1848616931405475", "RO10POOB4354933866366881", "RO33POOB9999273999620457", "RO38POOB0964823730995794" ],
-    "timestamp" : 320
+    "timestamp" : 320,
+    "accountIBAN" : "Account RO32POOB0130532963818359 has insufficient funds for a split payment.",
+    "newPlanType" : null
   } ],
   "timestamp" : 350
 }, {
@@ -845,12 +887,18 @@
     "description" : "New card created",
     "timestamp" : 220
   }, {
+    "timestamp" : 289,
+    "amount" : 82.0,
+    "description" : "Cash withdrawal of 82.0"
+  }, {
     "amount" : 562.61,
     "currency" : "EUR",
     "description" : "Split payment of 11252.10 EUR",
     "error" : "Account RO32POOB0130532963818359 has insufficient funds for a split payment.",
     "involvedAccounts" : [ "RO58POOB7344468893732422", "RO69POOB6209498372540635", "RO90POOB5450777208072365", "RO65POOB8944016386845896", "RO58POOB2721178218599590", "RO76POOB4035116042454483", "RO37POOB7013767509830666", "RO19POOB4981055641668812", "RO30POOB9523423715747796", "RO79POOB3616857825600958", "RO00POOB5687892910835215", "RO96POOB6738272785416988", "RO33POOB4049920806186500", "RO69POOB9846198978826791", "RO98POOB8412955460158769", "RO32POOB0130532963818359", "RO68POOB1848616931405475", "RO10POOB4354933866366881", "RO33POOB9999273999620457", "RO38POOB0964823730995794" ],
-    "timestamp" : 320
+    "timestamp" : 320,
+    "accountIBAN" : "Account RO32POOB0130532963818359 has insufficient funds for a split payment.",
+    "newPlanType" : null
   } ],
   "timestamp" : 352
 }, {
@@ -908,7 +956,9 @@
     "description" : "Split payment of 11252.10 EUR",
     "error" : "Account RO32POOB0130532963818359 has insufficient funds for a split payment.",
     "involvedAccounts" : [ "RO58POOB7344468893732422", "RO69POOB6209498372540635", "RO90POOB5450777208072365", "RO65POOB8944016386845896", "RO58POOB2721178218599590", "RO76POOB4035116042454483", "RO37POOB7013767509830666", "RO19POOB4981055641668812", "RO30POOB9523423715747796", "RO79POOB3616857825600958", "RO00POOB5687892910835215", "RO96POOB6738272785416988", "RO33POOB4049920806186500", "RO69POOB9846198978826791", "RO98POOB8412955460158769", "RO32POOB0130532963818359", "RO68POOB1848616931405475", "RO10POOB4354933866366881", "RO33POOB9999273999620457", "RO38POOB0964823730995794" ],
-    "timestamp" : 320
+    "timestamp" : 320,
+    "accountIBAN" : "Account RO32POOB0130532963818359 has insufficient funds for a split payment.",
+    "newPlanType" : null
   } ],
   "timestamp" : 354
 }, {
@@ -938,7 +988,9 @@
     "description" : "Split payment of 11252.10 EUR",
     "error" : "Account RO32POOB0130532963818359 has insufficient funds for a split payment.",
     "involvedAccounts" : [ "RO58POOB7344468893732422", "RO69POOB6209498372540635", "RO90POOB5450777208072365", "RO65POOB8944016386845896", "RO58POOB2721178218599590", "RO76POOB4035116042454483", "RO37POOB7013767509830666", "RO19POOB4981055641668812", "RO30POOB9523423715747796", "RO79POOB3616857825600958", "RO00POOB5687892910835215", "RO96POOB6738272785416988", "RO33POOB4049920806186500", "RO69POOB9846198978826791", "RO98POOB8412955460158769", "RO32POOB0130532963818359", "RO68POOB1848616931405475", "RO10POOB4354933866366881", "RO33POOB9999273999620457", "RO38POOB0964823730995794" ],
-    "timestamp" : 320
+    "timestamp" : 320,
+    "accountIBAN" : "Account RO32POOB0130532963818359 has insufficient funds for a split payment.",
+    "newPlanType" : null
   } ],
   "timestamp" : 356
 }, {
@@ -960,6 +1012,10 @@
     "description" : "New card created",
     "timestamp" : 259
   }, {
+    "timestamp" : 285,
+    "amount" : 684.0,
+    "description" : "Cash withdrawal of 684.0"
+  }, {
     "amount" : "42.0 EUR",
     "description" : "Monthly rent payment for a flat in Madrid",
     "receiverIBAN" : "RO33POOB9999273999620457",
@@ -979,7 +1035,9 @@
     "description" : "Split payment of 11252.10 EUR",
     "error" : "Account RO32POOB0130532963818359 has insufficient funds for a split payment.",
     "involvedAccounts" : [ "RO58POOB7344468893732422", "RO69POOB6209498372540635", "RO90POOB5450777208072365", "RO65POOB8944016386845896", "RO58POOB2721178218599590", "RO76POOB4035116042454483", "RO37POOB7013767509830666", "RO19POOB4981055641668812", "RO30POOB9523423715747796", "RO79POOB3616857825600958", "RO00POOB5687892910835215", "RO96POOB6738272785416988", "RO33POOB4049920806186500", "RO69POOB9846198978826791", "RO98POOB8412955460158769", "RO32POOB0130532963818359", "RO68POOB1848616931405475", "RO10POOB4354933866366881", "RO33POOB9999273999620457", "RO38POOB0964823730995794" ],
-    "timestamp" : 320
+    "timestamp" : 320,
+    "accountIBAN" : "Account RO32POOB0130532963818359 has insufficient funds for a split payment.",
+    "newPlanType" : null
   } ],
   "timestamp" : 358
 }, {
@@ -1013,7 +1071,9 @@
     "description" : "Split payment of 11252.10 EUR",
     "error" : "Account RO32POOB0130532963818359 has insufficient funds for a split payment.",
     "involvedAccounts" : [ "RO58POOB7344468893732422", "RO69POOB6209498372540635", "RO90POOB5450777208072365", "RO65POOB8944016386845896", "RO58POOB2721178218599590", "RO76POOB4035116042454483", "RO37POOB7013767509830666", "RO19POOB4981055641668812", "RO30POOB9523423715747796", "RO79POOB3616857825600958", "RO00POOB5687892910835215", "RO96POOB6738272785416988", "RO33POOB4049920806186500", "RO69POOB9846198978826791", "RO98POOB8412955460158769", "RO32POOB0130532963818359", "RO68POOB1848616931405475", "RO10POOB4354933866366881", "RO33POOB9999273999620457", "RO38POOB0964823730995794" ],
-    "timestamp" : 320
+    "timestamp" : 320,
+    "accountIBAN" : "Account RO32POOB0130532963818359 has insufficient funds for a split payment.",
+    "newPlanType" : null
   } ],
   "timestamp" : 360
 }, {
@@ -1234,7 +1294,7 @@
     "email" : "Alwin_Dowerg@yandex.de",
     "accounts" : [ {
       "IBAN" : "RO65POOB8944016386845896",
-      "balance" : 751.0,
+      "balance" : 736.1704,
       "currency" : "EUR",
       "type" : "classic",
       "cards" : [ {
@@ -1271,7 +1331,7 @@
     "email" : "Karen_McIsaac@zoho.nz",
     "accounts" : [ {
       "IBAN" : "RO76POOB4035116042454483",
-      "balance" : 116.097094017094,
+      "balance" : 115.645094017094,
       "currency" : "NZD",
       "type" : "classic",
       "cards" : [ {
@@ -1341,7 +1401,7 @@
     "email" : "Dott._Arsenio_Bellucc@mail.com.it",
     "accounts" : [ {
       "IBAN" : "RO00POOB5687892910835215",
-      "balance" : 1231.0,
+      "balance" : 1089.9184,
       "currency" : "EUR",
       "type" : "classic",
       "cards" : [ {
@@ -1415,7 +1475,7 @@
     "email" : "Rene_Plourde@protonmail.ca",
     "accounts" : [ {
       "IBAN" : "RO98POOB8412955460158769",
-      "balance" : 647.8888888888889,
+      "balance" : 646.1520888888889,
       "currency" : "CAD",
       "type" : "classic",
       "cards" : [ {
@@ -1429,7 +1489,7 @@
     "email" : "Harrison_Iyengar@outlook.in",
     "accounts" : [ {
       "IBAN" : "RO32POOB0130532963818359",
-      "balance" : 1180.0,
+      "balance" : -98.10666666666657,
       "currency" : "INR",
       "type" : "classic",
       "cards" : [ {
@@ -1471,7 +1531,7 @@
     "email" : "Iris_Sanders-Kramer@outlook.nl",
     "accounts" : [ {
       "IBAN" : "RO33POOB9999273999620457",
-      "balance" : 1561.6,
+      "balance" : 1424.8000000000002,
       "currency" : "EUR",
       "type" : "classic",
       "cards" : [ {
@@ -1801,7 +1861,7 @@
     "email" : "Alwin_Dowerg@yandex.de",
     "accounts" : [ {
       "IBAN" : "RO65POOB8944016386845896",
-      "balance" : 751.0,
+      "balance" : 736.1704,
       "currency" : "EUR",
       "type" : "classic",
       "cards" : [ {
@@ -1838,7 +1898,7 @@
     "email" : "Karen_McIsaac@zoho.nz",
     "accounts" : [ {
       "IBAN" : "RO76POOB4035116042454483",
-      "balance" : 116.097094017094,
+      "balance" : 115.645094017094,
       "currency" : "NZD",
       "type" : "classic",
       "cards" : [ {
@@ -1908,7 +1968,7 @@
     "email" : "Dott._Arsenio_Bellucc@mail.com.it",
     "accounts" : [ {
       "IBAN" : "RO00POOB5687892910835215",
-      "balance" : 1231.0,
+      "balance" : 1089.9184,
       "currency" : "EUR",
       "type" : "classic",
       "cards" : [ {
@@ -1945,7 +2005,7 @@
       } ]
     }, {
       "IBAN" : "RO15POOB0048706387164463",
-      "balance" : 23.0782,
+      "balance" : 30.82,
       "currency" : "AUD",
       "type" : "savings",
       "cards" : [ {
@@ -1982,7 +2042,7 @@
     "email" : "Rene_Plourde@protonmail.ca",
     "accounts" : [ {
       "IBAN" : "RO98POOB8412955460158769",
-      "balance" : 647.8888888888889,
+      "balance" : 646.1520888888889,
       "currency" : "CAD",
       "type" : "classic",
       "cards" : [ {
@@ -1996,7 +2056,7 @@
     "email" : "Harrison_Iyengar@outlook.in",
     "accounts" : [ {
       "IBAN" : "RO32POOB0130532963818359",
-      "balance" : 1180.0,
+      "balance" : -98.10666666666657,
       "currency" : "INR",
       "type" : "classic",
       "cards" : [ {
@@ -2038,7 +2098,7 @@
     "email" : "Iris_Sanders-Kramer@outlook.nl",
     "accounts" : [ {
       "IBAN" : "RO33POOB9999273999620457",
-      "balance" : 1556.0971428571427,
+      "balance" : 1419.297142857143,
       "currency" : "EUR",
       "type" : "classic",
       "cards" : [ {
@@ -2777,13 +2837,6 @@
   "command" : "withdrawSavings",
   "output" : {
     "description" : "Insufficient funds.",
-    "timestamp" : 762
-  },
-  "timestamp" : 762
-}, {
-  "command" : "withdrawSavings",
-  "output" : {
-    "description" : "Insufficient funds.",
     "timestamp" : 763
   },
   "timestamp" : 763
@@ -3234,7 +3287,7 @@
     "email" : "Alwin_Dowerg@yandex.de",
     "accounts" : [ {
       "IBAN" : "RO65POOB8944016386845896",
-      "balance" : 751.0,
+      "balance" : 736.1704,
       "currency" : "EUR",
       "type" : "classic",
       "cards" : [ ]
@@ -3251,7 +3304,7 @@
       "cards" : [ ]
     }, {
       "IBAN" : "RO75POOB1098983729823992",
-      "balance" : 1663.52417372,
+      "balance" : 1918.1072000000001,
       "currency" : "RON",
       "type" : "savings",
       "cards" : [ ]
@@ -3262,7 +3315,7 @@
     "email" : "Karen_McIsaac@zoho.nz",
     "accounts" : [ {
       "IBAN" : "RO76POOB4035116042454483",
-      "balance" : 116.097094017094,
+      "balance" : 115.645094017094,
       "currency" : "NZD",
       "type" : "classic",
       "cards" : [ ]
@@ -3317,7 +3370,7 @@
     "email" : "Dott._Arsenio_Bellucc@mail.com.it",
     "accounts" : [ {
       "IBAN" : "RO00POOB5687892910835215",
-      "balance" : 1231.0,
+      "balance" : 1089.9184,
       "currency" : "EUR",
       "type" : "classic",
       "cards" : [ ]
@@ -3345,7 +3398,7 @@
       "cards" : [ ]
     }, {
       "IBAN" : "RO15POOB0048706387164463",
-      "balance" : 928.4974332456239,
+      "balance" : 1921.152024,
       "currency" : "AUD",
       "type" : "savings",
       "cards" : [ ]
@@ -3356,13 +3409,13 @@
     "email" : "Chanakya_Dua@hushmail.in",
     "accounts" : [ {
       "IBAN" : "RO69POOB9846198978826791",
-      "balance" : 712.0,
+      "balance" : 1953.8,
       "currency" : "INR",
       "type" : "classic",
       "cards" : [ ]
     }, {
       "IBAN" : "RO97POOB5006417983475785",
-      "balance" : 1910.1577434,
+      "balance" : 2456.9579999999996,
       "currency" : "INR",
       "type" : "savings",
       "cards" : [ ]
@@ -3373,7 +3426,7 @@
     "email" : "Rene_Plourde@protonmail.ca",
     "accounts" : [ {
       "IBAN" : "RO98POOB8412955460158769",
-      "balance" : 647.8888888888889,
+      "balance" : 646.1520888888889,
       "currency" : "CAD",
       "type" : "classic",
       "cards" : [ ]
@@ -3384,7 +3437,7 @@
     "email" : "Harrison_Iyengar@outlook.in",
     "accounts" : [ {
       "IBAN" : "RO32POOB0130532963818359",
-      "balance" : 1180.0,
+      "balance" : -98.10666666666657,
       "currency" : "INR",
       "type" : "classic",
       "cards" : [ ]
@@ -3417,13 +3470,13 @@
     "email" : "Iris_Sanders-Kramer@outlook.nl",
     "accounts" : [ {
       "IBAN" : "RO33POOB9999273999620457",
-      "balance" : 1556.0971428571427,
+      "balance" : 1419.297142857143,
       "currency" : "EUR",
       "type" : "classic",
       "cards" : [ ]
     }, {
       "IBAN" : "RO93POOB6760303931698665",
-      "balance" : 936.17810292,
+      "balance" : 1641.8892,
       "currency" : "EUR",
       "type" : "savings",
       "cards" : [ {
@@ -3454,7 +3507,7 @@
       "cards" : [ ]
     }, {
       "IBAN" : "RO47POOB5866490978033060",
-      "balance" : 759.55184,
+      "balance" : 1535.3,
       "currency" : "GBP",
       "type" : "savings",
       "cards" : [ {
@@ -4296,7 +4349,7 @@
     "email" : "Alwin_Dowerg@yandex.de",
     "accounts" : [ {
       "IBAN" : "RO65POOB8944016386845896",
-      "balance" : 751.0,
+      "balance" : 736.1704,
       "currency" : "EUR",
       "type" : "classic",
       "cards" : [ ]
@@ -4313,7 +4366,7 @@
       "cards" : [ ]
     }, {
       "IBAN" : "RO75POOB1098983729823992",
-      "balance" : 1663.52417372,
+      "balance" : 1918.1072000000001,
       "currency" : "RON",
       "type" : "savings",
       "cards" : [ ]
@@ -4324,7 +4377,7 @@
     "email" : "Karen_McIsaac@zoho.nz",
     "accounts" : [ {
       "IBAN" : "RO76POOB4035116042454483",
-      "balance" : 116.097094017094,
+      "balance" : 115.645094017094,
       "currency" : "NZD",
       "type" : "classic",
       "cards" : [ ]
@@ -4379,7 +4432,7 @@
     "email" : "Dott._Arsenio_Bellucc@mail.com.it",
     "accounts" : [ {
       "IBAN" : "RO00POOB5687892910835215",
-      "balance" : 1231.0,
+      "balance" : 1089.9184,
       "currency" : "EUR",
       "type" : "classic",
       "cards" : [ ]
@@ -4407,7 +4460,7 @@
       "cards" : [ ]
     }, {
       "IBAN" : "RO15POOB0048706387164463",
-      "balance" : 928.4974332456239,
+      "balance" : 1921.152024,
       "currency" : "AUD",
       "type" : "savings",
       "cards" : [ ]
@@ -4418,13 +4471,13 @@
     "email" : "Chanakya_Dua@hushmail.in",
     "accounts" : [ {
       "IBAN" : "RO69POOB9846198978826791",
-      "balance" : 712.0,
+      "balance" : 1953.8,
       "currency" : "INR",
       "type" : "classic",
       "cards" : [ ]
     }, {
       "IBAN" : "RO97POOB5006417983475785",
-      "balance" : 1910.1577434,
+      "balance" : 2456.9579999999996,
       "currency" : "INR",
       "type" : "savings",
       "cards" : [ ]
@@ -4435,7 +4488,7 @@
     "email" : "Rene_Plourde@protonmail.ca",
     "accounts" : [ {
       "IBAN" : "RO98POOB8412955460158769",
-      "balance" : 647.8888888888889,
+      "balance" : 646.1520888888889,
       "currency" : "CAD",
       "type" : "classic",
       "cards" : [ ]
@@ -4446,7 +4499,7 @@
     "email" : "Harrison_Iyengar@outlook.in",
     "accounts" : [ {
       "IBAN" : "RO32POOB0130532963818359",
-      "balance" : 1180.0,
+      "balance" : -98.10666666666657,
       "currency" : "INR",
       "type" : "classic",
       "cards" : [ ]
@@ -4479,13 +4532,13 @@
     "email" : "Iris_Sanders-Kramer@outlook.nl",
     "accounts" : [ {
       "IBAN" : "RO33POOB9999273999620457",
-      "balance" : 1556.0971428571427,
+      "balance" : 1419.297142857143,
       "currency" : "EUR",
       "type" : "classic",
       "cards" : [ ]
     }, {
       "IBAN" : "RO93POOB6760303931698665",
-      "balance" : 936.17810292,
+      "balance" : 1641.8892,
       "currency" : "EUR",
       "type" : "savings",
       "cards" : [ {
@@ -4516,7 +4569,7 @@
       "cards" : [ ]
     }, {
       "IBAN" : "RO47POOB5866490978033060",
-      "balance" : 759.55184,
+      "balance" : 1535.3,
       "currency" : "GBP",
       "type" : "savings",
       "cards" : [ {
@@ -4826,7 +4879,7 @@
     "email" : "Alwin_Dowerg@yandex.de",
     "accounts" : [ {
       "IBAN" : "RO65POOB8944016386845896",
-      "balance" : 751.0,
+      "balance" : 736.1704,
       "currency" : "EUR",
       "type" : "classic",
       "cards" : [ ]
@@ -4843,7 +4896,7 @@
       "cards" : [ ]
     }, {
       "IBAN" : "RO75POOB1098983729823992",
-      "balance" : 1663.52417372,
+      "balance" : 1918.1072000000001,
       "currency" : "RON",
       "type" : "savings",
       "cards" : [ ]
@@ -4854,7 +4907,7 @@
     "email" : "Karen_McIsaac@zoho.nz",
     "accounts" : [ {
       "IBAN" : "RO76POOB4035116042454483",
-      "balance" : 116.097094017094,
+      "balance" : 115.645094017094,
       "currency" : "NZD",
       "type" : "classic",
       "cards" : [ ]
@@ -4909,7 +4962,7 @@
     "email" : "Dott._Arsenio_Bellucc@mail.com.it",
     "accounts" : [ {
       "IBAN" : "RO00POOB5687892910835215",
-      "balance" : 1231.0,
+      "balance" : 1089.9184,
       "currency" : "EUR",
       "type" : "classic",
       "cards" : [ ]
@@ -4937,7 +4990,7 @@
       "cards" : [ ]
     }, {
       "IBAN" : "RO15POOB0048706387164463",
-      "balance" : 928.4974332456239,
+      "balance" : 1921.152024,
       "currency" : "AUD",
       "type" : "savings",
       "cards" : [ ]
@@ -4948,13 +5001,13 @@
     "email" : "Chanakya_Dua@hushmail.in",
     "accounts" : [ {
       "IBAN" : "RO69POOB9846198978826791",
-      "balance" : 712.0,
+      "balance" : 1953.8,
       "currency" : "INR",
       "type" : "classic",
       "cards" : [ ]
     }, {
       "IBAN" : "RO97POOB5006417983475785",
-      "balance" : 1910.1577434,
+      "balance" : 2456.9579999999996,
       "currency" : "INR",
       "type" : "savings",
       "cards" : [ ]
@@ -4965,7 +5018,7 @@
     "email" : "Rene_Plourde@protonmail.ca",
     "accounts" : [ {
       "IBAN" : "RO98POOB8412955460158769",
-      "balance" : 647.8888888888889,
+      "balance" : 646.1520888888889,
       "currency" : "CAD",
       "type" : "classic",
       "cards" : [ ]
@@ -4976,7 +5029,7 @@
     "email" : "Harrison_Iyengar@outlook.in",
     "accounts" : [ {
       "IBAN" : "RO32POOB0130532963818359",
-      "balance" : 1180.0,
+      "balance" : -98.10666666666657,
       "currency" : "INR",
       "type" : "classic",
       "cards" : [ ]
@@ -5009,13 +5062,13 @@
     "email" : "Iris_Sanders-Kramer@outlook.nl",
     "accounts" : [ {
       "IBAN" : "RO33POOB9999273999620457",
-      "balance" : 1556.0971428571427,
+      "balance" : 1419.297142857143,
       "currency" : "EUR",
       "type" : "classic",
       "cards" : [ ]
     }, {
       "IBAN" : "RO93POOB6760303931698665",
-      "balance" : 936.17810292,
+      "balance" : 1641.8892,
       "currency" : "EUR",
       "type" : "savings",
       "cards" : [ {
@@ -5046,7 +5099,7 @@
       "cards" : [ ]
     }, {
       "IBAN" : "RO47POOB5866490978033060",
-      "balance" : 759.55184,
+      "balance" : 1535.3,
       "currency" : "GBP",
       "type" : "savings",
       "cards" : [ {
@@ -5226,7 +5279,13 @@
     "balance" : 968.8863492063492,
     "currency" : "GBP",
     "IBAN" : "RO69POOB6209498372540635",
-    "transactions" : [ ],
+    "transactions" : [ {
+      "timestamp" : 553,
+      "description" : "Upgrade plan",
+      "senderIBAN" : "RO69POOB6209498372540635",
+      "receiverIBAN" : "gold",
+      "amount" : 0.0
+    } ],
     "commerciants" : [ ]
   },
   "timestamp" : 1028
@@ -5241,6 +5300,12 @@
       "description" : "Card payment",
       "amount" : 74.9375,
       "commerciant" : "KFC"
+    }, {
+      "timestamp" : 554,
+      "description" : "Upgrade plan",
+      "senderIBAN" : "RO90POOB5450777208072365",
+      "receiverIBAN" : "gold",
+      "amount" : 0.0
     } ],
     "commerciants" : [ {
       "commerciant" : "KFC",
@@ -5251,10 +5316,20 @@
 }, {
   "command" : "spendingsReport",
   "output" : {
-    "balance" : 751.0,
+    "balance" : 736.1704,
     "currency" : "EUR",
     "IBAN" : "RO65POOB8944016386845896",
-    "transactions" : [ ],
+    "transactions" : [ {
+      "timestamp" : 286,
+      "description" : "Cash withdrawal of 74.0",
+      "amount" : 74.0
+    }, {
+      "timestamp" : 555,
+      "description" : "Upgrade plan",
+      "senderIBAN" : "RO65POOB8944016386845896",
+      "receiverIBAN" : "gold",
+      "amount" : 0.0
+    } ],
     "commerciants" : [ ]
   },
   "timestamp" : 1030
@@ -5271,7 +5346,7 @@
 }, {
   "command" : "spendingsReport",
   "output" : {
-    "balance" : 116.097094017094,
+    "balance" : 115.645094017094,
     "currency" : "NZD",
     "IBAN" : "RO76POOB4035116042454483",
     "transactions" : [ {
@@ -5279,6 +5354,12 @@
       "description" : "Card payment",
       "amount" : 278.1538461538462,
       "commerciant" : "Burger King"
+    }, {
+      "timestamp" : 557,
+      "description" : "Upgrade plan",
+      "senderIBAN" : "RO76POOB4035116042454483",
+      "receiverIBAN" : "gold",
+      "amount" : 0.0
     } ],
     "commerciants" : [ {
       "commerciant" : "Burger King",
@@ -5292,7 +5373,13 @@
     "balance" : 781.5842857142857,
     "currency" : "EUR",
     "IBAN" : "RO37POOB7013767509830666",
-    "transactions" : [ ],
+    "transactions" : [ {
+      "timestamp" : 558,
+      "description" : "Upgrade plan",
+      "senderIBAN" : "RO37POOB7013767509830666",
+      "receiverIBAN" : "gold",
+      "amount" : 0.0
+    } ],
     "commerciants" : [ ]
   },
   "timestamp" : 1033
@@ -5302,7 +5389,13 @@
     "balance" : 946.0,
     "currency" : "RON",
     "IBAN" : "RO19POOB4981055641668812",
-    "transactions" : [ ],
+    "transactions" : [ {
+      "timestamp" : 559,
+      "description" : "Upgrade plan",
+      "senderIBAN" : "RO19POOB4981055641668812",
+      "receiverIBAN" : "gold",
+      "amount" : 0.0
+    } ],
     "commerciants" : [ ]
   },
   "timestamp" : 1034
@@ -5329,10 +5422,20 @@
 }, {
   "command" : "spendingsReport",
   "output" : {
-    "balance" : 1231.0,
+    "balance" : 1089.9184,
     "currency" : "EUR",
     "IBAN" : "RO00POOB5687892910835215",
-    "transactions" : [ ],
+    "transactions" : [ {
+      "timestamp" : 284,
+      "description" : "Cash withdrawal of 704.0",
+      "amount" : 704.0
+    }, {
+      "timestamp" : 562,
+      "description" : "Upgrade plan",
+      "senderIBAN" : "RO00POOB5687892910835215",
+      "receiverIBAN" : "gold",
+      "amount" : 0.0
+    } ],
     "commerciants" : [ ]
   },
   "timestamp" : 1037
@@ -5352,14 +5455,20 @@
     "balance" : 703.1619047619048,
     "currency" : "AUD",
     "IBAN" : "RO33POOB4049920806186500",
-    "transactions" : [ ],
+    "transactions" : [ {
+      "timestamp" : 564,
+      "description" : "Upgrade plan",
+      "senderIBAN" : "RO33POOB4049920806186500",
+      "receiverIBAN" : "gold",
+      "amount" : 0.0
+    } ],
     "commerciants" : [ ]
   },
   "timestamp" : 1039
 }, {
   "command" : "spendingsReport",
   "output" : {
-    "balance" : 712.0,
+    "balance" : 1953.8,
     "currency" : "INR",
     "IBAN" : "RO69POOB9846198978826791",
     "transactions" : [ ],
@@ -5369,20 +5478,34 @@
 }, {
   "command" : "spendingsReport",
   "output" : {
-    "balance" : 647.8888888888889,
+    "balance" : 646.1520888888889,
     "currency" : "CAD",
     "IBAN" : "RO98POOB8412955460158769",
-    "transactions" : [ ],
+    "transactions" : [ {
+      "timestamp" : 290,
+      "description" : "Cash withdrawal of 6.0",
+      "amount" : 6.0
+    }, {
+      "timestamp" : 566,
+      "description" : "Upgrade plan",
+      "senderIBAN" : "RO98POOB8412955460158769",
+      "receiverIBAN" : "gold",
+      "amount" : 0.0
+    } ],
     "commerciants" : [ ]
   },
   "timestamp" : 1041
 }, {
   "command" : "spendingsReport",
   "output" : {
-    "balance" : 1180.0,
+    "balance" : -98.10666666666657,
     "currency" : "INR",
     "IBAN" : "RO32POOB0130532963818359",
-    "transactions" : [ ],
+    "transactions" : [ {
+      "timestamp" : 289,
+      "description" : "Cash withdrawal of 82.0",
+      "amount" : 82.0
+    } ],
     "commerciants" : [ ]
   },
   "timestamp" : 1042
@@ -5397,6 +5520,12 @@
       "description" : "Card payment",
       "amount" : 444.0,
       "commerciant" : "H&M"
+    }, {
+      "timestamp" : 568,
+      "description" : "Upgrade plan",
+      "senderIBAN" : "RO68POOB1848616931405475",
+      "receiverIBAN" : "gold",
+      "amount" : 0.0
     } ],
     "commerciants" : [ {
       "commerciant" : "H&M",
@@ -5410,17 +5539,33 @@
     "balance" : 902.3333333333334,
     "currency" : "AUD",
     "IBAN" : "RO10POOB4354933866366881",
-    "transactions" : [ ],
+    "transactions" : [ {
+      "timestamp" : 569,
+      "description" : "Upgrade plan",
+      "senderIBAN" : "RO10POOB4354933866366881",
+      "receiverIBAN" : "gold",
+      "amount" : 0.0
+    } ],
     "commerciants" : [ ]
   },
   "timestamp" : 1044
 }, {
   "command" : "spendingsReport",
   "output" : {
-    "balance" : 1556.0971428571427,
+    "balance" : 1419.297142857143,
     "currency" : "EUR",
     "IBAN" : "RO33POOB9999273999620457",
-    "transactions" : [ ],
+    "transactions" : [ {
+      "timestamp" : 285,
+      "description" : "Cash withdrawal of 684.0",
+      "amount" : 684.0
+    }, {
+      "timestamp" : 570,
+      "description" : "Upgrade plan",
+      "senderIBAN" : "RO33POOB9999273999620457",
+      "receiverIBAN" : "gold",
+      "amount" : 0.0
+    } ],
     "commerciants" : [ ]
   },
   "timestamp" : 1045
@@ -5430,7 +5575,13 @@
     "balance" : 992.7355555555556,
     "currency" : "NZD",
     "IBAN" : "RO38POOB0964823730995794",
-    "transactions" : [ ],
+    "transactions" : [ {
+      "timestamp" : 571,
+      "description" : "Upgrade plan",
+      "senderIBAN" : "RO38POOB0964823730995794",
+      "receiverIBAN" : "gold",
+      "amount" : 0.0
+    } ],
     "commerciants" : [ ]
   },
   "timestamp" : 1046
@@ -5440,7 +5591,13 @@
     "balance" : 0.7777777777777786,
     "currency" : "GBP",
     "IBAN" : "RO53POOB7122855990652257",
-    "transactions" : [ ],
+    "transactions" : [ {
+      "timestamp" : 572,
+      "description" : "Upgrade plan",
+      "senderIBAN" : "RO53POOB7122855990652257",
+      "receiverIBAN" : "gold",
+      "amount" : 0.0
+    } ],
     "commerciants" : [ ]
   },
   "timestamp" : 1047
@@ -5460,7 +5617,13 @@
     "balance" : 0.002222222222229675,
     "currency" : "USD",
     "IBAN" : "RO09POOB4346339013848470",
-    "transactions" : [ ],
+    "transactions" : [ {
+      "timestamp" : 574,
+      "description" : "Upgrade plan",
+      "senderIBAN" : "RO09POOB4346339013848470",
+      "receiverIBAN" : "gold",
+      "amount" : 0.0
+    } ],
     "commerciants" : [ ]
   },
   "timestamp" : 1049
@@ -5470,7 +5633,13 @@
     "balance" : 0.002222222222229675,
     "currency" : "USD",
     "IBAN" : "RO50POOB3913194831046423",
-    "transactions" : [ ],
+    "transactions" : [ {
+      "timestamp" : 575,
+      "description" : "Upgrade plan",
+      "senderIBAN" : "RO50POOB3913194831046423",
+      "receiverIBAN" : "gold",
+      "amount" : 0.0
+    } ],
     "commerciants" : [ ]
   },
   "timestamp" : 1050
@@ -5500,7 +5669,13 @@
     "balance" : 1.5555555555555571,
     "currency" : "NZD",
     "IBAN" : "RO46POOB9051076190383154",
-    "transactions" : [ ],
+    "transactions" : [ {
+      "timestamp" : 578,
+      "description" : "Upgrade plan",
+      "senderIBAN" : "RO46POOB9051076190383154",
+      "receiverIBAN" : "gold",
+      "amount" : 0.0
+    } ],
     "commerciants" : [ ]
   },
   "timestamp" : 1053
@@ -5520,7 +5695,13 @@
     "balance" : 0.0,
     "currency" : "RON",
     "IBAN" : "RO52POOB6271107854467609",
-    "transactions" : [ ],
+    "transactions" : [ {
+      "timestamp" : 580,
+      "description" : "Upgrade plan",
+      "senderIBAN" : "RO52POOB6271107854467609",
+      "receiverIBAN" : "gold",
+      "amount" : 0.0
+    } ],
     "commerciants" : [ ]
   },
   "timestamp" : 1055
@@ -5540,7 +5721,13 @@
     "balance" : 0.002222222222229675,
     "currency" : "USD",
     "IBAN" : "RO50POOB3359236199018963",
-    "transactions" : [ ],
+    "transactions" : [ {
+      "timestamp" : 582,
+      "description" : "Upgrade plan",
+      "senderIBAN" : "RO50POOB3359236199018963",
+      "receiverIBAN" : "gold",
+      "amount" : 0.0
+    } ],
     "commerciants" : [ ]
   },
   "timestamp" : 1057
@@ -5550,7 +5737,13 @@
     "balance" : 0.0,
     "currency" : "EUR",
     "IBAN" : "RO75POOB8279679254660818",
-    "transactions" : [ ],
+    "transactions" : [ {
+      "timestamp" : 583,
+      "description" : "Upgrade plan",
+      "senderIBAN" : "RO75POOB8279679254660818",
+      "receiverIBAN" : "gold",
+      "amount" : 0.0
+    } ],
     "commerciants" : [ ]
   },
   "timestamp" : 1058
@@ -5570,7 +5763,13 @@
     "balance" : 0.0,
     "currency" : "EUR",
     "IBAN" : "RO73POOB0363118755441573",
-    "transactions" : [ ],
+    "transactions" : [ {
+      "timestamp" : 585,
+      "description" : "Upgrade plan",
+      "senderIBAN" : "RO73POOB0363118755441573",
+      "receiverIBAN" : "gold",
+      "amount" : 0.0
+    } ],
     "commerciants" : [ ]
   },
   "timestamp" : 1060

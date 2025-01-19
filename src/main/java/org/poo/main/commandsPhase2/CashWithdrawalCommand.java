@@ -11,6 +11,7 @@ import org.poo.main.commissions.CommissionHandlerChain;
 
 import java.util.List;
 
+
 public class CashWithdrawalCommand implements Command {
     private final String cardNumber;
     private final double amount;
@@ -21,19 +22,23 @@ public class CashWithdrawalCommand implements Command {
     private final CurrencyConverter currencyConverter;
 
 
-
     /**
      * Constructor for CashWithdrawalCommand.
      *
-     * @param cardNumber the card number used for withdrawal.
-     * @param amount     the amount to withdraw.
-     * @param email      the email of the user.
+     * @param cardNumber the card used for withdrawal.
+     * @param amount     the withdrawal amount.
+     * @param email      the user's email.
      * @param location   the ATM location.
-     * @param timestamp  the time of the transaction.
+     * @param timestamp  the transaction time.
      * @param users      the list of users.
      */
-    public CashWithdrawalCommand(final String cardNumber, final double amount, final String email,
-                                 final String location, final int timestamp, final List<User> users, final CurrencyConverter currencyConverter) {
+    public CashWithdrawalCommand(final String cardNumber,
+                                 final double amount,
+                                 final String email,
+                                 final String location,
+                                 final int timestamp,
+                                 final List<User> users,
+                                 final CurrencyConverter currencyConverter) {
         this.cardNumber = cardNumber;
         this.amount = amount;
         this.email = email;
@@ -42,6 +47,13 @@ public class CashWithdrawalCommand implements Command {
         this.users = users;
         this.currencyConverter = currencyConverter;
     }
+
+
+    /**
+     * Executes the cash withdrawal command.
+     * Validates the user, card, and account, processes the withdrawal,
+     * applies currency conversion and commissions and records the transaction.
+     */
 
     public void execute() {
         User user = null;
@@ -72,23 +84,28 @@ public class CashWithdrawalCommand implements Command {
             throw new IllegalArgumentException("The card is frozen");
         }
         if (amount > account.getBalance()) {
-            Transaction transaction = Transaction.addAccountTransaction(timestamp, "Insufficient funds", null, null);
+            Transaction transaction =
+                    Transaction.addAccountTransaction(timestamp,
+                            "Insufficient funds", null,
+                            null);
             account.addTransaction(transaction);
             account.getOwner().addTransaction(transaction);
         }
-        if(account.getBalance() - amount >= 0){
-            double amountInRightCurrency = currencyConverter.convert(amount, "RON", account.getCurrency());
+        if (account.getBalance() - amount >= 0) {
+            double amountInRightCurrency =
+                    currencyConverter.convert(amount, "RON", account.getCurrency());
 
             account.setBalance(account.getBalance() - amountInRightCurrency);
             double commission = calculateCommission(account, amountInRightCurrency);
             account.setBalance(account.getBalance() - commission);
 
-            Transaction transaction = Transaction.cashWithdrawalTransaction("Cash withdrawal of " + amount, amount, timestamp);
+            Transaction transaction =
+                    Transaction.cashWithdrawalTransaction("Cash withdrawal of " + amount,
+                            amount, timestamp);
             account.addTransaction(transaction);
             account.getOwner().addTransaction(transaction);
 
         }
-
 
 
     }
@@ -100,9 +117,10 @@ public class CashWithdrawalCommand implements Command {
      * @param amount        the amount being sent.
      * @return the calculated commission.
      */
-    private double calculateCommission(Account senderAccount, double amount) {
+    private double calculateCommission(final Account senderAccount, final double amount) {
         CommissionHandler chain = CommissionHandlerChain.createChain();
-        return chain.handleCommission(senderAccount.getPlanType(), amount, senderAccount.getCurrency(), currencyConverter);
+        return chain.handleCommission(senderAccount.getPlanType(), amount,
+                senderAccount.getCurrency(), currencyConverter);
     }
 
 }

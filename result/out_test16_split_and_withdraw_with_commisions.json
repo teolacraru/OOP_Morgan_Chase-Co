@@ -269,7 +269,7 @@
 }, {
   "command" : "acceptSplitPayment",
   "output" : {
-    "description" : "Unknown command: acceptSplitPayment",
+    "description" : "No active transaction found for user: RO90POOB5450777208072365",
     "timestamp" : 179
   },
   "timestamp" : 179
@@ -287,21 +287,12 @@
   }, {
     "description" : "New account created",
     "timestamp" : 65
-  }, {
-    "amount" : 326.59,
-    "currency" : "USD",
-    "description" : "Split payment of 3265.94 USD",
-    "error" : "Account RO79POOB3616857825600958 has insufficient funds for a split payment.",
-    "involvedAccounts" : [ "RO90POOB5450777208072365", "RO30POOB9523423715747796", "RO58POOB2721178218599590", "RO96POOB6738272785416988", "RO37POOB7013767509830666", "RO76POOB4035116042454483", "RO58POOB7344468893732422", "RO69POOB6209498372540635", "RO69POOB9846198978826791", "RO79POOB3616857825600958" ],
-    "timestamp" : 178,
-    "accountIBAN" : "Account RO79POOB3616857825600958 has insufficient funds for a split payment.",
-    "newPlanType" : null
   } ],
   "timestamp" : 180
 }, {
   "command" : "acceptSplitPayment",
   "output" : {
-    "description" : "Unknown command: acceptSplitPayment",
+    "description" : "No active transaction found for user: RO30POOB9523423715747796",
     "timestamp" : 181
   },
   "timestamp" : 181
@@ -316,21 +307,12 @@
     "cardHolder" : "Jonathan_Wright@hotmail.us",
     "description" : "New card created",
     "timestamp" : 124
-  }, {
-    "amount" : 326.59,
-    "currency" : "USD",
-    "description" : "Split payment of 3265.94 USD",
-    "error" : "Account RO79POOB3616857825600958 has insufficient funds for a split payment.",
-    "involvedAccounts" : [ "RO90POOB5450777208072365", "RO30POOB9523423715747796", "RO58POOB2721178218599590", "RO96POOB6738272785416988", "RO37POOB7013767509830666", "RO76POOB4035116042454483", "RO58POOB7344468893732422", "RO69POOB6209498372540635", "RO69POOB9846198978826791", "RO79POOB3616857825600958" ],
-    "timestamp" : 178,
-    "accountIBAN" : "Account RO79POOB3616857825600958 has insufficient funds for a split payment.",
-    "newPlanType" : null
   } ],
   "timestamp" : 182
 }, {
   "command" : "acceptSplitPayment",
   "output" : {
-    "description" : "Unknown command: acceptSplitPayment",
+    "description" : "No active transaction found for user: RO58POOB2721178218599590",
     "timestamp" : 183
   },
   "timestamp" : 183
@@ -345,21 +327,12 @@
     "cardHolder" : "Alix_Brunel@outlook.fr",
     "description" : "New card created",
     "timestamp" : 84
-  }, {
-    "amount" : 326.59,
-    "currency" : "USD",
-    "description" : "Split payment of 3265.94 USD",
-    "error" : "Account RO79POOB3616857825600958 has insufficient funds for a split payment.",
-    "involvedAccounts" : [ "RO90POOB5450777208072365", "RO30POOB9523423715747796", "RO58POOB2721178218599590", "RO96POOB6738272785416988", "RO37POOB7013767509830666", "RO76POOB4035116042454483", "RO58POOB7344468893732422", "RO69POOB6209498372540635", "RO69POOB9846198978826791", "RO79POOB3616857825600958" ],
-    "timestamp" : 178,
-    "accountIBAN" : "Account RO79POOB3616857825600958 has insufficient funds for a split payment.",
-    "newPlanType" : null
   } ],
   "timestamp" : 184
 }, {
   "command" : "acceptSplitPayment",
   "output" : {
-    "description" : "Unknown command: acceptSplitPayment",
+    "description" : "No active transaction found for user: RO96POOB6738272785416988",
     "timestamp" : 185
   },
   "timestamp" : 185
@@ -377,21 +350,12 @@
   }, {
     "description" : "New account created",
     "timestamp" : 160
-  }, {
-    "amount" : 326.59,
-    "currency" : "USD",
-    "description" : "Split payment of 3265.94 USD",
-    "error" : "Account RO79POOB3616857825600958 has insufficient funds for a split payment.",
-    "involvedAccounts" : [ "RO90POOB5450777208072365", "RO30POOB9523423715747796", "RO58POOB2721178218599590", "RO96POOB6738272785416988", "RO37POOB7013767509830666", "RO76POOB4035116042454483", "RO58POOB7344468893732422", "RO69POOB6209498372540635", "RO69POOB9846198978826791", "RO79POOB3616857825600958" ],
-    "timestamp" : 178,
-    "accountIBAN" : "Account RO79POOB3616857825600958 has insufficient funds for a split payment.",
-    "newPlanType" : null
   } ],
   "timestamp" : 186
 }, {
   "command" : "acceptSplitPayment",
   "output" : {
-    "description" : "Unknown command: acceptSplitPayment",
+    "description" : "No active transaction found for user: RO37POOB7013767509830666",
     "timestamp" : 187
   },
   "timestamp" : 187
@@ -409,21 +373,12 @@
   }, {
     "description" : "New account created",
     "timestamp" : 110
-  }, {
-    "amount" : 326.59,
-    "currency" : "USD",
-    "description" : "Split payment of 3265.94 USD",
-    "error" : "Account RO79POOB3616857825600958 has insufficient funds for a split payment.",
-    "involvedAccounts" : [ "RO90POOB5450777208072365", "RO30POOB9523423715747796", "RO58POOB2721178218599590", "RO96POOB6738272785416988", "RO37POOB7013767509830666", "RO76POOB4035116042454483", "RO58POOB7344468893732422", "RO69POOB6209498372540635", "RO69POOB9846198978826791", "RO79POOB3616857825600958" ],
-    "timestamp" : 178,
-    "accountIBAN" : "Account RO79POOB3616857825600958 has insufficient funds for a split payment.",
-    "newPlanType" : null
   } ],
   "timestamp" : 188
 }, {
   "command" : "acceptSplitPayment",
   "output" : {
-    "description" : "Unknown command: acceptSplitPayment",
+    "description" : "No active transaction found for user: RO76POOB4035116042454483",
     "timestamp" : 189
   },
   "timestamp" : 189
@@ -438,21 +393,12 @@
     "cardHolder" : "Melania_Mocanu@hotmail.ro",
     "description" : "New card created",
     "timestamp" : 89
-  }, {
-    "amount" : 326.59,
-    "currency" : "USD",
-    "description" : "Split payment of 3265.94 USD",
-    "error" : "Account RO79POOB3616857825600958 has insufficient funds for a split payment.",
-    "involvedAccounts" : [ "RO90POOB5450777208072365", "RO30POOB9523423715747796", "RO58POOB2721178218599590", "RO96POOB6738272785416988", "RO37POOB7013767509830666", "RO76POOB4035116042454483", "RO58POOB7344468893732422", "RO69POOB6209498372540635", "RO69POOB9846198978826791", "RO79POOB3616857825600958" ],
-    "timestamp" : 178,
-    "accountIBAN" : "Account RO79POOB3616857825600958 has insufficient funds for a split payment.",
-    "newPlanType" : null
   } ],
   "timestamp" : 190
 }, {
   "command" : "acceptSplitPayment",
   "output" : {
-    "description" : "Unknown command: acceptSplitPayment",
+    "description" : "No active transaction found for user: RO58POOB7344468893732422",
     "timestamp" : 191
   },
   "timestamp" : 191
@@ -467,21 +413,12 @@
     "cardHolder" : "Lauren_Schultz@gmail.us",
     "description" : "New card created",
     "timestamp" : 21
-  }, {
-    "amount" : 326.59,
-    "currency" : "USD",
-    "description" : "Split payment of 3265.94 USD",
-    "error" : "Account RO79POOB3616857825600958 has insufficient funds for a split payment.",
-    "involvedAccounts" : [ "RO90POOB5450777208072365", "RO30POOB9523423715747796", "RO58POOB2721178218599590", "RO96POOB6738272785416988", "RO37POOB7013767509830666", "RO76POOB4035116042454483", "RO58POOB7344468893732422", "RO69POOB6209498372540635", "RO69POOB9846198978826791", "RO79POOB3616857825600958" ],
-    "timestamp" : 178,
-    "accountIBAN" : "Account RO79POOB3616857825600958 has insufficient funds for a split payment.",
-    "newPlanType" : null
   } ],
   "timestamp" : 192
 }, {
   "command" : "acceptSplitPayment",
   "output" : {
-    "description" : "Unknown command: acceptSplitPayment",
+    "description" : "No active transaction found for user: RO69POOB6209498372540635",
     "timestamp" : 193
   },
   "timestamp" : 193
@@ -496,21 +433,12 @@
     "cardHolder" : "Alexe_Dima@gmail.ro",
     "description" : "New card created",
     "timestamp" : 42
-  }, {
-    "amount" : 326.59,
-    "currency" : "USD",
-    "description" : "Split payment of 3265.94 USD",
-    "error" : "Account RO79POOB3616857825600958 has insufficient funds for a split payment.",
-    "involvedAccounts" : [ "RO90POOB5450777208072365", "RO30POOB9523423715747796", "RO58POOB2721178218599590", "RO96POOB6738272785416988", "RO37POOB7013767509830666", "RO76POOB4035116042454483", "RO58POOB7344468893732422", "RO69POOB6209498372540635", "RO69POOB9846198978826791", "RO79POOB3616857825600958" ],
-    "timestamp" : 178,
-    "accountIBAN" : "Account RO79POOB3616857825600958 has insufficient funds for a split payment.",
-    "newPlanType" : null
   } ],
   "timestamp" : 194
 }, {
   "command" : "acceptSplitPayment",
   "output" : {
-    "description" : "Unknown command: acceptSplitPayment",
+    "description" : "No active transaction found for user: RO69POOB9846198978826791",
     "timestamp" : 196
   },
   "timestamp" : 196
@@ -525,30 +453,12 @@
     "cardHolder" : "Christopher_Jones@gmail.us",
     "description" : "New card created",
     "timestamp" : 175
-  }, {
-    "amount" : 326.59,
-    "currency" : "USD",
-    "description" : "Split payment of 3265.94 USD",
-    "error" : "Account RO79POOB3616857825600958 has insufficient funds for a split payment.",
-    "involvedAccounts" : [ "RO90POOB5450777208072365", "RO30POOB9523423715747796", "RO58POOB2721178218599590", "RO96POOB6738272785416988", "RO37POOB7013767509830666", "RO76POOB4035116042454483", "RO58POOB7344468893732422", "RO69POOB6209498372540635", "RO69POOB9846198978826791", "RO79POOB3616857825600958" ],
-    "timestamp" : 178,
-    "accountIBAN" : "Account RO79POOB3616857825600958 has insufficient funds for a split payment.",
-    "newPlanType" : null
-  }, {
-    "amount" : 262.8,
-    "currency" : "USD",
-    "description" : "Split payment of 2628.00 USD",
-    "error" : "Account RO76POOB4035116042454483 has insufficient funds for a split payment.",
-    "involvedAccounts" : [ "RO96POOB6738272785416988", "RO58POOB2721178218599590", "RO33POOB4049920806186500", "RO69POOB9846198978826791", "RO30POOB9523423715747796", "RO37POOB7013767509830666", "RO69POOB6209498372540635", "RO58POOB7344468893732422", "RO00POOB5687892910835215", "RO76POOB4035116042454483" ],
-    "timestamp" : 195,
-    "accountIBAN" : "Account RO76POOB4035116042454483 has insufficient funds for a split payment.",
-    "newPlanType" : null
   } ],
   "timestamp" : 197
 }, {
   "command" : "acceptSplitPayment",
   "output" : {
-    "description" : "Unknown command: acceptSplitPayment",
+    "description" : "No active transaction found for user: RO79POOB3616857825600958",
     "timestamp" : 198
   },
   "timestamp" : 198
@@ -566,107 +476,89 @@
   }, {
     "description" : "New account created",
     "timestamp" : 138
-  }, {
-    "amount" : 326.59,
-    "currency" : "USD",
-    "description" : "Split payment of 3265.94 USD",
-    "error" : "Account RO79POOB3616857825600958 has insufficient funds for a split payment.",
-    "involvedAccounts" : [ "RO90POOB5450777208072365", "RO30POOB9523423715747796", "RO58POOB2721178218599590", "RO96POOB6738272785416988", "RO37POOB7013767509830666", "RO76POOB4035116042454483", "RO58POOB7344468893732422", "RO69POOB6209498372540635", "RO69POOB9846198978826791", "RO79POOB3616857825600958" ],
-    "timestamp" : 178,
-    "accountIBAN" : "Account RO79POOB3616857825600958 has insufficient funds for a split payment.",
-    "newPlanType" : null
-  }, {
-    "amount" : 262.8,
-    "currency" : "USD",
-    "description" : "Split payment of 2628.00 USD",
-    "error" : "Account RO76POOB4035116042454483 has insufficient funds for a split payment.",
-    "involvedAccounts" : [ "RO96POOB6738272785416988", "RO58POOB2721178218599590", "RO33POOB4049920806186500", "RO69POOB9846198978826791", "RO30POOB9523423715747796", "RO37POOB7013767509830666", "RO69POOB6209498372540635", "RO58POOB7344468893732422", "RO00POOB5687892910835215", "RO76POOB4035116042454483" ],
-    "timestamp" : 195,
-    "accountIBAN" : "Account RO76POOB4035116042454483 has insufficient funds for a split payment.",
-    "newPlanType" : null
   } ],
   "timestamp" : 199
 }, {
   "command" : "rejectSplitPayment",
   "output" : {
-    "description" : "Unknown command: rejectSplitPayment",
+    "description" : "User not found: RO58POOB7344468893732422",
     "timestamp" : 212
   },
   "timestamp" : 212
 }, {
   "command" : "rejectSplitPayment",
   "output" : {
-    "description" : "Unknown command: rejectSplitPayment",
+    "description" : "User not found: RO69POOB6209498372540635",
     "timestamp" : 213
   },
   "timestamp" : 213
 }, {
   "command" : "rejectSplitPayment",
   "output" : {
-    "description" : "Unknown command: rejectSplitPayment",
+    "description" : "User not found: RO58POOB2721178218599590",
     "timestamp" : 214
   },
   "timestamp" : 214
 }, {
   "command" : "rejectSplitPayment",
   "output" : {
-    "description" : "Unknown command: rejectSplitPayment",
+    "description" : "User not found: RO76POOB4035116042454483",
     "timestamp" : 215
   },
   "timestamp" : 215
 }, {
   "command" : "rejectSplitPayment",
   "output" : {
-    "description" : "Unknown command: rejectSplitPayment",
+    "description" : "User not found: RO37POOB7013767509830666",
     "timestamp" : 216
   },
   "timestamp" : 216
 }, {
   "command" : "acceptSplitPayment",
   "output" : {
-    "description" : "Unknown command: acceptSplitPayment",
+    "description" : "No active transaction found for user: RO19POOB4981055641668812",
     "timestamp" : 217
   },
   "timestamp" : 217
 }, {
   "command" : "acceptSplitPayment",
   "output" : {
-    "description" : "Unknown command: acceptSplitPayment",
+    "description" : "No active transaction found for user: RO30POOB9523423715747796",
     "timestamp" : 218
   },
   "timestamp" : 218
 }, {
   "command" : "acceptSplitPayment",
   "output" : {
-    "description" : "Unknown command: acceptSplitPayment",
+    "description" : "No active transaction found for user: RO79POOB3616857825600958",
     "timestamp" : 219
   },
   "timestamp" : 219
 }, {
   "command" : "acceptSplitPayment",
   "output" : {
-    "description" : "Unknown command: acceptSplitPayment",
+    "description" : "No active transaction found for user: RO00POOB5687892910835215",
     "timestamp" : 220
   },
   "timestamp" : 220
 }, {
   "command" : "rejectSplitPayment",
   "output" : {
-    "description" : "Unknown command: rejectSplitPayment",
+    "description" : "User not found: RO96POOB6738272785416988",
     "timestamp" : 221
   },
   "timestamp" : 221
 }, {
   "command" : "rejectSplitPayment",
   "output" : {
-    "description" : "Unknown command: rejectSplitPayment",
+    "description" : "User not found: RO33POOB4049920806186500",
     "timestamp" : 222
   },
   "timestamp" : 222
 }, {
   "command" : "acceptSplitPayment",
   "output" : {
-    "description" : "Unknown command: acceptSplitPayment",
+    "description" : "No active transaction found for user: RO69POOB9846198978826791",
     "timestamp" : 223
   },
   "timestamp" : 223
@@ -953,15 +845,6 @@
     "description" : "New account created",
     "timestamp" : 65
   }, {
-    "amount" : 326.59,
-    "currency" : "USD",
-    "description" : "Split payment of 3265.94 USD",
-    "error" : "Account RO79POOB3616857825600958 has insufficient funds for a split payment.",
-    "involvedAccounts" : [ "RO90POOB5450777208072365", "RO30POOB9523423715747796", "RO58POOB2721178218599590", "RO96POOB6738272785416988", "RO37POOB7013767509830666", "RO76POOB4035116042454483", "RO58POOB7344468893732422", "RO69POOB6209498372540635", "RO69POOB9846198978826791", "RO79POOB3616857825600958" ],
-    "timestamp" : 178,
-    "accountIBAN" : "Account RO79POOB3616857825600958 has insufficient funds for a split payment.",
-    "newPlanType" : null
-  }, {
     "description" : "Interest rate income",
     "currency" : "RON",
     "amount" : 30.900000000000002,
@@ -983,24 +866,6 @@
     "description" : "New account created",
     "timestamp" : 110
   }, {
-    "amount" : 326.59,
-    "currency" : "USD",
-    "description" : "Split payment of 3265.94 USD",
-    "error" : "Account RO79POOB3616857825600958 has insufficient funds for a split payment.",
-    "involvedAccounts" : [ "RO90POOB5450777208072365", "RO30POOB9523423715747796", "RO58POOB2721178218599590", "RO96POOB6738272785416988", "RO37POOB7013767509830666", "RO76POOB4035116042454483", "RO58POOB7344468893732422", "RO69POOB6209498372540635", "RO69POOB9846198978826791", "RO79POOB3616857825600958" ],
-    "timestamp" : 178,
-    "accountIBAN" : "Account RO79POOB3616857825600958 has insufficient funds for a split payment.",
-    "newPlanType" : null
-  }, {
-    "amount" : 262.8,
-    "currency" : "USD",
-    "description" : "Split payment of 2628.00 USD",
-    "error" : "Account RO76POOB4035116042454483 has insufficient funds for a split payment.",
-    "involvedAccounts" : [ "RO96POOB6738272785416988", "RO58POOB2721178218599590", "RO33POOB4049920806186500", "RO69POOB9846198978826791", "RO30POOB9523423715747796", "RO37POOB7013767509830666", "RO69POOB6209498372540635", "RO58POOB7344468893732422", "RO00POOB5687892910835215", "RO76POOB4035116042454483" ],
-    "timestamp" : 195,
-    "accountIBAN" : "Account RO76POOB4035116042454483 has insufficient funds for a split payment.",
-    "newPlanType" : null
-  }, {
     "description" : "Interest rate income",
     "currency" : "RON",
     "amount" : 24.02,
@@ -1021,24 +886,6 @@
   }, {
     "description" : "New account created",
     "timestamp" : 110
-  }, {
-    "amount" : 326.59,
-    "currency" : "USD",
-    "description" : "Split payment of 3265.94 USD",
-    "error" : "Account RO79POOB3616857825600958 has insufficient funds for a split payment.",
-    "involvedAccounts" : [ "RO90POOB5450777208072365", "RO30POOB9523423715747796", "RO58POOB2721178218599590", "RO96POOB6738272785416988", "RO37POOB7013767509830666", "RO76POOB4035116042454483", "RO58POOB7344468893732422", "RO69POOB6209498372540635", "RO69POOB9846198978826791", "RO79POOB3616857825600958" ],
-    "timestamp" : 178,
-    "accountIBAN" : "Account RO79POOB3616857825600958 has insufficient funds for a split payment.",
-    "newPlanType" : null
-  }, {
-    "amount" : 262.8,
-    "currency" : "USD",
-    "description" : "Split payment of 2628.00 USD",
-    "error" : "Account RO76POOB4035116042454483 has insufficient funds for a split payment.",
-    "involvedAccounts" : [ "RO96POOB6738272785416988", "RO58POOB2721178218599590", "RO33POOB4049920806186500", "RO69POOB9846198978826791", "RO30POOB9523423715747796", "RO37POOB7013767509830666", "RO69POOB6209498372540635", "RO58POOB7344468893732422", "RO00POOB5687892910835215", "RO76POOB4035116042454483" ],
-    "timestamp" : 195,
-    "accountIBAN" : "Account RO76POOB4035116042454483 has insufficient funds for a split payment.",
-    "newPlanType" : null
   }, {
     "description" : "Interest rate income",
     "currency" : "RON",
@@ -1064,24 +911,6 @@
     "description" : "New account created",
     "timestamp" : 138
   }, {
-    "amount" : 326.59,
-    "currency" : "USD",
-    "description" : "Split payment of 3265.94 USD",
-    "error" : "Account RO79POOB3616857825600958 has insufficient funds for a split payment.",
-    "involvedAccounts" : [ "RO90POOB5450777208072365", "RO30POOB9523423715747796", "RO58POOB2721178218599590", "RO96POOB6738272785416988", "RO37POOB7013767509830666", "RO76POOB4035116042454483", "RO58POOB7344468893732422", "RO69POOB6209498372540635", "RO69POOB9846198978826791", "RO79POOB3616857825600958" ],
-    "timestamp" : 178,
-    "accountIBAN" : "Account RO79POOB3616857825600958 has insufficient funds for a split payment.",
-    "newPlanType" : null
-  }, {
-    "amount" : 262.8,
-    "currency" : "USD",
-    "description" : "Split payment of 2628.00 USD",
-    "error" : "Account RO76POOB4035116042454483 has insufficient funds for a split payment.",
-    "involvedAccounts" : [ "RO96POOB6738272785416988", "RO58POOB2721178218599590", "RO33POOB4049920806186500", "RO69POOB9846198978826791", "RO30POOB9523423715747796", "RO37POOB7013767509830666", "RO69POOB6209498372540635", "RO58POOB7344468893732422", "RO00POOB5687892910835215", "RO76POOB4035116042454483" ],
-    "timestamp" : 195,
-    "accountIBAN" : "Account RO76POOB4035116042454483 has insufficient funds for a split payment.",
-    "newPlanType" : null
-  }, {
     "description" : "Interest rate income",
     "currency" : "RON",
     "amount" : 360.88,
@@ -1102,24 +931,6 @@
   }, {
     "description" : "New account created",
     "timestamp" : 138
-  }, {
-    "amount" : 326.59,
-    "currency" : "USD",
-    "description" : "Split payment of 3265.94 USD",
-    "error" : "Account RO79POOB3616857825600958 has insufficient funds for a split payment.",
-    "involvedAccounts" : [ "RO90POOB5450777208072365", "RO30POOB9523423715747796", "RO58POOB2721178218599590", "RO96POOB6738272785416988", "RO37POOB7013767509830666", "RO76POOB4035116042454483", "RO58POOB7344468893732422", "RO69POOB6209498372540635", "RO69POOB9846198978826791", "RO79POOB3616857825600958" ],
-    "timestamp" : 178,
-    "accountIBAN" : "Account RO79POOB3616857825600958 has insufficient funds for a split payment.",
-    "newPlanType" : null
-  }, {
-    "amount" : 262.8,
-    "currency" : "USD",
-    "description" : "Split payment of 2628.00 USD",
-    "error" : "Account RO76POOB4035116042454483 has insufficient funds for a split payment.",
-    "involvedAccounts" : [ "RO96POOB6738272785416988", "RO58POOB2721178218599590", "RO33POOB4049920806186500", "RO69POOB9846198978826791", "RO30POOB9523423715747796", "RO37POOB7013767509830666", "RO69POOB6209498372540635", "RO58POOB7344468893732422", "RO00POOB5687892910835215", "RO76POOB4035116042454483" ],
-    "timestamp" : 195,
-    "accountIBAN" : "Account RO76POOB4035116042454483 has insufficient funds for a split payment.",
-    "newPlanType" : null
   }, {
     "description" : "Interest rate income",
     "currency" : "RON",
@@ -1145,33 +956,6 @@
     "description" : "New account created",
     "timestamp" : 160
   }, {
-    "amount" : 326.59,
-    "currency" : "USD",
-    "description" : "Split payment of 3265.94 USD",
-    "error" : "Account RO79POOB3616857825600958 has insufficient funds for a split payment.",
-    "involvedAccounts" : [ "RO90POOB5450777208072365", "RO30POOB9523423715747796", "RO58POOB2721178218599590", "RO96POOB6738272785416988", "RO37POOB7013767509830666", "RO76POOB4035116042454483", "RO58POOB7344468893732422", "RO69POOB6209498372540635", "RO69POOB9846198978826791", "RO79POOB3616857825600958" ],
-    "timestamp" : 178,
-    "accountIBAN" : "Account RO79POOB3616857825600958 has insufficient funds for a split payment.",
-    "newPlanType" : null
-  }, {
-    "amount" : 262.8,
-    "currency" : "USD",
-    "description" : "Split payment of 2628.00 USD",
-    "error" : "Account RO76POOB4035116042454483 has insufficient funds for a split payment.",
-    "involvedAccounts" : [ "RO96POOB6738272785416988", "RO58POOB2721178218599590", "RO33POOB4049920806186500", "RO69POOB9846198978826791", "RO30POOB9523423715747796", "RO37POOB7013767509830666", "RO69POOB6209498372540635", "RO58POOB7344468893732422", "RO00POOB5687892910835215", "RO76POOB4035116042454483" ],
-    "timestamp" : 195,
-    "accountIBAN" : "Account RO76POOB4035116042454483 has insufficient funds for a split payment.",
-    "newPlanType" : null
-  }, {
-    "amount" : 262.8,
-    "currency" : "USD",
-    "description" : "Split payment of 2628.00 USD",
-    "error" : "Account RO76POOB4035116042454483 has insufficient funds for a split payment.",
-    "involvedAccounts" : [ "RO96POOB6738272785416988", "RO58POOB2721178218599590", "RO33POOB4049920806186500", "RO69POOB9846198978826791", "RO30POOB9523423715747796", "RO37POOB7013767509830666", "RO69POOB6209498372540635", "RO58POOB7344468893732422", "RO00POOB5687892910835215", "RO76POOB4035116042454483" ],
-    "timestamp" : 195,
-    "accountIBAN" : "Account RO76POOB4035116042454483 has insufficient funds for a split payment.",
-    "newPlanType" : null
-  }, {
     "description" : "Interest rate income",
     "currency" : "USD",
     "amount" : 473.40000000000003,
@@ -1181,7 +965,7 @@
 }, {
   "command" : "acceptSplitPayment",
   "output" : {
-    "description" : "Unknown command: acceptSplitPayment",
+    "description" : "No active transaction found for user: RO90POOB5450777208072365",
     "timestamp" : 240
   },
   "timestamp" : 240
@@ -1200,28 +984,10 @@
     "description" : "New account created",
     "timestamp" : 65
   }, {
-    "amount" : 326.59,
-    "currency" : "USD",
-    "description" : "Split payment of 3265.94 USD",
-    "error" : "Account RO79POOB3616857825600958 has insufficient funds for a split payment.",
-    "involvedAccounts" : [ "RO90POOB5450777208072365", "RO30POOB9523423715747796", "RO58POOB2721178218599590", "RO96POOB6738272785416988", "RO37POOB7013767509830666", "RO76POOB4035116042454483", "RO58POOB7344468893732422", "RO69POOB6209498372540635", "RO69POOB9846198978826791", "RO79POOB3616857825600958" ],
-    "timestamp" : 178,
-    "accountIBAN" : "Account RO79POOB3616857825600958 has insufficient funds for a split payment.",
-    "newPlanType" : null
-  }, {
     "description" : "Interest rate income",
     "currency" : "RON",
     "amount" : 30.900000000000002,
     "timestamp" : 225
-  }, {
-    "amount" : 495.82,
-    "currency" : "EUR",
-    "description" : "Split payment of 2479.10 EUR",
-    "error" : "Account RO76POOB4035116042454483 has insufficient funds for a split payment.",
-    "involvedAccounts" : [ "RO90POOB5450777208072365", "RO69POOB6209498372540635", "RO58POOB2721178218599590", "RO76POOB4035116042454483", "RO58POOB7344468893732422" ],
-    "timestamp" : 237,
-    "accountIBAN" : "Account RO76POOB4035116042454483 has insufficient funds for a split payment.",
-    "newPlanType" : null
   }, {
     "accountIBAN" : "RO90POOB5450777208072365",
     "description" : "Upgrade plan",
@@ -1232,7 +998,7 @@
 }, {
   "command" : "acceptSplitPayment",
   "output" : {
-    "description" : "Unknown command: acceptSplitPayment",
+    "description" : "No active transaction found for user: RO69POOB6209498372540635",
     "timestamp" : 245
   },
   "timestamp" : 245
@@ -1248,33 +1014,6 @@
     "description" : "New card created",
     "timestamp" : 42
   }, {
-    "amount" : 326.59,
-    "currency" : "USD",
-    "description" : "Split payment of 3265.94 USD",
-    "error" : "Account RO79POOB3616857825600958 has insufficient funds for a split payment.",
-    "involvedAccounts" : [ "RO90POOB5450777208072365", "RO30POOB9523423715747796", "RO58POOB2721178218599590", "RO96POOB6738272785416988", "RO37POOB7013767509830666", "RO76POOB4035116042454483", "RO58POOB7344468893732422", "RO69POOB6209498372540635", "RO69POOB9846198978826791", "RO79POOB3616857825600958" ],
-    "timestamp" : 178,
-    "accountIBAN" : "Account RO79POOB3616857825600958 has insufficient funds for a split payment.",
-    "newPlanType" : null
-  }, {
-    "amount" : 262.8,
-    "currency" : "USD",
-    "description" : "Split payment of 2628.00 USD",
-    "error" : "Account RO76POOB4035116042454483 has insufficient funds for a split payment.",
-    "involvedAccounts" : [ "RO96POOB6738272785416988", "RO58POOB2721178218599590", "RO33POOB4049920806186500", "RO69POOB9846198978826791", "RO30POOB9523423715747796", "RO37POOB7013767509830666", "RO69POOB6209498372540635", "RO58POOB7344468893732422", "RO00POOB5687892910835215", "RO76POOB4035116042454483" ],
-    "timestamp" : 195,
-    "accountIBAN" : "Account RO76POOB4035116042454483 has insufficient funds for a split payment.",
-    "newPlanType" : null
-  }, {
-    "amount" : 495.82,
-    "currency" : "EUR",
-    "description" : "Split payment of 2479.10 EUR",
-    "error" : "Account RO76POOB4035116042454483 has insufficient funds for a split payment.",
-    "involvedAccounts" : [ "RO90POOB5450777208072365", "RO69POOB6209498372540635", "RO58POOB2721178218599590", "RO76POOB4035116042454483", "RO58POOB7344468893732422" ],
-    "timestamp" : 237,
-    "accountIBAN" : "Account RO76POOB4035116042454483 has insufficient funds for a split payment.",
-    "newPlanType" : null
-  }, {
     "accountIBAN" : "RO69POOB6209498372540635",
     "description" : "Upgrade plan",
     "newPlanType" : "silver",
@@ -1284,7 +1023,7 @@
 }, {
   "command" : "acceptSplitPayment",
   "output" : {
-    "description" : "Unknown command: acceptSplitPayment",
+    "description" : "No active transaction found for user: RO58POOB2721178218599590",
     "timestamp" : 250
   },
   "timestamp" : 250
@@ -1300,33 +1039,6 @@
     "description" : "New card created",
     "timestamp" : 84
   }, {
-    "amount" : 326.59,
-    "currency" : "USD",
-    "description" : "Split payment of 3265.94 USD",
-    "error" : "Account RO79POOB3616857825600958 has insufficient funds for a split payment.",
-    "involvedAccounts" : [ "RO90POOB5450777208072365", "RO30POOB9523423715747796", "RO58POOB2721178218599590", "RO96POOB6738272785416988", "RO37POOB7013767509830666", "RO76POOB4035116042454483", "RO58POOB7344468893732422", "RO69POOB6209498372540635", "RO69POOB9846198978826791", "RO79POOB3616857825600958" ],
-    "timestamp" : 178,
-    "accountIBAN" : "Account RO79POOB3616857825600958 has insufficient funds for a split payment.",
-    "newPlanType" : null
-  }, {
-    "amount" : 262.8,
-    "currency" : "USD",
-    "description" : "Split payment of 2628.00 USD",
-    "error" : "Account RO76POOB4035116042454483 has insufficient funds for a split payment.",
-    "involvedAccounts" : [ "RO96POOB6738272785416988", "RO58POOB2721178218599590", "RO33POOB4049920806186500", "RO69POOB9846198978826791", "RO30POOB9523423715747796", "RO37POOB7013767509830666", "RO69POOB6209498372540635", "RO58POOB7344468893732422", "RO00POOB5687892910835215", "RO76POOB4035116042454483" ],
-    "timestamp" : 195,
-    "accountIBAN" : "Account RO76POOB4035116042454483 has insufficient funds for a split payment.",
-    "newPlanType" : null
-  }, {
-    "amount" : 495.82,
-    "currency" : "EUR",
-    "description" : "Split payment of 2479.10 EUR",
-    "error" : "Account RO76POOB4035116042454483 has insufficient funds for a split payment.",
-    "involvedAccounts" : [ "RO90POOB5450777208072365", "RO69POOB6209498372540635", "RO58POOB2721178218599590", "RO76POOB4035116042454483", "RO58POOB7344468893732422" ],
-    "timestamp" : 237,
-    "accountIBAN" : "Account RO76POOB4035116042454483 has insufficient funds for a split payment.",
-    "newPlanType" : null
-  }, {
     "accountIBAN" : "RO58POOB2721178218599590",
     "description" : "Upgrade plan",
     "newPlanType" : "silver",
@@ -1336,7 +1048,7 @@
 }, {
   "command" : "acceptSplitPayment",
   "output" : {
-    "description" : "Unknown command: acceptSplitPayment",
+    "description" : "No active transaction found for user: RO76POOB4035116042454483",
     "timestamp" : 255
   },
   "timestamp" : 255
@@ -1352,33 +1064,6 @@
     "description" : "New card created",
     "timestamp" : 89
   }, {
-    "amount" : 326.59,
-    "currency" : "USD",
-    "description" : "Split payment of 3265.94 USD",
-    "error" : "Account RO79POOB3616857825600958 has insufficient funds for a split payment.",
-    "involvedAccounts" : [ "RO90POOB5450777208072365", "RO30POOB9523423715747796", "RO58POOB2721178218599590", "RO96POOB6738272785416988", "RO37POOB7013767509830666", "RO76POOB4035116042454483", "RO58POOB7344468893732422", "RO69POOB6209498372540635", "RO69POOB9846198978826791", "RO79POOB3616857825600958" ],
-    "timestamp" : 178,
-    "accountIBAN" : "Account RO79POOB3616857825600958 has insufficient funds for a split payment.",
-    "newPlanType" : null
-  }, {
-    "amount" : 262.8,
-    "currency" : "USD",
-    "description" : "Split payment of 2628.00 USD",
-    "error" : "Account RO76POOB4035116042454483 has insufficient funds for a split payment.",
-    "involvedAccounts" : [ "RO96POOB6738272785416988", "RO58POOB2721178218599590", "RO33POOB4049920806186500", "RO69POOB9846198978826791", "RO30POOB9523423715747796", "RO37POOB7013767509830666", "RO69POOB6209498372540635", "RO58POOB7344468893732422", "RO00POOB5687892910835215", "RO76POOB4035116042454483" ],
-    "timestamp" : 195,
-    "accountIBAN" : "Account RO76POOB4035116042454483 has insufficient funds for a split payment.",
-    "newPlanType" : null
-  }, {
-    "amount" : 495.82,
-    "currency" : "EUR",
-    "description" : "Split payment of 2479.10 EUR",
-    "error" : "Account RO76POOB4035116042454483 has insufficient funds for a split payment.",
-    "involvedAccounts" : [ "RO90POOB5450777208072365", "RO69POOB6209498372540635", "RO58POOB2721178218599590", "RO76POOB4035116042454483", "RO58POOB7344468893732422" ],
-    "timestamp" : 237,
-    "accountIBAN" : "Account RO76POOB4035116042454483 has insufficient funds for a split payment.",
-    "newPlanType" : null
-  }, {
     "accountIBAN" : "RO76POOB4035116042454483",
     "description" : "Upgrade plan",
     "newPlanType" : "silver",
@@ -1388,7 +1073,7 @@
 }, {
   "command" : "acceptSplitPayment",
   "output" : {
-    "description" : "Unknown command: acceptSplitPayment",
+    "description" : "No active transaction found for user: RO58POOB7344468893732422",
     "timestamp" : 260
   },
   "timestamp" : 260
@@ -1403,33 +1088,6 @@
     "cardHolder" : "Lauren_Schultz@gmail.us",
     "description" : "New card created",
     "timestamp" : 21
-  }, {
-    "amount" : 326.59,
-    "currency" : "USD",
-    "description" : "Split payment of 3265.94 USD",
-    "error" : "Account RO79POOB3616857825600958 has insufficient funds for a split payment.",
-    "involvedAccounts" : [ "RO90POOB5450777208072365", "RO30POOB9523423715747796", "RO58POOB2721178218599590", "RO96POOB6738272785416988", "RO37POOB7013767509830666", "RO76POOB4035116042454483", "RO58POOB7344468893732422", "RO69POOB6209498372540635", "RO69POOB9846198978826791", "RO79POOB3616857825600958" ],
-    "timestamp" : 178,
-    "accountIBAN" : "Account RO79POOB3616857825600958 has insufficient funds for a split payment.",
-    "newPlanType" : null
-  }, {
-    "amount" : 262.8,
-    "currency" : "USD",
-    "description" : "Split payment of 2628.00 USD",
-    "error" : "Account RO76POOB4035116042454483 has insufficient funds for a split payment.",
-    "involvedAccounts" : [ "RO96POOB6738272785416988", "RO58POOB2721178218599590", "RO33POOB4049920806186500", "RO69POOB9846198978826791", "RO30POOB9523423715747796", "RO37POOB7013767509830666", "RO69POOB6209498372540635", "RO58POOB7344468893732422", "RO00POOB5687892910835215", "RO76POOB4035116042454483" ],
-    "timestamp" : 195,
-    "accountIBAN" : "Account RO76POOB4035116042454483 has insufficient funds for a split payment.",
-    "newPlanType" : null
-  }, {
-    "amount" : 495.82,
-    "currency" : "EUR",
-    "description" : "Split payment of 2479.10 EUR",
-    "error" : "Account RO76POOB4035116042454483 has insufficient funds for a split payment.",
-    "involvedAccounts" : [ "RO90POOB5450777208072365", "RO69POOB6209498372540635", "RO58POOB2721178218599590", "RO76POOB4035116042454483", "RO58POOB7344468893732422" ],
-    "timestamp" : 237,
-    "accountIBAN" : "Account RO76POOB4035116042454483 has insufficient funds for a split payment.",
-    "newPlanType" : null
   }, {
     "accountIBAN" : "RO58POOB7344468893732422",
     "description" : "Upgrade plan",

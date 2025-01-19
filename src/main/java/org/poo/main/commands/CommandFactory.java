@@ -7,7 +7,11 @@ import org.poo.main.CurrencyConverter;
 import org.poo.main.ExchangeRate;
 import org.poo.main.User;
 import org.poo.main.commandsPhase2.*;
+import org.poo.main.splitpayments2.AcceptSplitPaymentCommand;
+import org.poo.main.splitpayments2.RejectSplitPaymentCommand;
+import org.poo.main.splitpayments2.SplitPaymentStatus;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -39,8 +43,10 @@ public final class CommandFactory {
                                      final List<User> users,
                                      final CurrencyConverter currencyConverter,
                                      final List<Commerciant> commerciants,
-                                     final ArrayNode output) {
+                                     final ArrayNode output,
+                                     final List<SplitPaymentStatus> activeTransactions) {
         final Map<String, Double> commerciantTotals = new HashMap<>();
+
 
         switch (input.getCommand()) {
             case "addAccount":
@@ -53,7 +59,6 @@ public final class CommandFactory {
                                 ? input.getInterestRate() : 0,
                         users
                 );
-
             case "printUsers":
                 return new PrintUsersCommand(
                         users,
@@ -183,13 +188,65 @@ public final class CommandFactory {
                 );
 
             case "splitPayment":
-                return new SplitPaymentCommand(
+                String transactionId = "tx-" + input.getTimestamp(); // Poți genera un ID unic
+                List<String> ibanList = input.getAccounts();
+
+                // Mapăm IBAN-urile la email-urile utilizatorilor
+                List<String> userEmails = new ArrayList<>();
+                for (String iban : ibanList) {
+                    for (User user : users) {
+                        if (user.getAccounts().stream().anyMatch(account
+                                -> account.getIBAN().equals(iban))) {
+                            userEmails.add(user.getEmail());
+                            break; // Trecem la următorul IBAN
+                        }
+                    }
+                }
+                SplitPaymentStatus status = new SplitPaymentStatus(
+                        transactionId,
+                        userEmails,
                         input.getTimestamp(),
-                        input.getCurrency(),
                         input.getAmount(),
+                        input.getCurrency(),
+                        input.getSplitPaymentType(),
                         input.getAccounts(),
+                        input.getAmountForUsers(),
                         users,
                         currencyConverter
+                );
+
+                activeTransactions.add(status);
+                //System.out.println(input.getTimestamp());
+                return new SplitPaymentCommand(
+                        input.getTimestamp(),
+                        input.getAmount(),
+                        input.getCurrency(),
+                        input.getSplitPaymentType(), // Adăugat
+                        input.getAccounts(),
+                        input.getAmountForUsers(),
+                        users,
+                        currencyConverter,
+                        status
+
+                );
+            case "acceptSplitPayment":
+//                if(input.getTimestamp() == 163){
+//                    System.out.println(activeTransactions.size());
+//                }
+                return new AcceptSplitPaymentCommand(
+                        input.getEmail(), // Email-ul utilizatorului care acceptă
+                        input.getTimestamp(), // Timestamp-ul comenzii
+                        activeTransactions,
+                        users,
+                        currencyConverter// Lista tranzacțiilor active
+                );
+
+            case "rejectSplitPayment":
+                return new RejectSplitPaymentCommand(
+                        input.getEmail(), // Email-ul utilizatorului care refuză
+                        input.getTimestamp(), // Timestamp-ul comenzii
+                        activeTransactions,
+                        users// Lista tranzacțiilor active
                 );
 
             case "report":
@@ -219,12 +276,19 @@ public final class CommandFactory {
                         users
                 );
             case "cashWithdrawal":
-                return new CashWithdrawalCommand(input.getCardNumber(), input.getAmount(), input.getEmail(), input.getLocation(), input.getTimestamp(), users, currencyConverter);
+                return new CashWithdrawalCommand(input.getCardNumber(),
+                        input.getAmount(), input.getEmail(),
+                        input.getLocation(), input.getTimestamp(),
+                        users, currencyConverter);
             case "withdrawSavings":
-                return new WithdrawSavingsCommand(input.getAccount(), input.getAmount(), input.getCurrency(), input.getTimestamp(), users, currencyConverter);
+                return new WithdrawSavingsCommand(input.getAccount(),
+                        input.getAmount(), input.getCurrency(),
+                        input.getTimestamp(), users, currencyConverter);
             case "upgradePlan":
-                return new UpgradePlanCommand(input.getNewPlanType(), input.getAccount(), input.getTimestamp(), users, currencyConverter);
-                default:
+                return new UpgradePlanCommand(input.getNewPlanType(),
+                        input.getAccount(), input.getTimestamp(),
+                        users, currencyConverter);
+            default:
                 throw new IllegalArgumentException("Unknown command: " + input.getCommand());
         }
     }

@@ -9,7 +9,14 @@ import org.poo.main.commands.Command;
 
 import java.util.List;
 
-public class WithdrawSavingsCommand implements Command {
+/**
+ * Command to withdraw money from a savings account into a standard account.
+ * Ensures proper validation of age, account type, and sufficient funds.
+ */
+public final class WithdrawSavingsCommand implements Command {
+
+    private static final int MINIMUM_AGE = 21;
+
     private final String accountIBAN;
     private final double amount;
     private final String currency;
@@ -27,8 +34,11 @@ public class WithdrawSavingsCommand implements Command {
      * @param users             the list of users.
      * @param currencyConverter the currency converter utility.
      */
-    public WithdrawSavingsCommand(final String accountIBAN, final double amount, final String currency,
-                                  final int timestamp, final List<User> users,
+    public WithdrawSavingsCommand(final String accountIBAN,
+                                  final double amount,
+                                  final String currency,
+                                  final int timestamp,
+                                  final List<User> users,
                                   final CurrencyConverter currencyConverter) {
         this.accountIBAN = accountIBAN;
         this.amount = amount;
@@ -37,7 +47,15 @@ public class WithdrawSavingsCommand implements Command {
         this.users = users;
         this.currencyConverter = currencyConverter;
     }
-    public void execute(){
+
+    /**
+     * Executes the command to withdraw money from a savings account.
+     * Validates user age, account type, and balance before processing the transaction.
+     *
+     * @throws IllegalArgumentException if validation fails.
+     */
+    @Override
+    public void execute() {
         User user = null;
         SavingsAccount savingsAccount = null;
         Account targetAccount = null;
@@ -61,7 +79,7 @@ public class WithdrawSavingsCommand implements Command {
         }
 
         int age = user.calculateAge();
-        if(age < 21) {
+        if (age < MINIMUM_AGE) {
             Transaction transaction = Transaction.addAccountTransaction(
                     timestamp,
                     "You don't have the minimum age required.",
@@ -72,6 +90,7 @@ public class WithdrawSavingsCommand implements Command {
             savingsAccount.addTransaction(transaction);
             return;
         }
+
         for (Account acc : user.getAccounts()) {
             if (!acc.equals(savingsAccount) && acc.getCurrency().equals(currency)) {
                 targetAccount = acc;
@@ -80,13 +99,18 @@ public class WithdrawSavingsCommand implements Command {
         }
 
         if (targetAccount == null) {
-            Transaction transaction = Transaction.addAccountTransaction(timestamp, "You do not have a classic account.", null, null);
+            Transaction transaction = Transaction.addAccountTransaction(
+                    timestamp,
+                    "You do not have a classic account.",
+                    null,
+                    null
+            );
             user.addTransaction(transaction);
-            //savingsAccount.getOwner().addTransaction(transaction);
             return;
         }
 
-        double convertedAmount = currencyConverter.convert(amount, currency, savingsAccount.getCurrency());
+        double convertedAmount = currencyConverter.
+                convert(amount, currency, savingsAccount.getCurrency());
         if (savingsAccount.getBalance() < convertedAmount) {
             throw new IllegalArgumentException("Insufficient funds.");
         }

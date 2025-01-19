@@ -22,7 +22,7 @@
 }, {
   "command" : "setMinimumBalance",
   "output" : {
-    "description" : "Cannot invoke \"org.poo.main.accounts.Account.setMinBalance(double)\" because \"accountToSet\" is null",
+    "description" : "Account with IBAN RO98POOB8412955460158769 not found.",
     "timestamp" : 209
   },
   "timestamp" : 209
@@ -50,7 +50,7 @@
 }, {
   "command" : "setMinimumBalance",
   "output" : {
-    "description" : "Cannot invoke \"org.poo.main.accounts.Account.setMinBalance(double)\" because \"accountToSet\" is null",
+    "description" : "Account with IBAN RO32POOB0130532963818359 not found.",
     "timestamp" : 222
   },
   "timestamp" : 222
@@ -78,7 +78,7 @@
 }, {
   "command" : "setMinimumBalance",
   "output" : {
-    "description" : "Cannot invoke \"org.poo.main.accounts.Account.setMinBalance(double)\" because \"accountToSet\" is null",
+    "description" : "Account with IBAN RO68POOB1848616931405475 not found.",
     "timestamp" : 237
   },
   "timestamp" : 237
@@ -106,7 +106,7 @@
 }, {
   "command" : "setMinimumBalance",
   "output" : {
-    "description" : "Cannot invoke \"org.poo.main.accounts.Account.setMinBalance(double)\" because \"accountToSet\" is null",
+    "description" : "Account with IBAN RO10POOB4354933866366881 not found.",
     "timestamp" : 258
   },
   "timestamp" : 258

@@ -12,10 +12,10 @@ public class SavingsAccount extends Account {
     /**
      * Constructs a SavingsAccount instance.
      *
-     * @param iban          the IBAN of the account.
-     * @param currency      the currency of the account.
-     * @param interestRate  the interest rate of the account.
-     * @param user          the owner of the account.
+     * @param iban         the IBAN of the account.
+     * @param currency     the currency of the account.
+     * @param interestRate the interest rate of the account.
+     * @param user         the owner of the account.
      */
     public SavingsAccount(final String iban,
                           final String currency,

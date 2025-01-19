@@ -8,6 +8,7 @@ import org.poo.main.commissions.CommissionHandler;
 import org.poo.main.commissions.CommissionHandlerChain;
 
 import java.util.List;
+
 /**
  * Command to send money between accounts.
  */
@@ -23,13 +24,13 @@ public class SendMoneyCommand implements Command {
     /**
      * Constructor for SendMoneyCommand.
      *
-     * @param accountIbanOrAlias   the sender's IBAN or alias.
-     * @param amount               the amount to send.
-     * @param receiverIbanOrAlias  the receiver's IBAN or alias.
-     * @param timestamp            the timestamp of the transaction.
-     * @param description          the description of the transaction.
-     * @param currencyConverter    the currency converter utility.
-     * @param users                the list of users.
+     * @param accountIbanOrAlias  the sender's IBAN or alias.
+     * @param amount              the amount to send.
+     * @param receiverIbanOrAlias the receiver's IBAN or alias.
+     * @param timestamp           the timestamp of the transaction.
+     * @param description         the description of the transaction.
+     * @param currencyConverter   the currency converter utility.
+     * @param users               the list of users.
      */
     public SendMoneyCommand(final String accountIbanOrAlias,
                             final double amount,
@@ -102,12 +103,10 @@ public class SendMoneyCommand implements Command {
         }
         double senderInitialAmount = senderAccount.getBalance();
         double recieverInitialAmount = recieverAccount.getBalance();
-        if (senderInitialAmount - amount >= 0) {
+        if (senderInitialAmount - amount - commission >= 0) {
             senderAccount.setBalance(senderInitialAmount - amount - commission);
             recieverAccount.setBalance(recieverInitialAmount + finalAmount);
-            if(timestamp == 8) {
-                //System.out.println(senderAccount.getBalance() + " " + commission);
-            }
+
         } else {
             Transaction transaction =
                     Transaction.addAccountTransaction(
@@ -142,9 +141,10 @@ public class SendMoneyCommand implements Command {
      * @param amount        the amount being sent.
      * @return the calculated commission.
      */
-    private double calculateCommission(Account senderAccount, double amount) {
+    private double calculateCommission(final Account senderAccount, final double amount) {
         CommissionHandler chain = CommissionHandlerChain.createChain();
-        return chain.handleCommission(senderAccount.getPlanType(), amount, senderAccount.getCurrency(), currencyConverter);
+        return chain.handleCommission(senderAccount.getPlanType(),
+                amount, senderAccount.getCurrency(), currencyConverter);
     }
 
 }

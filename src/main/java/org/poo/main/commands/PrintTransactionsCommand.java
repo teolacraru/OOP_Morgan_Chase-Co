@@ -6,12 +6,12 @@ import org.poo.main.Transaction;
 import org.poo.main.User;
 
 import java.util.List;
-import java.util.Locale;
 
 /**
  * Command to print transactions for a specific user.
  */
 public class PrintTransactionsCommand implements Command {
+    private static final double ROUNDING_FACTOR = 100.0;
     private final String email;
     private final int timestamp;
     private final List<User> users;
@@ -95,7 +95,7 @@ public class PrintTransactionsCommand implements Command {
                 break;
             case "payOnline":
                 double balance = transaction.getAmount();
-                transactionNode.put("amount", balance); // Store as integer if no decimals
+                transactionNode.put("amount", balance);
                 transactionNode.put("commerciant", transaction.getCommerciant());
                 transactionNode.put("description", transaction.getDescription());
                 transactionNode.put("timestamp", transaction.getTimestamp());
@@ -114,9 +114,10 @@ public class PrintTransactionsCommand implements Command {
             case "splitPayment":
                 balance = transaction.getAmount();
                 if (balance % 1 == 0) {
-                    transactionNode.put("amount", balance); // Store as integer if no decimals
+                    transactionNode.put("amount", balance);
                 } else {
-                    transactionNode.put("amount", Math.round(balance * 100.0) / 100.0); // Store as double with 2 decimals
+                    transactionNode.put("amount",
+                            Math.round(balance * ROUNDING_FACTOR) / ROUNDING_FACTOR);
                 }
                 transactionNode.put("currency", transaction.getCurrency());
                 transactionNode.put("description", transaction.getDescription());
@@ -130,10 +131,53 @@ public class PrintTransactionsCommand implements Command {
                 for (String account : involvedAccounts) {
                     involvedAccountsArray.add(account);
                 }
+
                 transactionNode.put("timestamp", transaction.getTimestamp());
+            case "splitPaymentCustom":
+                transactionNode.put("currency", transaction.getCurrency());
+                transactionNode.put("description", transaction.getDescription());
+                ArrayNode involvedAccounts1 =
+                        transactionNode.putArray("involvedAccounts");
+                List<String> involvedAccounts2 = transaction.getAccounts();
+                for (String account : involvedAccounts2) {
+                    involvedAccounts1.add(account);
+                }
+                transactionNode.put("splitPaymentType", "custom");
+                ArrayNode amountsToPay = transactionNode.putArray("amountForUsers");
+                List<Double> amounts = transaction.getAmounts();
+                for (Double amount : amounts) {
+                    amountsToPay.add(Math.round(amount * ROUNDING_FACTOR) / ROUNDING_FACTOR);
+                }
+                transactionNode.put("timestamp", transaction.getTimestamp());
+                if (transaction.getReceiverIBAN() != null) {
+                    transactionNode.put("error", transaction.getReceiverIBAN());
+                }
+                break;
+            case "splitPaymentEqual":
+                balance = transaction.getAmount();
+                if (balance % 1 == 0) {
+                    transactionNode.put("amount", balance);
+                } else {
+                    transactionNode.put("amount",
+                            Math.round(balance * ROUNDING_FACTOR) / ROUNDING_FACTOR);
+                }
+                transactionNode.put("currency", transaction.getCurrency());
+                transactionNode.put("description", transaction.getDescription());
+                if (transaction.getSenderIBAN() != null) {
+                    transactionNode.put("error", transaction.getSenderIBAN());
+                }
+                ArrayNode involvedAccountsArray2 =
+                        transactionNode.putArray("involvedAccounts");
+                List<String> involvedAccounts3 = transaction.getAccounts();
+                for (String account : involvedAccounts3) {
+                    involvedAccountsArray2.add(account);
+                }
+                transactionNode.put("timestamp", transaction.getTimestamp());
+                break;
             case "deleteAccount":
                 transactionNode.put("description", transaction.getDescription());
                 transactionNode.put("timestamp", transaction.getTimestamp());
+                break;
             case "upgradePlan":
                 transactionNode.put("accountIBAN", transaction.getSenderIBAN());
                 transactionNode.put("description", transaction.getDescription());

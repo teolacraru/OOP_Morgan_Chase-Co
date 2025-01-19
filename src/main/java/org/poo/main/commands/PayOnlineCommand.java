@@ -10,7 +10,6 @@ import org.poo.main.commissions.CommissionHandler;
 import org.poo.main.commissions.CommissionHandlerChain;
 
 import java.util.List;
-import java.util.Map;
 
 /**
  * Command for processing online payments.
@@ -44,7 +43,7 @@ public class PayOnlineCommand implements Command {
      * @param exchangeRates     the exchange rates for currency conversion.
      * @param currencyConverter the currency converter.
      * @param output            the output JSON structure.
-     * @param commerciants the map of merchant totals.
+     * @param commerciants      the map of merchant totals.
      */
     public PayOnlineCommand(final String cardNumber,
                             final double amount,
@@ -125,20 +124,22 @@ public class PayOnlineCommand implements Command {
         double amountInRON = currencyConverter.convert(amount, currency, "RON");
         CashbackStrategy strategy = commerciant.getCashbackStrategy();
         double cashback = strategy.calculateCashback(amountInRON, account, commerciant.getName());
-        double commission = calculateCommission(account, amount);
+        double commission = calculateCommission(account, finalAmount);
         if (account.getBalance() >= finalAmount && finalAmount != 0) {
 
             account.setBalance(account.getBalance() - finalAmount);
             account.setBalance(account.getBalance() + cashback * finalAmount);
             account.setBalance(account.getBalance() - commission);
+
             for (Card card1 : account.getCards()) {
                 if (card1.getCardNumber().equals(cardNumber)
                         && card1.getType().equals("one-time")) {
                     Card card2 = CardFactory.createCard("one-time");
                     account.removeCard(cardNumber);
-                    transactionRemoved = Transaction.createCardTransaction
-                            (timestamp, "The card has been destroyed",
-                                    account.getIBAN(), cardNumber, user.getEmail());
+                    transactionRemoved = Transaction.createCardTransaction(timestamp,
+                            "The card has been destroyed",
+                                    account.getIBAN(), cardNumber, user.getEmail()
+                            );
                     account.addCard(card2);
                     transactionCreated = Transaction.createCardTransaction(
                             timestamp, "New card created",
@@ -172,7 +173,7 @@ public class PayOnlineCommand implements Command {
                 account.getOwner().addTransaction(transactionCreated);
             }
         } else {
-            if(amount!=0){
+            if (amount != 0) {
                 Transaction transaction = Transaction.addAccountTransaction(
                         timestamp, "Insufficient funds", null, null
                 );
@@ -188,8 +189,9 @@ public class PayOnlineCommand implements Command {
      * @param amount        the amount being sent.
      * @return the calculated commission.
      */
-    private double calculateCommission(Account senderAccount, double amount) {
+    private double calculateCommission(final Account senderAccount, final double amount) {
         CommissionHandler chain = CommissionHandlerChain.createChain();
-        return chain.handleCommission(senderAccount.getPlanType(), amount, senderAccount.getCurrency(), currencyConverter);
+        return chain.handleCommission(senderAccount.getPlanType(),
+                amount, senderAccount.getCurrency(), currencyConverter);
     }
 }

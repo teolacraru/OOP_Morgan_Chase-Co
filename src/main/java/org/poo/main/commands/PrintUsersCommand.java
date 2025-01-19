@@ -7,8 +7,6 @@ import org.poo.main.User;
 import org.poo.main.accounts.Account;
 import org.poo.main.cards.Card;
 
-import java.math.BigDecimal;
-import java.math.RoundingMode;
 import java.text.DecimalFormat;
 import java.util.List;
 
@@ -17,6 +15,13 @@ public class PrintUsersCommand implements Command {
     private final int timestamp;
     private final ArrayNode output;
 
+    /**
+     * Constructs a PrintUsersCommand instance.
+     *
+     * @param users     the list of users to print information for
+     * @param timestamp the timestamp of the command execution
+     * @param output    the JSON array to append the command's result to
+     */
     public PrintUsersCommand(final List<User> users, final int timestamp, final ArrayNode output) {
         this.users = users;
         this.timestamp = timestamp;
@@ -28,7 +33,7 @@ public class PrintUsersCommand implements Command {
         ObjectMapper mapper = new ObjectMapper();
         ArrayNode userArray = mapper.createArrayNode();
 
-        DecimalFormat df = new DecimalFormat("#.00"); // Formatare cu 2 zecimale
+        DecimalFormat df = new DecimalFormat("#.00");
 
 
         for (User user : users) {
@@ -42,15 +47,8 @@ public class PrintUsersCommand implements Command {
             for (Account account : user.getAccounts()) {
                 ObjectNode accountNode = mapper.createObjectNode();
                 accountNode.put("IBAN", account.getIBAN());
-                //double balance = account.getBalance();
-                //BigDecimal roundedBalance = new BigDecimal(balance).setScale(2, RoundingMode.HALF_UP);
-                accountNode.put("balance", account.getBalance());
 
-//                if (roundedBalance.scale() > 0 && roundedBalance.stripTrailingZeros().scale() <= 0) {
-//                    accountNode.put("balance", roundedBalance.intValue());
-//                } else {
-//                    accountNode.put("balance", roundedBalance.doubleValue());
-//                }
+                accountNode.put("balance", account.getBalance());
                 accountNode.put("currency", account.getCurrency());
                 accountNode.put("type", account.getAccountType());
 

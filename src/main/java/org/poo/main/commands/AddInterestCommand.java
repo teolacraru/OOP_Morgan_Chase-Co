@@ -62,7 +62,9 @@ public class AddInterestCommand implements Command {
         double interestAmount = targetAccount.getBalance() * interestRate;
 
         targetAccount.setBalance(targetAccount.getBalance() + interestAmount);
-        Transaction transaction = Transaction.addInterestTransaction("Interest rate income", interestAmount, targetAccount.getCurrency(), timestamp);
+        Transaction transaction = Transaction.
+                addInterestTransaction("Interest rate income",
+                        interestAmount, targetAccount.getCurrency(), timestamp);
         targetAccount.addTransaction(transaction);
         targetAccount.getOwner().addTransaction(transaction);
 

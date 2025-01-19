@@ -1660,76 +1660,6 @@
   },
   "timestamp" : 616
 }, {
-  "command" : "acceptSplitPayment",
-  "output" : {
-    "description" : "Unknown command: acceptSplitPayment",
-    "timestamp" : 660
-  },
-  "timestamp" : 660
-}, {
-  "command" : "acceptSplitPayment",
-  "output" : {
-    "description" : "Unknown command: acceptSplitPayment",
-    "timestamp" : 661
-  },
-  "timestamp" : 661
-}, {
-  "command" : "acceptSplitPayment",
-  "output" : {
-    "description" : "Unknown command: acceptSplitPayment",
-    "timestamp" : 662
-  },
-  "timestamp" : 662
-}, {
-  "command" : "acceptSplitPayment",
-  "output" : {
-    "description" : "Unknown command: acceptSplitPayment",
-    "timestamp" : 663
-  },
-  "timestamp" : 663
-}, {
-  "command" : "acceptSplitPayment",
-  "output" : {
-    "description" : "Unknown command: acceptSplitPayment",
-    "timestamp" : 664
-  },
-  "timestamp" : 664
-}, {
-  "command" : "acceptSplitPayment",
-  "output" : {
-    "description" : "Unknown command: acceptSplitPayment",
-    "timestamp" : 665
-  },
-  "timestamp" : 665
-}, {
-  "command" : "acceptSplitPayment",
-  "output" : {
-    "description" : "Unknown command: acceptSplitPayment",
-    "timestamp" : 666
-  },
-  "timestamp" : 666
-}, {
-  "command" : "acceptSplitPayment",
-  "output" : {
-    "description" : "Unknown command: acceptSplitPayment",
-    "timestamp" : 667
-  },
-  "timestamp" : 667
-}, {
-  "command" : "acceptSplitPayment",
-  "output" : {
-    "description" : "Unknown command: acceptSplitPayment",
-    "timestamp" : 668
-  },
-  "timestamp" : 668
-}, {
-  "command" : "acceptSplitPayment",
-  "output" : {
-    "description" : "Unknown command: acceptSplitPayment",
-    "timestamp" : 669
-  },
-  "timestamp" : 669
-}, {
   "command" : "addAccount",
   "output" : {
     "description" : "Invalid account type: business",
@@ -1743,90 +1673,6 @@
     "timestamp" : 764
   },
   "timestamp" : 764
-}, {
-  "command" : "acceptSplitPayment",
-  "output" : {
-    "description" : "Unknown command: acceptSplitPayment",
-    "timestamp" : 765
-  },
-  "timestamp" : 765
-}, {
-  "command" : "acceptSplitPayment",
-  "output" : {
-    "description" : "Unknown command: acceptSplitPayment",
-    "timestamp" : 766
-  },
-  "timestamp" : 766
-}, {
-  "command" : "acceptSplitPayment",
-  "output" : {
-    "description" : "Unknown command: acceptSplitPayment",
-    "timestamp" : 767
-  },
-  "timestamp" : 767
-}, {
-  "command" : "acceptSplitPayment",
-  "output" : {
-    "description" : "Unknown command: acceptSplitPayment",
-    "timestamp" : 768
-  },
-  "timestamp" : 768
-}, {
-  "command" : "acceptSplitPayment",
-  "output" : {
-    "description" : "Unknown command: acceptSplitPayment",
-    "timestamp" : 769
-  },
-  "timestamp" : 769
-}, {
-  "command" : "acceptSplitPayment",
-  "output" : {
-    "description" : "Unknown command: acceptSplitPayment",
-    "timestamp" : 770
-  },
-  "timestamp" : 770
-}, {
-  "command" : "acceptSplitPayment",
-  "output" : {
-    "description" : "Unknown command: acceptSplitPayment",
-    "timestamp" : 771
-  },
-  "timestamp" : 771
-}, {
-  "command" : "acceptSplitPayment",
-  "output" : {
-    "description" : "Unknown command: acceptSplitPayment",
-    "timestamp" : 772
-  },
-  "timestamp" : 772
-}, {
-  "command" : "acceptSplitPayment",
-  "output" : {
-    "description" : "Unknown command: acceptSplitPayment",
-    "timestamp" : 773
-  },
-  "timestamp" : 773
-}, {
-  "command" : "acceptSplitPayment",
-  "output" : {
-    "description" : "Unknown command: acceptSplitPayment",
-    "timestamp" : 774
-  },
-  "timestamp" : 774
-}, {
-  "command" : "acceptSplitPayment",
-  "output" : {
-    "description" : "Unknown command: acceptSplitPayment",
-    "timestamp" : 775
-  },
-  "timestamp" : 775
-}, {
-  "command" : "acceptSplitPayment",
-  "output" : {
-    "description" : "Unknown command: acceptSplitPayment",
-    "timestamp" : 776
-  },
-  "timestamp" : 776
 }, {
   "command" : "printUsers",
   "output" : [ {
@@ -1877,7 +1723,7 @@
     "email" : "Heather_Sheppard@hotmail.ch",
     "accounts" : [ {
       "IBAN" : "RO65POOB8944016386845896",
-      "balance" : 1497.0500000000002,
+      "balance" : 1497.0548,
       "currency" : "CHF",
       "type" : "classic",
       "cards" : [ {
@@ -2826,41 +2672,6 @@
   },
   "timestamp" : 840
 }, {
-  "command" : "rejectSplitPayment",
-  "output" : {
-    "description" : "Unknown command: rejectSplitPayment",
-    "timestamp" : 842
-  },
-  "timestamp" : 842
-}, {
-  "command" : "acceptSplitPayment",
-  "output" : {
-    "description" : "Unknown command: acceptSplitPayment",
-    "timestamp" : 843
-  },
-  "timestamp" : 843
-}, {
-  "command" : "acceptSplitPayment",
-  "output" : {
-    "description" : "Unknown command: acceptSplitPayment",
-    "timestamp" : 844
-  },
-  "timestamp" : 844
-}, {
-  "command" : "acceptSplitPayment",
-  "output" : {
-    "description" : "Unknown command: acceptSplitPayment",
-    "timestamp" : 845
-  },
-  "timestamp" : 845
-}, {
-  "command" : "acceptSplitPayment",
-  "output" : {
-    "description" : "Unknown command: acceptSplitPayment",
-    "timestamp" : 846
-  },
-  "timestamp" : 846
-}, {
   "command" : "spendingsReport",
   "output" : {
     "balance" : 391.22,
@@ -2877,17 +2688,17 @@
     "currency" : "GBP",
     "IBAN" : "RO90POOB5450777208072365",
     "transactions" : [ {
-      "timestamp" : 528,
-      "description" : "Upgrade plan",
-      "senderIBAN" : "RO90POOB5450777208072365",
-      "receiverIBAN" : "silver",
-      "amount" : 0.0
+      "timestamp" : 619,
+      "description" : "Split payment of 991.88 CHF",
+      "senderIBAN" : "custom",
+      "receiverIBAN" : "Account RO58POOB2721178218599590 has insufficient funds for a split payment.",
+      "amount" : 991.88
     }, {
-      "timestamp" : 614,
-      "description" : "Upgrade plan",
-      "senderIBAN" : "RO90POOB5450777208072365",
-      "receiverIBAN" : "gold",
-      "amount" : 0.0
+      "timestamp" : 762,
+      "description" : "Split payment of 4168.00 AUD",
+      "senderIBAN" : "equal",
+      "receiverIBAN" : "Account RO19POOB5993192794373940 has insufficient funds for a split payment.",
+      "amount" : 4168.0
     } ],
     "commerciants" : [ ]
   },
@@ -2911,7 +2722,7 @@
 }, {
   "command" : "spendingsReport",
   "output" : {
-    "balance" : 1497.0500000000002,
+    "balance" : 1497.0548,
     "currency" : "CHF",
     "IBAN" : "RO65POOB8944016386845896",
     "transactions" : [ {
@@ -2919,6 +2730,12 @@
       "description" : "Card payment",
       "amount" : 6.6000000000000005,
       "commerciant" : "Microsoft"
+    }, {
+      "timestamp" : 619,
+      "description" : "Split payment of 991.88 CHF",
+      "senderIBAN" : "custom",
+      "receiverIBAN" : "Account RO58POOB2721178218599590 has insufficient funds for a split payment.",
+      "amount" : 991.88
     } ],
     "commerciants" : [ {
       "commerciant" : "Microsoft",
@@ -3095,7 +2912,7 @@
     "email" : "Heather_Sheppard@hotmail.ch",
     "accounts" : [ {
       "IBAN" : "RO65POOB8944016386845896",
-      "balance" : 1497.0500000000002,
+      "balance" : 1497.0548,
       "currency" : "CHF",
       "type" : "classic",
       "cards" : [ {
@@ -3613,6 +3430,12 @@
       "description" : "Card payment",
       "amount" : 0.018571428571428572,
       "commerciant" : "Apple"
+    }, {
+      "timestamp" : 619,
+      "description" : "Split payment of 991.88 CHF",
+      "senderIBAN" : "custom",
+      "receiverIBAN" : "Account RO58POOB2721178218599590 has insufficient funds for a split payment.",
+      "amount" : 991.88
     } ],
     "commerciants" : [ {
       "commerciant" : "Apple",

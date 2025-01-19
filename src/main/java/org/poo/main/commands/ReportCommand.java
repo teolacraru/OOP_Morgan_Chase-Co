@@ -7,6 +7,7 @@ import org.poo.main.User;
 import org.poo.main.accounts.Account;
 
 import java.util.List;
+
 /**
  * Command to generate a report for a specific account.
  */

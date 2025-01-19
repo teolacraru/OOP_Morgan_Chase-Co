@@ -409,9 +409,6 @@
     "currency" : "RON",
     "IBAN" : "RO65POOB8944016386845896",
     "transactions" : [ {
-      "description" : "Upgrade plan",
-      "timestamp" : 212
-    }, {
       "description" : "Interest rate income",
       "timestamp" : 224
     } ]
@@ -433,17 +430,7 @@
     "timestamp" : 195
   }, {
     "description" : "Account couldn't be deleted - there are funds remaining",
-    "timestamp" : 208,
-    "accountIBAN" : null,
-    "newPlanType" : null
-  }, {
-    "amount" : 355.75,
-    "currency" : "RON",
-    "description" : "Split payment of 1423.00 RON",
-    "involvedAccounts" : [ "RO69POOB6209498372540635", "RO58POOB2721178218599590", "RO65POOB8944016386845896", "RO58POOB7344468893732422" ],
-    "timestamp" : 227,
-    "accountIBAN" : null,
-    "newPlanType" : null
+    "timestamp" : 208
   } ],
   "timestamp" : 228
 }, {
@@ -457,14 +444,6 @@
   }, {
     "description" : "You do not have a classic account.",
     "timestamp" : 196
-  }, {
-    "amount" : 355.75,
-    "currency" : "RON",
-    "description" : "Split payment of 1423.00 RON",
-    "involvedAccounts" : [ "RO69POOB6209498372540635", "RO58POOB2721178218599590", "RO65POOB8944016386845896", "RO58POOB7344468893732422" ],
-    "timestamp" : 227,
-    "accountIBAN" : null,
-    "newPlanType" : null
   } ],
   "timestamp" : 229
 }, {
@@ -483,9 +462,7 @@
     "timestamp" : 197
   }, {
     "description" : "Account couldn't be deleted - there are funds remaining",
-    "timestamp" : 201,
-    "accountIBAN" : null,
-    "newPlanType" : null
+    "timestamp" : 201
   } ],
   "timestamp" : 230
 }, {
@@ -512,14 +489,6 @@
     "currency" : "RON",
     "amount" : 586.6700000000001,
     "timestamp" : 224
-  }, {
-    "amount" : 355.75,
-    "currency" : "RON",
-    "description" : "Split payment of 1423.00 RON",
-    "involvedAccounts" : [ "RO69POOB6209498372540635", "RO58POOB2721178218599590", "RO65POOB8944016386845896", "RO58POOB7344468893732422" ],
-    "timestamp" : 227,
-    "accountIBAN" : null,
-    "newPlanType" : null
   } ],
   "timestamp" : 231
 }, {
@@ -538,47 +507,9 @@
     "timestamp" : 199
   }, {
     "description" : "Account couldn't be deleted - there are funds remaining",
-    "timestamp" : 209,
-    "accountIBAN" : null,
-    "newPlanType" : null
-  }, {
-    "amount" : 355.75,
-    "currency" : "RON",
-    "description" : "Split payment of 1423.00 RON",
-    "involvedAccounts" : [ "RO69POOB6209498372540635", "RO58POOB2721178218599590", "RO65POOB8944016386845896", "RO58POOB7344468893732422" ],
-    "timestamp" : 227,
-    "accountIBAN" : null,
-    "newPlanType" : null
+    "timestamp" : 209
   } ],
   "timestamp" : 232
-}, {
-  "command" : "acceptSplitPayment",
-  "output" : {
-    "description" : "Unknown command: acceptSplitPayment",
-    "timestamp" : 233
-  },
-  "timestamp" : 233
-}, {
-  "command" : "acceptSplitPayment",
-  "output" : {
-    "description" : "Unknown command: acceptSplitPayment",
-    "timestamp" : 234
-  },
-  "timestamp" : 234
-}, {
-  "command" : "acceptSplitPayment",
-  "output" : {
-    "description" : "Unknown command: acceptSplitPayment",
-    "timestamp" : 235
-  },
-  "timestamp" : 235
-}, {
-  "command" : "acceptSplitPayment",
-  "output" : {
-    "description" : "Unknown command: acceptSplitPayment",
-    "timestamp" : 236
-  },
-  "timestamp" : 236
 }, {
   "command" : "printTransactions",
   "output" : [ {
@@ -595,18 +526,22 @@
     "timestamp" : 195
   }, {
     "description" : "Account couldn't be deleted - there are funds remaining",
-    "timestamp" : 208,
-    "accountIBAN" : null,
-    "newPlanType" : null
+    "timestamp" : 208
   }, {
     "amount" : 355.75,
     "currency" : "RON",
-    "description" : "Split payment of 1423.00 RON",
+    "description" : "Split payment completed",
     "involvedAccounts" : [ "RO69POOB6209498372540635", "RO58POOB2721178218599590", "RO65POOB8944016386845896", "RO58POOB7344468893732422" ],
     "timestamp" : 227,
-    "accountIBAN" : null,
-    "newPlanType" : null
-  } ],
+    "splitPaymentType" : "custom",
+    "amountForUsers" : [ ]
+  } ]
+}, {
+  "command" : "printTransactions",
+  "output" : {
+    "description" : "Cannot invoke \"java.util.List.iterator()\" because \"amounts\" is null",
+    "timestamp" : 237
+  },
   "timestamp" : 237
 }, {
   "command" : "printTransactions",
@@ -622,12 +557,18 @@
   }, {
     "amount" : 355.75,
     "currency" : "RON",
-    "description" : "Split payment of 1423.00 RON",
+    "description" : "Split payment completed",
     "involvedAccounts" : [ "RO69POOB6209498372540635", "RO58POOB2721178218599590", "RO65POOB8944016386845896", "RO58POOB7344468893732422" ],
     "timestamp" : 227,
-    "accountIBAN" : null,
-    "newPlanType" : null
-  } ],
+    "splitPaymentType" : "custom",
+    "amountForUsers" : [ ]
+  } ]
+}, {
+  "command" : "printTransactions",
+  "output" : {
+    "description" : "Cannot invoke \"java.util.List.iterator()\" because \"amounts\" is null",
+    "timestamp" : 238
+  },
   "timestamp" : 238
 }, {
   "command" : "printTransactions",
@@ -645,9 +586,7 @@
     "timestamp" : 197
   }, {
     "description" : "Account couldn't be deleted - there are funds remaining",
-    "timestamp" : 201,
-    "accountIBAN" : null,
-    "newPlanType" : null
+    "timestamp" : 201
   } ],
   "timestamp" : 239
 }, {
@@ -677,12 +616,18 @@
   }, {
     "amount" : 355.75,
     "currency" : "RON",
-    "description" : "Split payment of 1423.00 RON",
+    "description" : "Split payment completed",
     "involvedAccounts" : [ "RO69POOB6209498372540635", "RO58POOB2721178218599590", "RO65POOB8944016386845896", "RO58POOB7344468893732422" ],
     "timestamp" : 227,
-    "accountIBAN" : null,
-    "newPlanType" : null
-  } ],
+    "splitPaymentType" : "custom",
+    "amountForUsers" : [ ]
+  } ]
+}, {
+  "command" : "printTransactions",
+  "output" : {
+    "description" : "Cannot invoke \"java.util.List.iterator()\" because \"amounts\" is null",
+    "timestamp" : 240
+  },
   "timestamp" : 240
 }, {
   "command" : "printTransactions",
@@ -700,18 +645,22 @@
     "timestamp" : 199
   }, {
     "description" : "Account couldn't be deleted - there are funds remaining",
-    "timestamp" : 209,
-    "accountIBAN" : null,
-    "newPlanType" : null
+    "timestamp" : 209
   }, {
     "amount" : 355.75,
     "currency" : "RON",
-    "description" : "Split payment of 1423.00 RON",
+    "description" : "Split payment completed",
     "involvedAccounts" : [ "RO69POOB6209498372540635", "RO58POOB2721178218599590", "RO65POOB8944016386845896", "RO58POOB7344468893732422" ],
     "timestamp" : 227,
-    "accountIBAN" : null,
-    "newPlanType" : null
-  } ],
+    "splitPaymentType" : "custom",
+    "amountForUsers" : [ ]
+  } ]
+}, {
+  "command" : "printTransactions",
+  "output" : {
+    "description" : "Cannot invoke \"java.util.List.iterator()\" because \"amounts\" is null",
+    "timestamp" : 241
+  },
   "timestamp" : 241
 }, {
   "command" : "payOnline",
@@ -897,12 +846,18 @@
   }, {
     "amount" : 355.75,
     "currency" : "RON",
-    "description" : "Split payment of 1423.00 RON",
+    "description" : "Split payment completed",
     "involvedAccounts" : [ "RO69POOB6209498372540635", "RO58POOB2721178218599590", "RO65POOB8944016386845896", "RO58POOB7344468893732422" ],
     "timestamp" : 227,
-    "accountIBAN" : null,
-    "newPlanType" : null
-  } ],
+    "splitPaymentType" : "custom",
+    "amountForUsers" : [ ]
+  } ]
+}, {
+  "command" : "printTransactions",
+  "output" : {
+    "description" : "Cannot invoke \"java.util.List.iterator()\" because \"amounts\" is null",
+    "timestamp" : 250
+  },
   "timestamp" : 250
 }, {
   "command" : "addAccount",
@@ -1945,24 +1900,18 @@
   }, {
     "amount" : 355.75,
     "currency" : "RON",
-    "description" : "Split payment of 1423.00 RON",
+    "description" : "Split payment completed",
     "involvedAccounts" : [ "RO69POOB6209498372540635", "RO58POOB2721178218599590", "RO65POOB8944016386845896", "RO58POOB7344468893732422" ],
     "timestamp" : 227,
-    "accountIBAN" : null,
-    "newPlanType" : null
-  }, {
-    "description" : "You do not have a classic account.",
-    "timestamp" : 251
-  }, {
-    "description" : "New account created",
-    "timestamp" : 386
-  }, {
-    "description" : "New account created",
-    "timestamp" : 387
-  }, {
-    "description" : "Savings withdrawal",
-    "timestamp" : 390
-  } ],
+    "splitPaymentType" : "custom",
+    "amountForUsers" : [ ]
+  } ]
+}, {
+  "command" : "printTransactions",
+  "output" : {
+    "description" : "Cannot invoke \"java.util.List.iterator()\" because \"amounts\" is null",
+    "timestamp" : 541
+  },
   "timestamp" : 541
 }, {
   "command" : "cashWithdrawal",
@@ -1987,18 +1936,22 @@
     "timestamp" : 195
   }, {
     "description" : "Account couldn't be deleted - there are funds remaining",
-    "timestamp" : 208,
-    "accountIBAN" : null,
-    "newPlanType" : null
+    "timestamp" : 208
   }, {
     "amount" : 355.75,
     "currency" : "RON",
-    "description" : "Split payment of 1423.00 RON",
+    "description" : "Split payment completed",
     "involvedAccounts" : [ "RO69POOB6209498372540635", "RO58POOB2721178218599590", "RO65POOB8944016386845896", "RO58POOB7344468893732422" ],
     "timestamp" : 227,
-    "accountIBAN" : null,
-    "newPlanType" : null
-  } ],
+    "splitPaymentType" : "custom",
+    "amountForUsers" : [ ]
+  } ]
+}, {
+  "command" : "printTransactions",
+  "output" : {
+    "description" : "Cannot invoke \"java.util.List.iterator()\" because \"amounts\" is null",
+    "timestamp" : 544
+  },
   "timestamp" : 544
 }, {
   "command" : "cashWithdrawal",
@@ -2023,9 +1976,7 @@
     "timestamp" : 197
   }, {
     "description" : "Account couldn't be deleted - there are funds remaining",
-    "timestamp" : 201,
-    "accountIBAN" : null,
-    "newPlanType" : null
+    "timestamp" : 201
   } ],
   "timestamp" : 547
 }, {

@@ -13,6 +13,7 @@ import org.poo.main.commandsPhase2.CashbackStrategy;
 import org.poo.main.commandsPhase2.NoCashbackStrategy;
 import org.poo.main.commandsPhase2.NrOfTransactionsCashbackStrategy;
 import org.poo.main.commandsPhase2.SpendingThresholdCashbackStrategy;
+import org.poo.main.splitpayments2.SplitPaymentStatus;
 import org.poo.utils.Utils;
 
 import java.io.File;
@@ -131,11 +132,15 @@ public final class Main {
         }
 
         ArrayNode output = objectMapper.createArrayNode();
+        List<SplitPaymentStatus> activeTransactions = new ArrayList<>();
 
         for (CommandInput commandInput : commands) {
             try {
                 Command command = CommandFactory.
-                        getCommand(commandInput, exchangeRates, users, currencyConverter, commerciants, output);
+                        getCommand(commandInput,
+                                exchangeRates, users,
+                                currencyConverter, commerciants,
+                                output, activeTransactions);
                 command.execute();
 
                 ObjectNode successNode = objectMapper.createObjectNode();

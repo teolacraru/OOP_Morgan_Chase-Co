@@ -486,61 +486,12 @@
   },
   "timestamp" : 398
 }, {
-  "command" : "acceptSplitPayment",
-  "output" : {
-    "description" : "Unknown command: acceptSplitPayment",
-    "timestamp" : 402
-  },
-  "timestamp" : 402
-}, {
   "command" : "payOnline",
   "output" : {
     "description" : "Card not found",
     "timestamp" : 403
   },
   "timestamp" : 403
-}, {
-  "command" : "acceptSplitPayment",
-  "output" : {
-    "description" : "Unknown command: acceptSplitPayment",
-    "timestamp" : 405
-  },
-  "timestamp" : 405
-}, {
-  "command" : "acceptSplitPayment",
-  "output" : {
-    "description" : "Unknown command: acceptSplitPayment",
-    "timestamp" : 408
-  },
-  "timestamp" : 408
-}, {
-  "command" : "acceptSplitPayment",
-  "output" : {
-    "description" : "Unknown command: acceptSplitPayment",
-    "timestamp" : 411
-  },
-  "timestamp" : 411
-}, {
-  "command" : "acceptSplitPayment",
-  "output" : {
-    "description" : "Unknown command: acceptSplitPayment",
-    "timestamp" : 414
-  },
-  "timestamp" : 414
-}, {
-  "command" : "acceptSplitPayment",
-  "output" : {
-    "description" : "Unknown command: acceptSplitPayment",
-    "timestamp" : 417
-  },
-  "timestamp" : 417
-}, {
-  "command" : "acceptSplitPayment",
-  "output" : {
-    "description" : "Unknown command: acceptSplitPayment",
-    "timestamp" : 420
-  },
-  "timestamp" : 420
 }, {
   "command" : "payOnline",
   "output" : {
@@ -549,13 +500,6 @@
   },
   "timestamp" : 421
 }, {
-  "command" : "acceptSplitPayment",
-  "output" : {
-    "description" : "Unknown command: acceptSplitPayment",
-    "timestamp" : 423
-  },
-  "timestamp" : 423
-}, {
   "command" : "payOnline",
   "output" : {
     "description" : "Card not found",
@@ -563,26 +507,12 @@
   },
   "timestamp" : 424
 }, {
-  "command" : "acceptSplitPayment",
-  "output" : {
-    "description" : "Unknown command: acceptSplitPayment",
-    "timestamp" : 426
-  },
-  "timestamp" : 426
-}, {
   "command" : "payOnline",
   "output" : {
     "description" : "Card not found",
     "timestamp" : 427
   },
   "timestamp" : 427
-}, {
-  "command" : "acceptSplitPayment",
-  "output" : {
-    "description" : "Unknown command: acceptSplitPayment",
-    "timestamp" : 429
-  },
-  "timestamp" : 429
 }, {
   "command" : "printUsers",
   "output" : [ {
@@ -815,7 +745,7 @@
     "email" : "Donna_Zavala@hotmail.us",
     "accounts" : [ {
       "IBAN" : "RO68POOB1848616931405475",
-      "balance" : 3336.9625428571426,
+      "balance" : 3336.9670771428573,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ {
@@ -843,7 +773,7 @@
     "email" : "Marcus_Reed@hushmail.us",
     "accounts" : [ {
       "IBAN" : "RO33POOB9999273999620457",
-      "balance" : 2700.3625,
+      "balance" : 2700.4375,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ {
@@ -1218,7 +1148,7 @@
     "email" : "Donna_Zavala@hotmail.us",
     "accounts" : [ {
       "IBAN" : "RO68POOB1848616931405475",
-      "balance" : 3336.9625428571426,
+      "balance" : 3336.9670771428573,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ {
@@ -1246,7 +1176,7 @@
     "email" : "Marcus_Reed@hushmail.us",
     "accounts" : [ {
       "IBAN" : "RO33POOB9999273999620457",
-      "balance" : 2700.3625,
+      "balance" : 2700.4375,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ {
@@ -1516,7 +1446,7 @@
     "email" : "Donna_Zavala@hotmail.us",
     "accounts" : [ {
       "IBAN" : "RO68POOB1848616931405475",
-      "balance" : 3336.9625428571426,
+      "balance" : 3336.9670771428573,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ {
@@ -1544,7 +1474,7 @@
     "email" : "Marcus_Reed@hushmail.us",
     "accounts" : [ {
       "IBAN" : "RO33POOB9999273999620457",
-      "balance" : 2700.3625,
+      "balance" : 2700.4375,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ {
@@ -1823,7 +1753,7 @@
     "email" : "Donna_Zavala@hotmail.us",
     "accounts" : [ {
       "IBAN" : "RO68POOB1848616931405475",
-      "balance" : 3336.9625428571426,
+      "balance" : 3336.9670771428573,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ {
@@ -1851,7 +1781,7 @@
     "email" : "Marcus_Reed@hushmail.us",
     "accounts" : [ {
       "IBAN" : "RO33POOB9999273999620457",
-      "balance" : 2700.3625,
+      "balance" : 2700.4375,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ {
@@ -2139,7 +2069,7 @@
     "email" : "Donna_Zavala@hotmail.us",
     "accounts" : [ {
       "IBAN" : "RO68POOB1848616931405475",
-      "balance" : 3336.9625428571426,
+      "balance" : 3336.9670771428573,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ {
@@ -2167,7 +2097,7 @@
     "email" : "Marcus_Reed@hushmail.us",
     "accounts" : [ {
       "IBAN" : "RO33POOB9999273999620457",
-      "balance" : 2700.3625,
+      "balance" : 2700.4375,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ {
@@ -2457,7 +2387,7 @@
     "email" : "Donna_Zavala@hotmail.us",
     "accounts" : [ {
       "IBAN" : "RO68POOB1848616931405475",
-      "balance" : 3336.9625428571426,
+      "balance" : 3336.9670771428573,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ {
@@ -2485,7 +2415,7 @@
     "email" : "Marcus_Reed@hushmail.us",
     "accounts" : [ {
       "IBAN" : "RO33POOB9999273999620457",
-      "balance" : 2700.3625,
+      "balance" : 2700.4375,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ {
@@ -2791,7 +2721,7 @@
     "email" : "Donna_Zavala@hotmail.us",
     "accounts" : [ {
       "IBAN" : "RO68POOB1848616931405475",
-      "balance" : 3336.9625428571426,
+      "balance" : 3336.9670771428573,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ {
@@ -2819,7 +2749,7 @@
     "email" : "Marcus_Reed@hushmail.us",
     "accounts" : [ {
       "IBAN" : "RO33POOB9999273999620457",
-      "balance" : 2700.3625,
+      "balance" : 2700.4375,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ {
@@ -2899,15 +2829,6 @@
     "cardHolder" : "Ruth_Turnbull@yandex.nz",
     "description" : "New card created",
     "timestamp" : 290
-  }, {
-    "amount" : 303.95,
-    "currency" : "EUR",
-    "description" : "Split payment of 6079.00 EUR",
-    "error" : "Account RO10POOB4354933866366881 has insufficient funds for a split payment.",
-    "involvedAccounts" : [ "RO65POOB8944016386845896", "RO68POOB1848616931405475", "RO69POOB9846198978826791", "RO38POOB0964823730995794", "RO30POOB9523423715747796", "RO69POOB6209498372540635", "RO33POOB4049920806186500", "RO79POOB3616857825600958", "RO58POOB7344468893732422", "RO00POOB5687892910835215", "RO90POOB5450777208072365", "RO98POOB8412955460158769", "RO58POOB2721178218599590", "RO76POOB4035116042454483", "RO96POOB6738272785416988", "RO10POOB4354933866366881", "RO19POOB4981055641668812", "RO33POOB9999273999620457", "RO37POOB7013767509830666", "RO32POOB0130532963818359" ],
-    "timestamp" : 399,
-    "accountIBAN" : "Account RO10POOB4354933866366881 has insufficient funds for a split payment.",
-    "newPlanType" : null
   }, {
     "description" : "New account created",
     "timestamp" : 479
@@ -3180,7 +3101,7 @@
     "email" : "Donna_Zavala@hotmail.us",
     "accounts" : [ {
       "IBAN" : "RO68POOB1848616931405475",
-      "balance" : 3548.073653968254,
+      "balance" : 3548.0781882539686,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ {
@@ -3214,7 +3135,7 @@
     "email" : "Marcus_Reed@hushmail.us",
     "accounts" : [ {
       "IBAN" : "RO33POOB9999273999620457",
-      "balance" : 2700.3625,
+      "balance" : 2700.4375,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ {
@@ -3290,27 +3211,6 @@
     "timestamp" : 527
   },
   "timestamp" : 527
-}, {
-  "command" : "acceptSplitPayment",
-  "output" : {
-    "description" : "Unknown command: acceptSplitPayment",
-    "timestamp" : 528
-  },
-  "timestamp" : 528
-}, {
-  "command" : "acceptSplitPayment",
-  "output" : {
-    "description" : "Unknown command: acceptSplitPayment",
-    "timestamp" : 529
-  },
-  "timestamp" : 529
-}, {
-  "command" : "acceptSplitPayment",
-  "output" : {
-    "description" : "Unknown command: acceptSplitPayment",
-    "timestamp" : 530
-  },
-  "timestamp" : 530
 }, {
   "command" : "printUsers",
   "output" : [ {
@@ -3567,7 +3467,7 @@
     "email" : "Donna_Zavala@hotmail.us",
     "accounts" : [ {
       "IBAN" : "RO68POOB1848616931405475",
-      "balance" : 3548.073653968254,
+      "balance" : 3548.0781882539686,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ {
@@ -3601,7 +3501,7 @@
     "email" : "Marcus_Reed@hushmail.us",
     "accounts" : [ {
       "IBAN" : "RO33POOB9999273999620457",
-      "balance" : 2700.3625,
+      "balance" : 2700.4375,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ {
@@ -3671,13 +3571,6 @@
   } ],
   "timestamp" : 531
 }, {
-  "command" : "rejectSplitPayment",
-  "output" : {
-    "description" : "Unknown command: rejectSplitPayment",
-    "timestamp" : 532
-  },
-  "timestamp" : 532
-}, {
   "command" : "addAccount",
   "output" : {
     "description" : "Invalid account type: business",
@@ -3701,7 +3594,7 @@
 }, {
   "command" : "setMinimumBalance",
   "output" : {
-    "description" : "Cannot invoke \"org.poo.main.accounts.Account.setMinBalance(double)\" because \"accountToSet\" is null",
+    "description" : "Account with IBAN RO75POOB8279679254660818 not found.",
     "timestamp" : 537
   },
   "timestamp" : 537
@@ -4021,118 +3914,6 @@
   },
   "timestamp" : 582
 }, {
-  "command" : "acceptSplitPayment",
-  "output" : {
-    "description" : "Unknown command: acceptSplitPayment",
-    "timestamp" : 584
-  },
-  "timestamp" : 584
-}, {
-  "command" : "acceptSplitPayment",
-  "output" : {
-    "description" : "Unknown command: acceptSplitPayment",
-    "timestamp" : 585
-  },
-  "timestamp" : 585
-}, {
-  "command" : "acceptSplitPayment",
-  "output" : {
-    "description" : "Unknown command: acceptSplitPayment",
-    "timestamp" : 586
-  },
-  "timestamp" : 586
-}, {
-  "command" : "rejectSplitPayment",
-  "output" : {
-    "description" : "Unknown command: rejectSplitPayment",
-    "timestamp" : 587
-  },
-  "timestamp" : 587
-}, {
-  "command" : "rejectSplitPayment",
-  "output" : {
-    "description" : "Unknown command: rejectSplitPayment",
-    "timestamp" : 588
-  },
-  "timestamp" : 588
-}, {
-  "command" : "rejectSplitPayment",
-  "output" : {
-    "description" : "Unknown command: rejectSplitPayment",
-    "timestamp" : 589
-  },
-  "timestamp" : 589
-}, {
-  "command" : "acceptSplitPayment",
-  "output" : {
-    "description" : "Unknown command: acceptSplitPayment",
-    "timestamp" : 590
-  },
-  "timestamp" : 590
-}, {
-  "command" : "rejectSplitPayment",
-  "output" : {
-    "description" : "Unknown command: rejectSplitPayment",
-    "timestamp" : 591
-  },
-  "timestamp" : 591
-}, {
-  "command" : "acceptSplitPayment",
-  "output" : {
-    "description" : "Unknown command: acceptSplitPayment",
-    "timestamp" : 592
-  },
-  "timestamp" : 592
-}, {
-  "command" : "acceptSplitPayment",
-  "output" : {
-    "description" : "Unknown command: acceptSplitPayment",
-    "timestamp" : 593
-  },
-  "timestamp" : 593
-}, {
-  "command" : "acceptSplitPayment",
-  "output" : {
-    "description" : "Unknown command: acceptSplitPayment",
-    "timestamp" : 594
-  },
-  "timestamp" : 594
-}, {
-  "command" : "rejectSplitPayment",
-  "output" : {
-    "description" : "Unknown command: rejectSplitPayment",
-    "timestamp" : 595
-  },
-  "timestamp" : 595
-}, {
-  "command" : "acceptSplitPayment",
-  "output" : {
-    "description" : "Unknown command: acceptSplitPayment",
-    "timestamp" : 596
-  },
-  "timestamp" : 596
-}, {
-  "command" : "acceptSplitPayment",
-  "output" : {
-    "description" : "Unknown command: acceptSplitPayment",
-    "timestamp" : 597
-  },
-  "timestamp" : 597
-}, {
-  "command" : "acceptSplitPayment",
-  "output" : {
-    "description" : "Unknown command: acceptSplitPayment",
-    "timestamp" : 598
-  },
-  "timestamp" : 598
-}, {
-  "command" : "rejectSplitPayment",
-  "output" : {
-    "description" : "Unknown command: rejectSplitPayment",
-    "timestamp" : 599
-  },
-  "timestamp" : 599
-}, {
   "command" : "printUsers",
   "output" : [ {
     "firstName" : "Simion",
@@ -4388,7 +4169,7 @@
     "email" : "Donna_Zavala@hotmail.us",
     "accounts" : [ {
       "IBAN" : "RO68POOB1848616931405475",
-      "balance" : 3548.073653968254,
+      "balance" : 3548.0781882539686,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ {
@@ -4422,7 +4203,7 @@
     "email" : "Marcus_Reed@hushmail.us",
     "accounts" : [ {
       "IBAN" : "RO33POOB9999273999620457",
-      "balance" : 2700.3625,
+      "balance" : 2700.4375,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ {
@@ -4814,7 +4595,7 @@
     "email" : "Donna_Zavala@hotmail.us",
     "accounts" : [ {
       "IBAN" : "RO68POOB1848616931405475",
-      "balance" : 3548.073653968254,
+      "balance" : 3548.0781882539686,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ {
@@ -4866,7 +4647,7 @@
     "email" : "Marcus_Reed@hushmail.us",
     "accounts" : [ {
       "IBAN" : "RO33POOB9999273999620457",
-      "balance" : 2700.3625,
+      "balance" : 2700.4375,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ {
@@ -4944,41 +4725,6 @@
     } ]
   } ],
   "timestamp" : 624
-}, {
-  "command" : "acceptSplitPayment",
-  "output" : {
-    "description" : "Unknown command: acceptSplitPayment",
-    "timestamp" : 625
-  },
-  "timestamp" : 625
-}, {
-  "command" : "acceptSplitPayment",
-  "output" : {
-    "description" : "Unknown command: acceptSplitPayment",
-    "timestamp" : 626
-  },
-  "timestamp" : 626
-}, {
-  "command" : "acceptSplitPayment",
-  "output" : {
-    "description" : "Unknown command: acceptSplitPayment",
-    "timestamp" : 627
-  },
-  "timestamp" : 627
-}, {
-  "command" : "acceptSplitPayment",
-  "output" : {
-    "description" : "Unknown command: acceptSplitPayment",
-    "timestamp" : 628
-  },
-  "timestamp" : 628
-}, {
-  "command" : "acceptSplitPayment",
-  "output" : {
-    "description" : "Unknown command: acceptSplitPayment",
-    "timestamp" : 629
-  },
-  "timestamp" : 629
 }, {
   "command" : "businessReport",
   "output" : {

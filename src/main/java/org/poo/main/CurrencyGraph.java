@@ -1,13 +1,6 @@
 package org.poo.main;
 
-import java.util.Map;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Queue;
-import java.util.LinkedList;
-import java.util.Set;
-import java.util.HashSet;
-import java.util.Collections;
+import java.util.*;
 
 /**
  * Represents a graph of currency exchange rates.

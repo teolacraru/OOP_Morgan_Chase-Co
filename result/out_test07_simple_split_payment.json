@@ -13,7 +13,7 @@
     "email" : "Julieta_Aane@outlook.ro",
     "accounts" : [ {
       "IBAN" : "RO58POOB7344468893732422",
-      "balance" : 1177.0,
+      "balance" : 1261.0,
       "currency" : "RON",
       "type" : "classic",
       "cards" : [ ]
@@ -24,7 +24,7 @@
     "email" : "Manuel_Lawrence@yahoo.us",
     "accounts" : [ {
       "IBAN" : "RO69POOB6209498372540635",
-      "balance" : 908.0,
+      "balance" : 926.0,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ ]
@@ -76,20 +76,12 @@
   "output" : [ {
     "description" : "New account created",
     "timestamp" : 1
-  }, {
-    "amount" : 84.0,
-    "currency" : "RON",
-    "description" : "Split payment of 168.00 RON",
-    "involvedAccounts" : [ "RO69POOB6209498372540635", "RO58POOB7344468893732422" ],
-    "timestamp" : 5,
-    "accountIBAN" : null,
-    "newPlanType" : null
   } ],
   "timestamp" : 8
 }, {
   "command" : "spendingsReport",
   "output" : {
-    "balance" : 1177.0,
+    "balance" : 1261.0,
     "currency" : "RON",
     "IBAN" : "RO58POOB7344468893732422",
     "transactions" : [ ],
@@ -104,25 +96,10 @@
   },
   "timestamp" : 10
 }, {
-  "command" : "acceptSplitPayment",
-  "output" : {
-    "description" : "Unknown command: acceptSplitPayment",
-    "timestamp" : 12
-  },
-  "timestamp" : 12
-}, {
   "command" : "printTransactions",
   "output" : [ {
     "description" : "New account created",
     "timestamp" : 2
-  }, {
-    "amount" : 84.0,
-    "currency" : "RON",
-    "description" : "Split payment of 168.00 RON",
-    "involvedAccounts" : [ "RO69POOB6209498372540635", "RO58POOB7344468893732422" ],
-    "timestamp" : 5,
-    "accountIBAN" : null,
-    "newPlanType" : null
   }, {
     "description" : "Insufficient funds",
     "timestamp" : 13
@@ -143,7 +120,7 @@
     "email" : "Julieta_Aane@outlook.ro",
     "accounts" : [ {
       "IBAN" : "RO58POOB7344468893732422",
-      "balance" : 1177.0,
+      "balance" : 1261.0,
       "currency" : "RON",
       "type" : "classic",
       "cards" : [ ]
@@ -160,7 +137,7 @@
     "email" : "Manuel_Lawrence@yahoo.us",
     "accounts" : [ {
       "IBAN" : "RO69POOB6209498372540635",
-      "balance" : 908.0,
+      "balance" : 926.0,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ ]
@@ -221,30 +198,20 @@
   },
   "timestamp" : 19
 }, {
-  "command" : "acceptSplitPayment",
-  "output" : {
-    "description" : "Unknown command: acceptSplitPayment",
-    "timestamp" : 20
-  },
-  "timestamp" : 20
-}, {
   "command" : "printTransactions",
   "output" : [ {
     "description" : "New account created",
     "timestamp" : 1
   }, {
-    "amount" : 84.0,
     "currency" : "RON",
     "description" : "Split payment of 168.00 RON",
     "involvedAccounts" : [ "RO69POOB6209498372540635", "RO58POOB7344468893732422" ],
-    "timestamp" : 5,
-    "accountIBAN" : null,
-    "newPlanType" : null
+    "splitPaymentType" : "custom",
+    "amountForUsers" : [ 90.0, 78.0 ],
+    "timestamp" : 5
   }, {
     "description" : "Account couldn't be deleted - there are funds remaining",
-    "timestamp" : 10,
-    "accountIBAN" : null,
-    "newPlanType" : null
+    "timestamp" : 10
   }, {
     "description" : "New account created",
     "timestamp" : 11
@@ -256,21 +223,18 @@
     "description" : "New account created",
     "timestamp" : 2
   }, {
-    "amount" : 84.0,
     "currency" : "RON",
     "description" : "Split payment of 168.00 RON",
     "involvedAccounts" : [ "RO69POOB6209498372540635", "RO58POOB7344468893732422" ],
-    "timestamp" : 5,
-    "accountIBAN" : null,
-    "newPlanType" : null
+    "splitPaymentType" : "custom",
+    "amountForUsers" : [ 90.0, 78.0 ],
+    "timestamp" : 5
   }, {
     "description" : "Insufficient funds",
     "timestamp" : 13
   }, {
     "description" : "Account couldn't be deleted - there are funds remaining",
-    "timestamp" : 15,
-    "accountIBAN" : null,
-    "newPlanType" : null
+    "timestamp" : 15
   }, {
     "description" : "New account created",
     "timestamp" : 16
